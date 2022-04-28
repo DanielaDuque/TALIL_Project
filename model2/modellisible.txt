@@ -1,0 +1,6006 @@
+u0:i'd	#	O	9.22230
+
+um_1:_x-1/i'd	#	O	1.61505
+
+u0:like	#	O	10.68878
+
+um_1:i'd/like	#	O	1.28553
+
+u0:to	#	O	64.76476
+
+u0:find	#	O	9.53714
+
+u0:the	#	O	53.32067
+
+u0:cheapest	#	B-cost_relative	7.92298
+
+um_1:the/cheapest	#	B-cost_relative	2.82663
+
+u0:flight	#	O	31.65469
+
+u0:from	#	O	55.61143
+
+um_1:flight/from	#	O	4.23280
+
+u0:washington	#	O	1.53714
+u0:washington	#	B-fromloc.city_name	5.52906
+u0:washington	#	B-toloc.city_name	5.27632
+u0:washington	#	B-stoploc.city_name	2.09600
+u0:washington	#	B-city_name	5.00257
+u0:washington	#	B-toloc.state_name	3.90978
+
+um_1:from/washington	#	B-fromloc.city_name	6.02029
+
+u0:dc	#	B-fromloc.state_code	7.15346
+u0:dc	#	B-state_code	3.33392
+u0:dc	#	B-toloc.state_code	6.37222
+u0:dc	#	B-stoploc.state_code	4.95628
+
+um_1:washington/dc	#	B-fromloc.state_code	1.94310
+um_1:washington/dc	#	B-state_code	4.02769
+um_1:washington/dc	#	B-toloc.state_code	3.35961
+um_1:washington/dc	#	B-stoploc.state_code	1.46755
+
+u0:atlanta	#	B-fromloc.city_name	7.74481
+u0:atlanta	#	B-toloc.city_name	6.97164
+u0:atlanta	#	B-stoploc.city_name	5.12109
+u0:atlanta	#	B-city_name	5.70159
+
+um_1:to/atlanta	#	B-fromloc.city_name	-0.14440
+um_1:to/atlanta	#	B-toloc.city_name	6.96132
+
+u0:i'm	#	O	8.81919
+
+u0:traveling	#	O	7.08618
+
+u0:dallas	#	O	2.79541
+u0:dallas	#	B-fromloc.city_name	7.07372
+u0:dallas	#	B-toloc.city_name	5.00285
+u0:dallas	#	B-stoploc.city_name	4.66423
+u0:dallas	#	B-city_name	4.78402
+
+um_1:to/dallas	#	B-fromloc.city_name	-1.54712
+um_1:to/dallas	#	B-toloc.city_name	6.95125
+um_1:to/dallas	#	B-city_name	1.13121
+
+u0:philadelphia	#	O	3.05228
+u0:philadelphia	#	B-fromloc.city_name	7.09321
+u0:philadelphia	#	B-toloc.city_name	6.24273
+u0:philadelphia	#	B-stoploc.city_name	4.01830
+u0:philadelphia	#	B-city_name	4.88772
+
+um_1:from/philadelphia	#	B-fromloc.city_name	5.51897
+
+u0:i	#	O	17.21001
+
+um_1:_x-1/i	#	O	10.56602
+
+u0:also	#	O	8.02975
+
+u0:need	#	O	7.82822
+
+u0:go	#	O	9.93535
+
+u0:san-francisco	#	B-fromloc.city_name	8.27795
+u0:san-francisco	#	B-toloc.city_name	7.90666
+u0:san-francisco	#	B-stoploc.city_name	3.32326
+u0:san-francisco	#	B-city_name	6.74770
+
+um_1:to/san-francisco	#	B-toloc.city_name	9.87385
+
+u0:on	#	O	41.90496
+
+u0:wednesday	#	B-depart_date.day_name	8.44614
+u0:wednesday	#	B-arrive_date.day_name	5.44524
+u0:wednesday	#	B-day_name	3.42503
+
+um_1:on/wednesday	#	B-depart_date.day_name	1.33845
+um_1:on/wednesday	#	B-arrive_date.day_name	1.59358
+um_1:on/wednesday	#	B-day_name	0.95415
+
+u0:evening	#	B-depart_time.period_of_day	7.72352
+u0:evening	#	B-arrive_time.time	3.06444
+u0:evening	#	B-arrive_time.period_of_day	3.58066
+u0:evening	#	B-period_of_day	3.03391
+u0:evening	#	B-return_time.period_of_day	3.10542
+
+um_1:wednesday/evening	#	B-depart_time.period_of_day	0.41154
+
+um_1:from/dallas	#	B-fromloc.city_name	4.88788
+
+u0:thank	#	O	7.17553
+
+u0:you	#	O	10.39156
+
+u0:travel	#	O	8.90899
+
+u0:next	#	O	3.88908
+u0:next	#	B-depart_date.date_relative	8.08064
+u0:next	#	B-flight_mod	1.51129
+u0:next	#	B-arrive_date.date_relative	5.30432
+u0:next	#	B-return_date.date_relative	1.74687
+
+um_1:next/wednesday	#	B-arrive_date.day_name	0.54248
+
+u0:fly	#	O	10.35175
+
+u0:continental-airlines	#	B-airline_name	8.30777
+
+u0:between	#	O	10.30381
+
+u0:boston	#	O	5.44257
+u0:boston	#	B-fromloc.city_name	12.99122
+u0:boston	#	B-toloc.city_name	11.49923
+u0:boston	#	B-stoploc.city_name	5.23608
+u0:boston	#	B-city_name	10.51531
+
+um_1:between/boston	#	B-fromloc.city_name	4.00163
+
+u0:and	#	O	20.60902
+
+um_1:and/philadelphia	#	B-fromloc.city_name	-0.40189
+um_1:and/philadelphia	#	B-toloc.city_name	4.49403
+
+u0:please	#	O	9.59584
+
+um_1:_x-1/please	#	O	1.30016
+
+u0:tell	#	O	9.77443
+
+u0:me	#	O	31.24943
+
+um_1:me/the	#	O	7.07297
+
+u0:flights	#	O	59.45270
+
+um_1:the/flights	#	O	6.28365
+
+um_1:flights/between	#	O	0.73540
+
+u0:thursday	#	B-depart_date.day_name	8.70752
+u0:thursday	#	B-arrive_date.day_name	5.02543
+u0:thursday	#	B-day_name	1.16874
+
+um_1:next/thursday	#	B-depart_date.day_name	-0.00793
+um_1:next/thursday	#	B-arrive_date.day_name	1.32815
+
+u0:would	#	O	8.26163
+
+um_1:i/would	#	O	2.33362
+
+um_1:would/like	#	O	1.99574
+
+um_1:from/boston	#	B-fromloc.city_name	11.38695
+
+um_1:to/philadelphia	#	B-fromloc.city_name	-0.03325
+um_1:to/philadelphia	#	B-toloc.city_name	7.47056
+
+u0:fare	#	O	10.78459
+
+um_1:from/atlanta	#	B-fromloc.city_name	6.95945
+um_1:from/atlanta	#	B-toloc.city_name	-0.01009
+
+u0:a	#	O	24.33292
+
+um_1:a/flight	#	O	5.36307
+
+um_1:between/dallas	#	B-fromloc.city_name	2.26786
+
+u0:give	#	O	9.97136
+
+u0:flight-times	#	B-flight_time	3.65911
+
+um_1:the/flight-times	#	B-flight_time	3.65911
+
+u0:baltimore	#	B-fromloc.city_name	7.62058
+u0:baltimore	#	B-toloc.city_name	8.50756
+u0:baltimore	#	B-city_name	6.54084
+
+um_1:to/baltimore	#	B-fromloc.city_name	-0.05996
+um_1:to/baltimore	#	B-toloc.city_name	5.49659
+
+u0:in	#	O	22.90590
+
+u0:morning	#	B-depart_time.period_of_day	9.13538
+u0:morning	#	B-arrive_time.period_of_day	5.25666
+u0:morning	#	B-period_of_day	3.96687
+
+um_1:the/morning	#	B-depart_time.period_of_day	0.15071
+um_1:the/morning	#	B-arrive_time.period_of_day	1.39622
+um_1:the/morning	#	B-period_of_day	1.26001
+
+u0:before	#	B-depart_time.time_relative	8.66647
+u0:before	#	B-arrive_time.time_relative	8.53905
+
+um_1:morning/before	#	B-depart_time.time_relative	0.96573
+um_1:morning/before	#	B-arrive_time.time_relative	-0.52256
+
+u0:8	#	B-depart_time.time	4.32050
+u0:8	#	B-arrive_time.time	1.94108
+
+um_1:before/8	#	B-depart_time.time	1.15743
+um_1:before/8	#	B-arrive_time.time	2.01344
+
+um_1:i/need	#	O	2.51200
+
+u0:times-of-your-flights	#	B-flight_time	2.24280
+
+um_1:the/times-of-your-flights	#	B-flight_time	2.24280
+
+u0:8-o'clock	#	B-depart_time.time	5.50085
+u0:8-o'clock	#	B-arrive_time.time	4.14334
+
+u0:leaving	#	O	10.77800
+
+um_1:leaving/philadelphia	#	B-fromloc.city_name	2.06686
+
+um_1:between/philadelphia	#	B-fromloc.city_name	2.98085
+
+um_1:and/atlanta	#	B-toloc.city_name	2.77819
+
+u0:what	#	O	29.00091
+
+um_1:_x-1/what	#	O	26.23747
+
+u0:do	#	O	9.71079
+
+u0:have	#	O	10.11547
+
+u0:denver	#	O	7.45398
+u0:denver	#	B-fromloc.city_name	10.69127
+u0:denver	#	B-toloc.city_name	9.47629
+u0:denver	#	B-stoploc.city_name	6.87028
+u0:denver	#	B-city_name	8.76303
+
+um_1:leaving/denver	#	B-fromloc.city_name	3.13249
+
+u0:arriving	#	O	9.58602
+u0:arriving	#	B-flight_mod	1.70956
+
+um_1:in/san-francisco	#	B-fromloc.city_name	-1.69935
+um_1:in/san-francisco	#	B-toloc.city_name	1.15737
+um_1:in/san-francisco	#	B-stoploc.city_name	2.76502
+um_1:in/san-francisco	#	B-city_name	1.35856
+
+u0:is	#	O	15.75306
+
+um_1:what/is	#	O	5.76592
+
+u0:your	#	O	7.78281
+
+u0:last	#	O	1.46859
+u0:last	#	B-flight_mod	6.57694
+
+um_1:leaving/san-francisco	#	B-fromloc.city_name	2.92525
+
+um_1:in/denver	#	B-fromloc.city_name	7.79134
+um_1:in/denver	#	B-toloc.city_name	9.27809
+um_1:in/denver	#	B-stoploc.city_name	12.21494
+um_1:in/denver	#	B-city_name	10.18886
+
+u0:there	#	O	9.37396
+
+um_1:is/there	#	O	1.08787
+
+um_1:to/denver	#	O	2.32899
+um_1:to/denver	#	B-fromloc.city_name	-0.53683
+um_1:to/denver	#	B-toloc.city_name	6.44121
+
+u0:does	#	O	10.36789
+
+u0:american-airlines	#	B-airline_name	9.76276
+
+u0:time	#	O	5.52432
+u0:time	#	B-flight_time	3.21110
+u0:time	#	B-arrive_time.time	2.09551
+u0:time	#	B-time	2.09551
+
+um_1:the/time	#	B-flight_time	5.04264
+
+u0:earliest	#	B-flight_mod	7.30235
+u0:earliest	#	B-arrive_time.period_mod	2.36047
+
+u0:of	#	O	10.75172
+
+um_1:to/washington	#	B-toloc.city_name	6.66441
+
+u0:could	#	O	8.79417
+
+u0:information	#	O	9.95078
+
+u0:concerning	#	O	2.24280
+
+um_1:information/concerning	#	O	2.24280
+
+um_1:the/earliest	#	B-flight_mod	2.67457
+
+u0:one	#	O	6.12650
+u0:one	#	B-depart_time.time	1.60930
+u0:one	#	B-depart_date.day_number	3.12099
+u0:one	#	B-arrive_time.time	2.12183
+
+u0:as	#	O	7.15566
+u0:as	#	B-airline_code	4.38404
+
+u0:possible	#	O	8.06695
+
+u0:american-airline	#	B-airline_name	7.49764
+
+um_1:flights/from	#	O	7.69398
+
+u0:early-morning	#	O	2.21570
+u0:early-morning	#	B-depart_time.period_of_day	7.40866
+
+u0:times-of-flight	#	B-flight_time	2.24280
+
+um_1:early-morning/times-of-flight	#	B-flight_time	2.24280
+
+u0:twa	#	B-airline_code	8.89502
+
+u0:fort-worth	#	B-fromloc.city_name	4.38098
+u0:fort-worth	#	B-toloc.city_name	4.34095
+u0:fort-worth	#	B-stoploc.city_name	2.63473
+u0:fort-worth	#	B-city_name	3.39576
+
+um_1:from/fort-worth	#	B-fromloc.city_name	1.99563
+
+u0:texas	#	B-fromloc.state_name	1.78211
+u0:texas	#	B-state_name	1.78211
+u0:texas	#	B-toloc.state_name	1.78248
+
+um_1:fort-worth/texas	#	B-fromloc.state_name	1.98222
+um_1:fort-worth/texas	#	B-state_name	1.98222
+
+um_1:to/fort-worth	#	B-toloc.city_name	3.83860
+
+u0:interested	#	O	7.75006
+
+um_1:from/san-francisco	#	B-fromloc.city_name	5.85652
+
+u0:that	#	O	10.53561
+
+u0:stop	#	O	8.72249
+u0:stop	#	B-flight_stop	4.07832
+
+um_1:in/fort-worth	#	B-fromloc.city_name	-0.34436
+um_1:in/fort-worth	#	B-stoploc.city_name	3.25526
+um_1:in/fort-worth	#	B-city_name	2.30929
+
+um_1:from/denver	#	B-fromloc.city_name	5.20152
+um_1:from/denver	#	B-toloc.city_name	-0.03832
+
+u0:pittsburgh	#	B-fromloc.city_name	8.80460
+u0:pittsburgh	#	B-toloc.city_name	7.04218
+u0:pittsburgh	#	B-stoploc.city_name	5.07039
+u0:pittsburgh	#	B-city_name	5.86365
+
+um_1:to/pittsburgh	#	B-fromloc.city_name	-0.01451
+um_1:to/pittsburgh	#	B-toloc.city_name	7.77954
+
+u0:for	#	O	10.21124
+u0:for	#	B-toloc.city_name	2.18320
+
+um_1:from/pittsburgh	#	B-fromloc.city_name	6.07239
+
+u0:want	#	O	7.41280
+
+um_1:i/want	#	O	2.70046
+
+u0:monday	#	B-depart_date.day_name	8.58742
+u0:monday	#	B-arrive_date.day_name	5.10598
+u0:monday	#	B-day_name	1.63838
+
+um_1:on/monday	#	B-arrive_date.day_name	0.91936
+um_1:on/monday	#	B-day_name	1.97523
+
+u0:airlines	#	O	9.83123
+
+u0:ground	#	O	10.59607
+
+u0:transportation	#	O	7.45788
+
+um_1:ground/transportation	#	O	3.05358
+
+u0:airport	#	O	8.91332
+
+um_1:in/atlanta	#	B-fromloc.city_name	-0.27535
+um_1:in/atlanta	#	B-toloc.city_name	1.93700
+um_1:in/atlanta	#	B-stoploc.city_name	3.91706
+um_1:in/atlanta	#	B-city_name	2.82214
+
+u0:downtown	#	O	9.47418
+
+u0:tuesday	#	B-depart_date.day_name	8.41524
+u0:tuesday	#	B-arrive_date.day_name	5.33988
+u0:tuesday	#	B-day_name	2.24488
+
+um_1:on/tuesday	#	B-depart_date.day_name	0.79401
+um_1:on/tuesday	#	B-arrive_date.day_name	1.39412
+
+um_1:to/boston	#	B-fromloc.city_name	-0.13222
+um_1:to/boston	#	B-toloc.city_name	6.74253
+
+u0:twenty-first	#	B-depart_date.day_number	6.82586
+
+u0:repeating	#	O	2.24280
+
+um_1:_x-1/repeating	#	O	2.24280
+
+um_1:san-francisco/before	#	B-depart_time.time_relative	0.79984
+um_1:san-francisco/before	#	B-arrive_time.time_relative	-0.03502
+
+u0:10am	#	O	0.98923
+u0:10am	#	B-depart_time.time	4.94546
+u0:10am	#	B-arrive_time.time	4.89809
+u0:10am	#	B-depart_time.start_time	1.35526
+
+um_1:before/10am	#	O	2.79086
+um_1:before/10am	#	B-depart_time.time	2.37847
+um_1:before/10am	#	B-arrive_time.time	1.08762
+
+u0:type	#	O	8.81620
+
+u0:aircraft	#	O	8.85459
+
+um_1:of/aircraft	#	O	0.41646
+
+u0:used	#	O	8.53388
+
+u0:flying	#	O	8.38879
+
+u0:united-airlines	#	B-airline_name	9.47087
+
+u0:all	#	O	13.91971
+
+u0:right	#	O	3.54043
+
+um_1:all/right	#	O	3.54043
+
+u0:let	#	O	2.24280
+
+um_1:you/let	#	O	2.24280
+
+u0:know	#	O	6.70852
+
+u0:using	#	O	7.74123
+
+um_1:to/know	#	O	2.10100
+
+u0:they	#	O	5.55875
+
+u0:use	#	O	7.03708
+
+u0:these	#	O	6.62706
+
+um_1:flights/before	#	B-depart_time.time_relative	1.35223
+um_1:flights/before	#	B-arrive_time.time_relative	-0.70785
+
+u0:10	#	B-depart_time.time	2.24280
+
+um_1:before/10	#	B-depart_time.time	2.24280
+
+u0:well	#	O	5.80721
+
+u0:i'll	#	O	6.62706
+
+u0:try	#	O	2.24280
+
+um_1:i'll/try	#	O	2.24280
+
+um_1:try/last	#	O	4.58191
+um_1:try/last	#	B-flight_mod	-0.76223
+
+u0:kind	#	O	6.16284
+
+u0:flies	#	O	7.69885
+
+u0:10-o'clock	#	B-depart_time.time	5.22825
+u0:10-o'clock	#	B-arrive_time.time	1.96247
+
+um_1:before/10-o'clock	#	B-depart_time.time	0.69878
+
+u0:september	#	B-depart_date.month_name	8.52017
+
+u0:twentieth	#	B-depart_date.day_number	8.12789
+
+u0:stopover	#	O	8.68659
+
+um_1:a/stopover	#	O	0.73772
+
+u0:are	#	O	10.16370
+
+um_1:what/are	#	O	1.44127
+
+u0:an	#	O	9.19266
+
+u0:connecting	#	O	3.03024
+u0:connecting	#	B-connect	7.19778
+
+u0:wish	#	O	2.97591
+
+um_1:i/wish	#	O	2.97591
+
+u0:airline	#	O	9.25273
+
+u0:plane	#	O	7.57727
+
+um_1:is/the	#	O	1.50572
+
+u0:one-way	#	B-round_trip	9.97103
+
+u0:available	#	O	10.43001
+
+u0:at	#	O	10.13204
+
+u0:noontime	#	B-depart_time.time	5.07648
+
+u0:around	#	B-depart_time.time_relative	6.90638
+u0:around	#	B-time_relative	2.80243
+u0:around	#	B-arrive_time.time_relative	6.99880
+
+um_1:available/around	#	B-depart_time.time_relative	0.15730
+
+um_1:around/noontime	#	B-depart_time.time	0.52966
+
+u0:delta-airlines	#	B-airline_name	8.39787
+
+u0:eastern-airlines	#	B-airline_name	7.30080
+
+u0:early	#	O	2.30235
+u0:early	#	B-flight_mod	4.25130
+u0:early	#	B-depart_time.period_mod	7.50631
+u0:early	#	B-arrive_time.period_mod	3.75871
+
+um_1:as/early	#	O	3.24955
+um_1:as/early	#	B-flight_mod	1.82885
+um_1:as/early	#	B-depart_time.period_mod	-1.89777
+
+um_1:early/as	#	O	0.19851
+
+u0:day	#	O	6.48997
+u0:day	#	B-return_date.date_relative	2.72819
+
+um_1:the/day	#	O	0.79206
+
+u0:will	#	O	7.95249
+
+u0:arrive	#	O	9.83579
+
+u0:denver-airport	#	B-fromloc.airport_name	4.02071
+u0:denver-airport	#	B-airport_name	4.11157
+u0:denver-airport	#	B-toloc.airport_name	2.04677
+
+um_1:the/denver-airport	#	B-fromloc.airport_name	1.60656
+
+um_1:downtown/denver	#	B-toloc.city_name	1.38303
+
+u0:nonstop	#	B-flight_stop	10.02674
+
+u0:repeat	#	O	5.55875
+
+u0:departures	#	O	6.49843
+
+um_1:for/monday	#	B-arrive_date.day_name	1.22660
+
+u0:august	#	B-depart_date.month_name	8.36100
+u0:august	#	B-arrive_date.month_name	3.64628
+u0:august	#	B-return_date.month_name	2.34614
+
+u0:nineteenth	#	B-depart_date.day_number	6.72823
+
+u0:rate	#	O	2.65308
+
+um_1:cheapest/rate	#	O	2.65308
+
+um_1:wednesday/morning	#	B-arrive_time.period_of_day	2.31699
+
+um_1:are/there	#	O	0.82692
+
+u0:any	#	O	9.49251
+
+u0:us-air	#	B-airline_name	9.21195
+
+u0:we're	#	O	5.80721
+
+u0:going	#	O	9.26552
+
+u0:819	#	B-depart_time.time	2.24280
+
+um_1:an/819	#	B-depart_time.time	2.24280
+
+u0:take	#	O	8.17122
+
+um_1:in/washington	#	B-toloc.city_name	0.97626
+um_1:in/washington	#	B-stoploc.city_name	3.46769
+um_1:in/washington	#	B-city_name	1.35379
+um_1:in/washington	#	B-toloc.state_name	-0.19641
+
+u0:9-o'clock	#	B-depart_time.time	4.97088
+u0:9-o'clock	#	B-arrive_time.time	4.97088
+
+um_1:a/9-o'clock	#	B-depart_time.time	0.39896
+
+u0:out	#	O	8.26941
+
+u0:be	#	O	8.30386
+
+u0:staying	#	O	2.24280
+
+um_1:be/staying	#	O	2.24280
+
+u0:two	#	O	5.16785
+u0:two	#	B-depart_date.date_relative	3.35817
+u0:two	#	B-mod	1.31979
+
+um_1:for/two	#	O	0.83008
+
+u0:hours	#	O	5.80721
+
+u0:can	#	O	10.03144
+
+u0:about	#	O	5.62653
+u0:about	#	B-depart_time.time_relative	4.04965
+u0:about	#	B-arrive_time.time_relative	5.04040
+
+um_1:out/about	#	O	0.02929
+
+u0:city	#	O	8.06616
+
+um_1:of/fort-worth	#	B-fromloc.city_name	0.00462
+um_1:of/fort-worth	#	B-city_name	1.07757
+
+um_1:of/philadelphia	#	B-city_name	2.69841
+
+u0:very	#	O	5.55875
+
+u0:working	#	O	2.24280
+
+um_1:i'm/working	#	O	2.24280
+
+u0:scenario	#	O	2.24280
+
+um_1:on/scenario	#	O	2.24280
+
+u0:three	#	O	4.59992
+u0:three	#	B-depart_date.day_number	2.12988
+
+u0:727	#	B-aircraft_code	5.55875
+
+u0:georgia	#	B-toloc.state_name	3.11322
+
+um_1:atlanta/georgia	#	B-toloc.state_name	3.11322
+
+u0:am	#	O	4.31875
+u0:am	#	B-depart_time.period_of_day	6.32702
+
+um_1:i/am	#	O	3.15824
+
+u0:number	#	O	7.37732
+u0:number	#	B-flight_number	1.89369
+
+u0:return	#	O	5.45784
+u0:return	#	B-round_trip	5.25683
+u0:return	#	B-return	6.12767
+
+um_1:a/return	#	O	1.52569
+um_1:a/return	#	B-round_trip	0.67656
+um_1:a/return	#	B-return	-1.31187
+
+u0:bound	#	O	5.55875
+
+u0:friday	#	B-depart_date.day_name	7.28067
+u0:friday	#	B-arrive_date.day_name	4.69377
+
+um_1:on/friday	#	B-depart_date.day_name	1.69203
+um_1:on/friday	#	B-arrive_date.day_name	1.32869
+
+u0:this	#	O	6.90976
+u0:this	#	B-depart_date.date_relative	3.77304
+u0:this	#	B-depart_date.today_relative	1.82410
+
+u0:week	#	O	7.32949
+
+u0:class	#	O	7.30098
+
+u0:service	#	O	8.85084
+
+u0:california	#	B-fromloc.state_name	6.29462
+u0:california	#	B-toloc.state_name	6.67929
+
+um_1:san-francisco/california	#	B-fromloc.state_name	0.48775
+
+um_1:arriving/pittsburgh	#	B-fromloc.city_name	-0.28235
+um_1:arriving/pittsburgh	#	B-toloc.city_name	1.28104
+
+u0:pennsylvania	#	B-toloc.state_name	5.70639
+
+um_1:pittsburgh/pennsylvania	#	B-toloc.state_name	0.75029
+
+u0:get	#	O	8.82784
+
+um_1:at/philadelphia	#	B-toloc.city_name	1.30842
+
+u0:yes	#	O	3.46432
+
+um_1:_x-1/yes	#	O	3.46432
+
+u0:delta	#	B-airline_name	9.41128
+
+u0:225pm	#	B-depart_time.time	2.24280
+
+um_1:at/225pm	#	B-depart_time.time	2.24280
+
+um_1:arriving/philadelphia	#	B-fromloc.city_name	-0.10437
+um_1:arriving/philadelphia	#	B-toloc.city_name	1.88071
+
+u0:1158pm	#	B-arrive_time.time	2.24280
+
+um_1:philadelphia/1158pm	#	B-arrive_time.time	2.24280
+
+u0:equipment	#	O	2.24280
+
+um_1:of/equipment	#	O	2.24280
+
+u0:looking	#	O	8.47472
+
+u0:stopping	#	O	8.10671
+
+um_1:at/pittsburgh	#	B-fromloc.city_name	-3.12742
+um_1:at/pittsburgh	#	B-stoploc.city_name	2.22341
+
+u0:ticket	#	O	8.94725
+
+u0:colorado	#	B-fromloc.state_name	2.58632
+u0:colorado	#	B-state_name	1.68854
+u0:colorado	#	B-toloc.state_name	2.71749
+
+um_1:denver/colorado	#	B-fromloc.state_name	2.58632
+um_1:denver/colorado	#	B-state_name	1.68854
+um_1:denver/colorado	#	B-toloc.state_name	2.71749
+
+u0:with	#	O	10.27029
+
+um_1:a/stop	#	O	0.64427
+
+um_1:in/pittsburgh	#	B-fromloc.city_name	-1.33360
+um_1:in/pittsburgh	#	B-toloc.city_name	2.15658
+um_1:in/pittsburgh	#	B-stoploc.city_name	4.48580
+um_1:in/pittsburgh	#	B-city_name	2.95564
+
+u0:coach-class	#	B-class_type	7.36655
+
+u0:seat	#	O	2.24280
+
+um_1:coach-class/seat	#	O	2.24280
+
+um_1:arriving/atlanta	#	B-toloc.city_name	1.00582
+
+u0:or	#	O	5.63024
+u0:or	#	B-or	8.56936
+
+um_1:coach-class/or	#	O	2.13656
+um_1:coach-class/or	#	B-or	-0.82443
+
+u0:lowest	#	B-cost_relative	7.20647
+
+u0:buy	#	O	2.65308
+
+um_1:to/buy	#	O	2.65308
+
+um_1:on/august	#	B-depart_date.month_name	0.48516
+um_1:on/august	#	B-arrive_date.month_name	2.60533
+
+u0:afternoon	#	B-depart_time.period_of_day	9.19657
+u0:afternoon	#	B-arrive_time.period_of_day	4.88256
+
+u0:230	#	B-depart_time.time	2.24280
+
+um_1:at/230	#	B-depart_time.time	2.24280
+
+u0:324pm	#	B-depart_time.time	2.24280
+
+um_1:at/324pm	#	B-depart_time.time	2.24280
+
+u0:324	#	B-flight_number	2.24280
+
+um_1:flight/324	#	B-flight_number	2.24280
+
+u0:110pm	#	B-depart_time.time	2.24280
+
+um_1:at/110pm	#	B-depart_time.time	2.24280
+
+u0:seventeenth	#	B-depart_date.day_number	7.08675
+
+u0:oakland	#	B-fromloc.city_name	6.43336
+u0:oakland	#	B-toloc.city_name	5.75215
+u0:oakland	#	B-city_name	4.35973
+
+um_1:to/oakland	#	B-toloc.city_name	6.37396
+
+u0:american	#	B-airline_name	8.60092
+
+u0:813	#	O	2.12990
+u0:813	#	B-flight_number	2.01893
+
+um_1:flight/813	#	B-flight_number	3.45205
+
+u0:goes	#	O	7.73311
+
+u0:straight	#	O	2.24280
+
+um_1:goes/straight	#	O	2.24280
+
+u0:through	#	O	7.84876
+
+u0:without-stopping	#	B-flight_stop	2.24280
+
+um_1:oakland/without-stopping	#	B-flight_stop	2.24280
+
+u0:another	#	O	6.49843
+
+u0:if	#	O	7.51130
+
+um_1:flight/number	#	B-flight_number	2.35895
+
+um_1:number/813	#	O	2.27803
+
+u0:enroute	#	O	2.24280
+
+um_1:stop/enroute	#	O	2.24280
+
+um_1:from/baltimore	#	B-fromloc.city_name	6.93672
+um_1:from/baltimore	#	B-toloc.city_name	-0.04362
+
+u0:it	#	O	8.75655
+
+u0:may	#	O	3.83999
+u0:may	#	B-depart_date.month_name	6.28572
+u0:may	#	B-arrive_date.month_name	4.85279
+u0:may	#	B-return_date.month_name	3.25832
+
+um_1:_x-1/may	#	O	5.89774
+
+u0:2153	#	B-flight_number	2.24280
+
+um_1:us-air/2153	#	B-flight_number	2.24280
+
+um_1:what/time	#	B-flight_time	4.64551
+
+u0:first-class	#	B-class_type	10.09553
+
+u0:list	#	O	9.46855
+
+um_1:a/list	#	O	0.01392
+
+um_1:leaving/boston	#	B-fromloc.city_name	1.79858
+um_1:leaving/boston	#	B-toloc.city_name	-0.54205
+
+u0:making	#	O	6.62706
+
+u0:continental	#	B-airline_name	9.36485
+
+u0:leave	#	O	9.86009
+u0:leave	#	B-fromloc.city_name	2.79059
+
+um_1:leave/denver	#	B-fromloc.city_name	2.71004
+
+u0:after	#	O	2.20637
+u0:after	#	B-depart_date.date_relative	2.20637
+u0:after	#	B-depart_time.time_relative	9.00057
+u0:after	#	B-arrive_time.time_relative	5.51785
+u0:after	#	B-mod	1.64777
+
+u0:12-o'clock	#	B-depart_time.time	5.39175
+u0:12-o'clock	#	B-arrive_time.time	2.66388
+
+um_1:after/12-o'clock	#	B-arrive_time.time	2.89069
+
+um_1:the/afternoon	#	B-depart_time.period_of_day	0.66825
+um_1:the/afternoon	#	B-arrive_time.period_of_day	3.57558
+
+u0:which	#	O	10.27870
+
+u0:leaves	#	O	8.86494
+
+u0:1220pm	#	B-depart_time.time	2.24280
+
+um_1:at/1220pm	#	B-depart_time.time	2.24280
+
+u0:5-o'clock	#	B-depart_time.time	3.50850
+u0:5-o'clock	#	B-arrive_time.time	4.70238
+u0:5-o'clock	#	B-arrive_time.end_time	1.50114
+u0:5-o'clock	#	B-depart_time.end_time	1.50114
+
+um_1:at/5-o'clock	#	B-arrive_time.time	1.45068
+
+u0:lowest-cost	#	B-cost_relative	6.47511
+
+u0:645am	#	B-depart_time.time	2.24280
+
+um_1:at/645am	#	B-depart_time.time	2.24280
+
+u0:has	#	O	8.06621
+
+u0:how	#	O	8.24203
+
+um_1:_x-1/how	#	O	1.83477
+
+u0:much	#	O	6.94000
+
+um_1:how/much	#	O	1.98213
+
+u0:round-trip	#	B-round_trip	10.36159
+
+um_1:and/san-francisco	#	B-fromloc.city_name	-0.92311
+um_1:and/san-francisco	#	B-toloc.city_name	4.65194
+
+u0:long	#	O	3.46432
+
+um_1:how/long	#	O	3.46432
+
+u0:atlanta-airport	#	B-fromloc.airport_name	5.01332
+u0:atlanta-airport	#	B-airport_name	2.33933
+
+um_1:from/atlanta-airport	#	B-fromloc.airport_name	0.85140
+
+u0:into	#	O	8.77287
+
+um_1:of/atlanta	#	B-city_name	0.32048
+
+u0:airport-limousine	#	B-transport_type	2.24280
+
+um_1:an/airport-limousine	#	B-transport_type	2.24280
+
+um_1:the/atlanta-airport	#	B-fromloc.airport_name	0.29074
+um_1:the/atlanta-airport	#	B-airport_name	3.01171
+
+u0:make	#	O	7.89091
+
+um_1:to/make	#	O	0.40315
+
+u0:trip	#	O	7.61732
+
+um_1:between/atlanta	#	B-fromloc.city_name	3.32259
+
+um_1:and/boston	#	B-fromloc.city_name	-0.75426
+um_1:and/boston	#	B-toloc.city_name	3.03778
+
+u0:again	#	O	7.43219
+
+u0:fares	#	O	10.22514
+
+um_1:between/washington	#	B-fromloc.city_name	3.86184
+
+um_1:and/return	#	O	-0.51075
+um_1:and/return	#	B-round_trip	0.77417
+
+u0:arrival-time	#	B-flight_time	2.65308
+
+um_1:the/arrival-time	#	B-flight_time	2.65308
+
+u0:755am	#	B-depart_time.time	2.24280
+
+um_1:the/755am	#	B-depart_time.time	2.24280
+
+um_1:leaving/washington	#	B-fromloc.city_name	3.62368
+
+u0:latest	#	B-flight_mod	7.23764
+
+um_1:the/latest	#	B-flight_mod	2.12310
+
+um_1:tuesday/morning	#	B-depart_time.period_of_day	-0.03265
+um_1:tuesday/morning	#	B-arrive_time.period_of_day	2.17428
+
+u0:755	#	B-depart_time.time	2.24280
+
+um_1:morning/755	#	B-depart_time.time	2.24280
+
+um_1:for/washington	#	B-toloc.city_name	2.53702
+
+um_1:the/evening	#	B-depart_time.period_of_day	0.18455
+um_1:the/evening	#	B-arrive_time.time	0.58846
+um_1:the/evening	#	B-arrive_time.period_of_day	3.35203
+um_1:the/evening	#	B-return_time.period_of_day	0.60567
+
+u0:schedule	#	O	4.77790
+u0:schedule	#	B-flight_time	6.47051
+
+u0:9pm	#	B-depart_time.time	2.82057
+u0:9pm	#	B-arrive_time.time	3.92890
+
+um_1:after/9pm	#	B-depart_time.time	2.92241
+
+u0:twenty-ninth	#	B-depart_date.day_number	7.20856
+
+u0:november	#	B-depart_date.month_name	5.65559
+u0:november	#	B-arrive_date.month_name	3.12733
+
+um_1:on/november	#	B-depart_date.month_name	2.58643
+um_1:on/november	#	B-arrive_date.month_name	3.25428
+
+u0:twenty-third	#	B-depart_date.day_number	7.50265
+
+u0:year	#	B-depart_date.year	2.24280
+
+um_1:this/year	#	B-depart_date.year	2.24280
+
+u0:1991	#	O	2.45150
+u0:1991	#	B-depart_date.year	7.40965
+
+um_1:year/1991	#	O	3.74570
+um_1:year/1991	#	B-depart_date.year	-1.39057
+
+u0:okay	#	O	4.34942
+
+um_1:_x-1/okay	#	O	4.34942
+
+u0:just	#	O	5.55875
+
+um_1:flights/are	#	O	0.82837
+
+um_1:and/denver	#	B-fromloc.city_name	-0.25472
+um_1:and/denver	#	B-toloc.city_name	5.51757
+
+um_1:leaves/before	#	B-depart_time.time_relative	0.96573
+um_1:leaves/before	#	B-arrive_time.time_relative	-0.52256
+
+u0:8am	#	B-depart_time.time	6.85993
+u0:8am	#	B-arrive_time.time	1.93456
+
+um_1:before/8am	#	B-arrive_time.time	2.25564
+
+u0:hello	#	O	3.11322
+
+um_1:_x-1/hello	#	O	3.11322
+
+u0:let's	#	O	6.59210
+
+u0:see	#	O	8.82809
+
+u0:delta-airline	#	B-airline_name	6.09122
+
+um_1:on/delta-airline	#	B-airline_name	0.05950
+
+u0:stops	#	O	6.28905
+u0:stops	#	B-flight_stop	4.47035
+
+um_1:that/stops	#	O	2.03518
+
+um_1:in/philadelphia	#	B-fromloc.city_name	-0.79017
+um_1:in/philadelphia	#	B-toloc.city_name	0.87623
+um_1:in/philadelphia	#	B-stoploc.city_name	3.05674
+um_1:in/philadelphia	#	B-city_name	1.83779
+
+um_1:at/denver	#	B-fromloc.city_name	-1.56819
+um_1:at/denver	#	B-toloc.city_name	-0.39366
+um_1:at/denver	#	B-stoploc.city_name	2.86864
+um_1:at/denver	#	B-city_name	1.61238
+
+u0:way	#	O	8.01576
+
+u0:united	#	B-airline_name	8.94863
+
+u0:815am	#	B-depart_time.time	2.24280
+
+um_1:after/815am	#	B-depart_time.time	2.24280
+
+um_1:leaves/dallas	#	B-fromloc.city_name	0.26721
+
+u0:by	#	O	6.98887
+u0:by	#	B-depart_time.time_relative	2.83755
+u0:by	#	B-arrive_time.time_relative	5.77864
+
+um_1:san-francisco/by	#	O	-0.12667
+um_1:san-francisco/by	#	B-arrive_time.time_relative	1.67567
+
+u0:united-airline	#	B-airline_name	6.30193
+
+u0:oh	#	O	2.24280
+
+um_1:_x-1/oh	#	O	2.24280
+
+u0:eastern-airline	#	B-airline_name	2.24280
+
+um_1:does/eastern-airline	#	B-airline_name	2.24280
+
+u0:some	#	O	7.17515
+
+um_1:leaving/atlanta	#	B-fromloc.city_name	2.30413
+
+um_1:morning/around	#	B-time_relative	3.49590
+um_1:morning/around	#	B-arrive_time.time_relative	-0.77290
+
+u0:9am	#	B-depart_time.time	6.00970
+u0:9am	#	B-arrive_time.time	2.15266
+u0:9am	#	B-time	2.01816
+
+um_1:around/9am	#	B-time	2.58019
+
+um_1:downtown/atlanta	#	B-toloc.city_name	2.50484
+
+um_1:in/dallas	#	B-fromloc.city_name	-1.43296
+um_1:in/dallas	#	B-toloc.city_name	2.16482
+um_1:in/dallas	#	B-stoploc.city_name	3.90121
+um_1:in/dallas	#	B-city_name	3.32888
+
+u0:dallas-airport	#	B-fromloc.airport_name	2.96048
+u0:dallas-airport	#	B-airport_name	1.99013
+
+um_1:the/dallas-airport	#	B-fromloc.airport_name	3.59189
+
+um_1:downtown/dallas	#	B-toloc.city_name	4.94376
+
+um_1:me/about	#	O	4.00238
+
+u0:arrangements	#	O	5.93830
+
+um_1:leaving/dallas	#	B-fromloc.city_name	2.01712
+
+um_1:in/boston	#	B-fromloc.city_name	-1.82787
+um_1:in/boston	#	B-toloc.city_name	1.17454
+um_1:in/boston	#	B-stoploc.city_name	5.22946
+um_1:in/boston	#	B-city_name	1.68944
+
+u0:boston-airport	#	B-fromloc.airport_name	4.15255
+u0:boston-airport	#	B-airport_name	3.88508
+u0:boston-airport	#	B-toloc.airport_name	1.55100
+
+um_1:the/boston-airport	#	B-fromloc.airport_name	0.41733
+um_1:the/boston-airport	#	B-airport_name	0.62299
+um_1:the/boston-airport	#	B-toloc.airport_name	1.87569
+
+um_1:downtown/boston	#	B-fromloc.city_name	-0.76422
+um_1:downtown/boston	#	B-toloc.city_name	1.44623
+
+um_1:leaves/philadelphia	#	B-fromloc.city_name	1.18525
+
+u0:departing	#	O	8.85307
+
+um_1:does/delta-airline	#	B-airline_name	0.05950
+
+u0:airfare	#	O	7.92597
+
+u0:329-dollars	#	B-fare_amount	2.24280
+
+um_1:at/329-dollars	#	B-fare_amount	2.24280
+
+um_1:between/denver	#	B-fromloc.city_name	3.34348
+
+um_1:and/pittsburgh	#	B-fromloc.city_name	0.03032
+um_1:and/pittsburgh	#	B-toloc.city_name	2.24374
+
+u0:cost	#	O	9.15386
+
+u0:air	#	O	7.10841
+
+u0:restrictions	#	O	5.55875
+
+u0:416-dollars	#	B-fare_amount	2.24280
+
+um_1:of/416-dollars	#	B-fare_amount	2.24280
+
+u0:book	#	O	6.22324
+
+um_1:to/book	#	O	2.54126
+
+u0:coach	#	B-class_type	8.31198
+
+u0:discount	#	O	2.24280
+
+um_1:coach/discount	#	O	2.24280
+
+u0:arrange	#	O	5.83949
+
+um_1:to/arrange	#	O	0.87688
+
+u0:july	#	B-depart_date.month_name	6.57711
+u0:july	#	B-arrive_date.month_name	4.77338
+u0:july	#	B-month_name	3.63211
+
+um_1:of/july	#	B-depart_date.month_name	1.76116
+
+u0:seventh	#	B-depart_date.day_number	6.72892
+u0:seventh	#	B-arrive_date.day_number	5.70383
+u0:seventh	#	B-day_number	1.20307
+
+um_1:july/seventh	#	B-depart_date.day_number	0.21586
+um_1:july/seventh	#	B-day_number	2.22912
+
+u0:sure	#	O	2.65308
+
+um_1:_x-1/sure	#	O	2.65308
+
+u0:determine	#	O	2.24280
+
+um_1:to/determine	#	O	2.24280
+
+um_1:on/july	#	B-depart_date.month_name	2.74557
+um_1:on/july	#	B-arrive_date.month_name	2.41373
+
+u0:meal	#	B-meal	8.51344
+
+u0:being	#	O	2.24280
+
+um_1:meal/being	#	O	2.24280
+
+u0:served	#	O	7.91850
+
+u0:such	#	O	2.24280
+
+um_1:there/such	#	O	2.24280
+
+u0:types	#	O	7.76790
+
+u0:dc10	#	B-aircraft_code	5.80721
+
+um_1:atlanta/around	#	B-depart_time.time_relative	1.16770
+um_1:atlanta/around	#	B-arrive_time.time_relative	-0.11354
+
+u0:sometime	#	O	6.59210
+
+um_1:the/lowest	#	B-cost_relative	1.20076
+
+u0:direct	#	O	4.03324
+u0:direct	#	B-connect	7.37085
+
+um_1:philadelphia/about	#	B-arrive_time.time_relative	1.14021
+
+u0:12-noon	#	B-depart_time.time	5.24608
+u0:12-noon	#	B-arrive_time.time	4.92013
+
+um_1:about/12-noon	#	B-arrive_time.time	0.63876
+
+u0:arrives	#	O	8.23586
+
+um_1:philadelphia/around	#	B-arrive_time.time_relative	0.00446
+
+um_1:around/12-noon	#	B-arrive_time.time	0.89975
+
+um_1:an/early-morning	#	O	3.14519
+um_1:an/early-morning	#	B-depart_time.period_of_day	0.14696
+
+um_1:leave/boston	#	O	4.96121
+um_1:leave/boston	#	B-fromloc.city_name	0.24335
+um_1:leave/boston	#	B-toloc.city_name	-1.05224
+
+u0:approximately	#	B-depart_time.time_relative	5.55875
+
+u0:1pm	#	B-depart_time.time	6.14234
+u0:1pm	#	B-arrive_time.time	1.97017
+
+u0:many	#	O	4.55338
+
+um_1:how/many	#	O	4.55338
+
+um_1:arrive/dallas	#	B-toloc.city_name	2.47764
+
+um_1:dallas/about	#	B-arrive_time.time_relative	1.14021
+
+u0:where	#	O	7.11280
+
+u0:dinner-meal	#	B-meal_description	2.24280
+
+um_1:a/dinner-meal	#	B-meal_description	2.24280
+
+um_1:the/last	#	B-flight_mod	1.79949
+
+u0:420	#	B-depart_time.time	2.24280
+
+um_1:at/420	#	B-depart_time.time	2.24280
+
+um_1:arriving/denver	#	B-toloc.city_name	2.28847
+
+um_1:denver/around	#	B-arrive_time.time_relative	0.01370
+
+u0:5	#	B-depart_time.time	3.70423
+u0:5	#	B-arrive_time.time	1.81398
+u0:5	#	B-arrive_time.start_time	1.10327
+u0:5	#	B-depart_time.start_time	1.10327
+
+um_1:around/5	#	B-arrive_time.time	4.00869
+
+u0:my	#	O	7.08675
+
+u0:final	#	O	2.24280
+
+um_1:my/final	#	O	2.24280
+
+u0:destination	#	O	6.30193
+
+um_1:as/san-francisco	#	B-toloc.city_name	0.77533
+
+u0:originate	#	O	5.55875
+
+u0:latest-time-possible	#	B-flight_mod	2.24280
+
+um_1:the/latest-time-possible	#	B-flight_mod	2.24280
+
+u0:fifteenth	#	B-depart_date.day_number	7.15221
+u0:fifteenth	#	B-arrive_date.day_number	2.21641
+
+u0:during	#	O	6.30193
+
+u0:breakfast	#	B-meal_description	8.26921
+
+u0:296	#	B-flight_number	5.07648
+
+um_1:flight/296	#	B-flight_number	0.52966
+
+u0:serves	#	O	8.32653
+
+u0:first	#	B-flight_mod	4.87066
+u0:first	#	B-depart_date.day_number	6.76909
+u0:first	#	B-class_type	3.18541
+u0:first	#	B-arrive_date.day_number	3.13837
+
+um_1:_x-1/first	#	B-flight_mod	0.81786
+um_1:_x-1/first	#	B-depart_date.day_number	-2.16623
+um_1:_x-1/first	#	B-class_type	1.41519
+
+u0:early-afternoon	#	B-depart_time.period_of_day	4.22051
+u0:early-afternoon	#	B-arrive_time.period_of_day	4.19979
+
+um_1:the/early-afternoon	#	B-arrive_time.period_of_day	1.93943
+
+u0:should	#	O	5.91753
+
+um_1:leave/philadelphia	#	B-fromloc.city_name	2.06686
+
+u0:615pm	#	B-depart_time.time	2.24280
+
+um_1:approximately/615pm	#	B-depart_time.time	2.24280
+
+um_1:from/boston-airport	#	B-fromloc.airport_name	2.48145
+
+um_1:and/baltimore	#	B-fromloc.city_name	-0.24959
+um_1:and/baltimore	#	B-toloc.city_name	3.00983
+
+u0:their	#	O	6.59210
+
+u0:earliest-possible-time	#	B-flight_mod	2.24280
+
+um_1:san-francisco/earliest-possible-time	#	B-flight_mod	2.24280
+
+u0:question	#	O	2.24280
+
+um_1:my/question	#	O	2.24280
+
+u0:live	#	O	3.59837
+
+um_1:i/live	#	O	3.59837
+
+um_1:an/early	#	B-flight_mod	5.23500
+um_1:an/early	#	B-depart_time.period_mod	-0.88585
+
+u0:trying	#	O	3.38482
+
+um_1:i'm/trying	#	O	3.38482
+
+u0:connection	#	O	2.24280
+
+um_1:a/connection	#	O	2.24280
+
+u0:those	#	O	6.30193
+
+um_1:those/two	#	O	0.83008
+
+u0:thirtieth	#	B-depart_date.day_number	7.74969
+
+um_1:please/schedule	#	O	1.69326
+
+um_1:the/early	#	B-flight_mod	1.89354
+um_1:the/early	#	B-depart_time.period_mod	-0.16884
+
+um_1:is/san-francisco	#	B-toloc.city_name	0.77533
+
+um_1:leaving/early	#	B-depart_time.period_mod	0.20724
+
+u0:fine	#	O	2.24280
+
+um_1:_x-1/fine	#	O	2.24280
+
+u0:help	#	O	5.70639
+
+um_1:you/help	#	O	0.75029
+
+um_1:downtown/philadelphia	#	B-fromloc.city_name	-0.35274
+um_1:downtown/philadelphia	#	B-toloc.city_name	2.12804
+
+u0:now	#	O	8.44660
+
+u0:747	#	B-aircraft_code	3.27912
+
+um_1:a/747	#	B-aircraft_code	3.27912
+
+u0:able	#	O	2.24280
+
+um_1:be/able	#	O	2.24280
+
+u0:put	#	O	2.24280
+
+um_1:to/put	#	O	2.24280
+
+u0:twenty-seventh	#	B-depart_date.day_number	7.74033
+u0:twenty-seventh	#	B-arrive_date.day_number	2.42218
+
+um_1:august/twenty-seventh	#	B-depart_date.day_number	0.75532
+
+um_1:the/first	#	B-flight_mod	3.85065
+
+um_1:leaving/baltimore	#	B-fromloc.city_name	3.13521
+um_1:leaving/baltimore	#	B-toloc.city_name	-0.64459
+
+um_1:what/kind	#	O	2.29598
+
+u0:night	#	B-depart_time.period_of_day	7.97378
+u0:night	#	B-arrive_time.period_of_day	2.37537
+
+u0:630am	#	B-depart_time.time	5.07648
+
+um_1:for/atlanta	#	B-toloc.city_name	2.50484
+
+u0:650	#	B-depart_time.time	2.24280
+
+um_1:at/650	#	B-depart_time.time	2.24280
+
+um_1:and/washington	#	B-toloc.city_name	4.63282
+
+u0:third	#	B-depart_date.day_number	6.19922
+u0:third	#	B-arrive_date.day_number	2.60313
+
+um_1:september/third	#	B-depart_date.day_number	0.33968
+
+u0:rates	#	O	5.70639
+
+u0:least-expensive	#	B-cost_relative	8.51344
+
+u0:city-of-boston	#	B-toloc.city_name	1.71889
+u0:city-of-boston	#	B-city_name	4.68620
+
+um_1:the/city-of-boston	#	B-toloc.city_name	2.37903
+
+u0:kindly	#	O	2.24280
+
+um_1:_x-1/kindly	#	O	2.24280
+
+u0:inform	#	O	2.24280
+
+um_1:please/inform	#	O	2.24280
+
+um_1:denver/before	#	B-depart_time.time_relative	2.07749
+um_1:denver/before	#	B-arrive_time.time_relative	-0.37929
+
+u0:12-o'clock-noon	#	B-depart_time.time	4.32050
+u0:12-o'clock-noon	#	B-arrive_time.time	1.94108
+
+um_1:before/12-o'clock-noon	#	B-depart_time.time	1.15743
+um_1:before/12-o'clock-noon	#	B-arrive_time.time	2.01344
+
+um_1:before/12-noon	#	B-depart_time.time	2.21778
+
+u0:eastern	#	B-airline_name	7.51188
+
+u0:825	#	B-flight_number	3.11322
+
+um_1:flight/825	#	B-flight_number	3.11322
+
+u0:when	#	O	5.61959
+u0:when	#	B-flight_time	1.94578
+
+u0:555	#	B-depart_time.time	2.97591
+
+um_1:at/555	#	B-depart_time.time	2.97591
+
+u0:6pm	#	O	1.09908
+u0:6pm	#	B-depart_time.time	3.17211
+u0:6pm	#	B-arrive_time.time	4.13362
+u0:6pm	#	B-arrive_time.end_time	1.08013
+u0:6pm	#	B-depart_time.start_time	1.38026
+u0:6pm	#	B-depart_time.end_time	1.08013
+
+um_1:before/6pm	#	B-depart_time.time	2.33836
+um_1:before/6pm	#	B-arrive_time.time	1.96609
+
+um_1:use/before	#	B-depart_time.time_relative	0.64557
+um_1:use/before	#	B-arrive_time.time_relative	-0.34419
+
+um_1:leave/atlanta	#	B-fromloc.city_name	1.11396
+
+u0:5pm	#	B-depart_time.time	5.31549
+u0:5pm	#	B-arrive_time.time	6.94802
+u0:5pm	#	B-arrive_time.start_time	2.62079
+u0:5pm	#	B-arrive_time.end_time	2.67012
+
+um_1:at/5pm	#	B-arrive_time.time	0.12150
+
+u0:sorry	#	O	2.97591
+
+um_1:i'm/sorry	#	O	2.97591
+
+um_1:around/5-o'clock	#	B-depart_time.time	0.49437
+um_1:around/5-o'clock	#	B-arrive_time.time	0.28012
+
+u0:thirty-first	#	B-depart_date.day_number	7.42540
+
+u0:then	#	O	7.76973
+
+u0:fourth	#	B-depart_date.day_number	6.20954
+u0:fourth	#	B-arrive_date.day_number	3.91676
+
+um_1:september/fourth	#	B-depart_date.day_number	0.67280
+
+u0:plan	#	O	2.97591
+
+um_1:to/plan	#	O	2.97591
+
+um_1:_x-1/when	#	O	0.79209
+um_1:_x-1/when	#	B-flight_time	2.06095
+
+u0:no-stops	#	B-flight_stop	2.24280
+
+um_1:has/no-stops	#	B-flight_stop	2.24280
+
+u0:economy	#	B-economy	8.30848
+
+um_1:on/thursday	#	B-depart_date.day_name	0.11030
+um_1:on/thursday	#	B-arrive_date.day_name	0.96321
+um_1:on/thursday	#	B-day_name	2.45689
+
+u0:fifth	#	B-depart_date.day_number	6.33907
+u0:fifth	#	B-arrive_date.day_number	1.93842
+
+u0:twenty-eighth	#	B-depart_date.day_number	6.20105
+u0:twenty-eighth	#	B-arrive_date.day_number	2.40386
+
+u0:october	#	B-depart_date.month_name	6.12944
+
+um_1:on/october	#	B-depart_date.month_name	1.17554
+
+u0:twelfth	#	B-depart_date.day_number	6.75771
+u0:twelfth	#	B-arrive_date.day_number	2.23423
+
+u0:numbers	#	O	3.38482
+
+um_1:flight/numbers	#	O	3.38482
+
+u0:connect	#	O	4.70890
+u0:connect	#	B-connect	4.70890
+
+um_1:airlines/connect	#	O	0.84597
+
+u0:cities	#	O	8.11809
+
+um_1:airlines/may	#	O	2.75447
+
+u0:planning	#	O	2.24280
+
+um_1:i'm/planning	#	O	2.24280
+
+u0:269	#	B-flight_number	2.65308
+
+um_1:us-air/269	#	B-flight_number	2.65308
+
+u0:428	#	B-depart_time.time	2.24280
+
+um_1:at/428	#	B-depart_time.time	2.24280
+
+um_1:in/baltimore	#	B-fromloc.city_name	-0.70936
+um_1:in/baltimore	#	B-toloc.city_name	2.19978
+um_1:in/baltimore	#	B-city_name	3.28013
+
+u0:times	#	B-flight_time	7.20799
+
+um_1:to/schedule	#	O	1.69326
+
+u0:makes	#	O	7.46163
+
+u0:one-stop	#	B-flight_stop	7.36689
+
+um_1:with/one-stop	#	B-flight_stop	0.08508
+
+u0:april	#	B-depart_date.month_name	7.47438
+
+um_1:on/april	#	B-depart_date.month_name	0.64986
+
+u0:beginning	#	O	2.24280
+
+um_1:atlanta/beginning	#	O	2.24280
+
+u0:twenty-fifth	#	B-depart_date.day_number	7.02037
+
+u0:returning	#	O	5.31665
+u0:returning	#	B-return	4.27652
+
+um_1:and/returning	#	O	0.27586
+um_1:and/returning	#	B-return	2.78254
+
+um_1:on/may	#	B-depart_date.month_name	0.27662
+um_1:on/may	#	B-arrive_date.month_name	1.10600
+um_1:on/may	#	B-return_date.month_name	0.86935
+
+u0:sixth	#	B-depart_date.day_number	4.04924
+u0:sixth	#	B-return_date.day_number	2.35181
+u0:sixth	#	B-day_number	1.48274
+
+um_1:may/sixth	#	B-return_date.day_number	3.94784
+
+um_1:returning/may	#	B-return_date.month_name	3.47114
+
+um_1:may/seventh	#	B-depart_date.day_number	-0.06530
+um_1:may/seventh	#	B-arrive_date.day_number	1.55401
+
+um_1:leave/around	#	B-depart_time.time_relative	1.53557
+um_1:leave/around	#	B-arrive_time.time_relative	-0.25849
+
+u0:7-o'clock	#	B-depart_time.time	1.89017
+u0:7-o'clock	#	B-arrive_time.time	2.79145
+
+um_1:around/7-o'clock	#	B-depart_time.time	1.89017
+um_1:around/7-o'clock	#	B-arrive_time.time	2.79145
+
+u0:sixteen	#	O	1.87919
+u0:sixteen	#	B-depart_date.day_number	4.81397
+
+um_1:april/sixteen	#	B-depart_date.day_number	0.76285
+
+um_1:sixteen/around	#	B-depart_time.time_relative	0.15730
+
+um_1:around/9-o'clock	#	B-depart_time.time	0.39896
+
+u0:seventeen	#	B-depart_date.day_number	2.24280
+
+um_1:april/seventeen	#	B-depart_date.day_number	2.24280
+
+u0:twenty	#	B-depart_date.day_number	2.65308
+
+um_1:april/twenty	#	B-depart_date.day_number	2.65308
+
+um_1:at/about	#	O	-0.89051
+um_1:at/about	#	B-depart_time.time_relative	1.67138
+um_1:at/about	#	B-arrive_time.time_relative	1.61049
+
+um_1:about/8-o'clock	#	B-arrive_time.time	0.27036
+
+um_1:morning/about	#	B-depart_time.time_relative	2.20639
+
+u0:four	#	B-depart_date.day_number	2.65308
+
+um_1:may/four	#	B-depart_date.day_number	2.65308
+
+um_1:around/8	#	B-depart_time.time	0.62383
+
+u0:1039	#	B-flight_number	5.55875
+
+u0:257	#	B-flight_number	2.24280
+
+um_1:flight/257	#	B-flight_number	2.24280
+
+um_1:on/this	#	B-depart_date.date_relative	2.12830
+
+um_1:around/5pm	#	B-depart_time.time	0.00974
+
+um_1:how/about	#	O	2.22082
+
+u0:great	#	O	5.80721
+
+um_1:fare/around	#	B-depart_time.time_relative	0.15730
+
+u0:depart	#	O	8.66961
+
+um_1:depart/washington	#	B-fromloc.city_name	0.61077
+
+u0:sounds	#	O	2.24280
+
+um_1:that/sounds	#	O	2.24280
+
+u0:twenty-one	#	B-depart_date.day_number	2.24280
+
+um_1:april/twenty-one	#	B-depart_date.day_number	2.24280
+
+u0:one's	#	O	2.24280
+
+um_1:that/one's	#	O	2.24280
+
+u0:too	#	O	5.55875
+
+u0:twenty-second	#	B-depart_date.day_number	5.91310
+u0:twenty-second	#	B-arrive_date.day_number	1.85367
+u0:twenty-second	#	B-return_date.day_number	1.60779
+
+u0:nighttime	#	B-depart_time.period_of_day	2.24280
+
+um_1:latest/nighttime	#	B-depart_time.period_of_day	2.24280
+
+u0:departure	#	O	6.49843
+
+u0:show	#	O	25.29702
+
+um_1:_x-1/show	#	O	21.76842
+
+u0:dallas-fort-worth	#	B-fromloc.city_name	4.36713
+u0:dallas-fort-worth	#	B-toloc.city_name	5.23743
+u0:dallas-fort-worth	#	B-stoploc.city_name	4.25138
+u0:dallas-fort-worth	#	B-city_name	3.24523
+
+um_1:to/dallas-fort-worth	#	B-toloc.city_name	3.79055
+
+um_1:from/dallas-fort-worth	#	B-fromloc.city_name	5.07455
+
+u0:san-francisco-international	#	B-toloc.airport_name	2.24280
+
+um_1:to/san-francisco-international	#	B-toloc.airport_name	2.24280
+
+u0:arrivals	#	O	6.59210
+
+u0:most	#	O	1.89017
+u0:most	#	B-mod	2.79145
+
+um_1:the/most	#	O	1.89017
+um_1:the/most	#	B-mod	2.79145
+
+um_1:please/list	#	O	0.63611
+
+um_1:to/see	#	O	0.36721
+
+um_1:between/pittsburgh	#	B-fromloc.city_name	2.53632
+
+u0:connections	#	O	2.12988
+u0:connections	#	B-connect	4.59992
+
+um_1:have/connections	#	O	2.51783
+
+um_1:show/me	#	O	20.79676
+
+u0:tenth	#	B-depart_date.day_number	6.97623
+u0:tenth	#	B-arrive_date.day_number	2.06731
+
+u0:eleventh	#	B-depart_date.day_number	7.48743
+
+um_1:me/all	#	O	0.67370
+
+um_1:all/flights	#	O	0.88745
+
+um_1:of/boston	#	B-fromloc.city_name	0.63102
+
+u0:june	#	B-depart_date.month_name	7.01467
+u0:june	#	B-arrive_date.month_name	4.36279
+
+um_1:on/june	#	B-depart_date.month_name	1.68028
+um_1:on/june	#	B-arrive_date.month_name	2.43118
+
+u0:business-class	#	B-class_type	8.04116
+
+u0:daily	#	B-flight_days	8.74188
+
+u0:stapleton-airport	#	B-toloc.airport_name	2.24280
+
+um_1:to/stapleton-airport	#	B-toloc.airport_name	2.24280
+
+u0:tomorrow	#	B-depart_date.today_relative	8.16656
+u0:tomorrow	#	B-today_relative	2.29685
+u0:tomorrow	#	B-arrive_date.today_relative	3.46200
+
+um_1:boston/for	#	O	-0.50166
+um_1:boston/for	#	B-toloc.city_name	4.35751
+
+um_1:_x-1/list	#	O	2.42152
+
+u0:thrift	#	B-class_type	6.59210
+
+u0:explain	#	O	5.87839
+
+um_1:_x-1/explain	#	O	1.61037
+
+u0:restriction	#	O	8.09051
+
+u0:ap80	#	B-restriction_code	2.97591
+
+um_1:restriction/ap80	#	B-restriction_code	2.97591
+
+u0:code	#	O	9.19307
+
+u0:qx	#	B-fare_basis_code	6.17911
+
+um_1:code/qx	#	B-fare_basis_code	1.19344
+
+u0:represented	#	O	2.24280
+
+um_1:are/represented	#	O	2.24280
+
+u0:database	#	O	2.65308
+
+um_1:the/database	#	O	2.65308
+
+um_1:service/denver	#	B-city_name	1.90930
+
+um_1:leave/pittsburgh	#	B-fromloc.city_name	1.11693
+
+um_1:pittsburgh/july	#	B-depart_date.month_name	0.10457
+
+u0:7pm	#	B-depart_time.time	4.49867
+u0:7pm	#	B-arrive_time.time	5.75159
+u0:7pm	#	B-arrive_time.end_time	1.60109
+u0:7pm	#	B-depart_time.end_time	2.08997
+
+um_1:after/7pm	#	B-depart_time.time	4.15525
+
+u0:315	#	B-flight_number	2.24280
+
+um_1:flight/315	#	B-flight_number	2.24280
+
+u0:aa	#	B-airline_code	2.24280
+
+um_1:flight/aa	#	B-airline_code	2.24280
+
+u0:459	#	B-flight_number	2.24280
+
+um_1:aa/459	#	B-flight_number	2.24280
+
+u0:m80	#	B-aircraft_code	2.65308
+
+um_1:an/m80	#	B-aircraft_code	2.65308
+
+u0:besides	#	B-mod	2.24280
+
+um_1:airline/besides	#	B-mod	2.24280
+
+u0:provide	#	O	5.80721
+
+u0:jet	#	O	2.24280
+
+um_1:a/jet	#	O	2.24280
+
+um_1:and/oakland	#	B-fromloc.city_name	-0.20063
+um_1:and/oakland	#	B-toloc.city_name	4.38383
+
+um_1:between/oakland	#	B-fromloc.city_name	3.01241
+
+u0:only	#	O	7.48949
+
+um_1:from/oakland	#	B-fromloc.city_name	4.44271
+
+u0:today	#	B-depart_date.today_relative	7.81909
+
+u0:dl	#	B-airline_code	8.10557
+
+u0:different	#	O	5.07648
+
+u0:classes	#	O	7.47898
+
+u0:b	#	B-fare_basis_code	2.65308
+
+um_1:code/b	#	B-fare_basis_code	2.65308
+
+u0:same	#	O	3.08003
+u0:same	#	B-depart_date.date_relative	2.47419
+u0:same	#	B-mod	1.69124
+
+um_1:the/same	#	O	3.08003
+um_1:the/same	#	B-depart_date.date_relative	2.47419
+um_1:the/same	#	B-mod	1.69124
+
+u0:c	#	B-fare_basis_code	5.55875
+
+u0:booking	#	O	6.31304
+
+u0:yn	#	B-fare_basis_code	7.02623
+
+um_1:leaving/pittsburgh	#	B-fromloc.city_name	1.82208
+
+um_1:pittsburgh/next	#	B-arrive_date.date_relative	1.11934
+
+um_1:next/monday	#	B-arrive_date.day_name	1.77065
+
+um_1:fort-worth/before	#	B-depart_time.time_relative	-0.01401
+um_1:fort-worth/before	#	B-arrive_time.time_relative	0.08825
+
+um_1:leaving/fort-worth	#	B-fromloc.city_name	0.87475
+
+u0:no-later-than	#	B-depart_time.time_relative	2.15549
+u0:no-later-than	#	B-arrive_time.time_relative	2.15549
+
+um_1:denver/no-later-than	#	B-arrive_time.time_relative	2.26378
+
+u0:2pm	#	B-depart_time.time	4.33467
+u0:2pm	#	B-arrive_time.time	3.44763
+u0:2pm	#	B-depart_time.start_time	1.40110
+u0:2pm	#	B-depart_time.end_time	1.72704
+
+um_1:no-later-than/2pm	#	B-arrive_time.time	1.71708
+
+um_1:2pm/next	#	B-depart_date.date_relative	-0.79879
+um_1:2pm/next	#	B-arrive_date.date_relative	1.96486
+
+um_1:7pm/next	#	B-arrive_date.date_relative	2.38968
+
+u0:what's	#	O	8.93852
+
+um_1:_x-1/what's	#	O	0.47065
+
+um_1:of/denver	#	B-fromloc.city_name	0.04124
+um_1:of/denver	#	B-toloc.city_name	-0.59677
+um_1:of/denver	#	B-city_name	0.74385
+
+u0:ap57	#	B-restriction_code	6.49843
+
+u0:codes	#	O	6.54734
+
+um_1:fare/codes	#	O	0.58077
+
+u0:belong	#	O	2.24280
+
+um_1:codes/belong	#	O	2.24280
+
+u0:economy-class	#	B-economy	7.67518
+
+u0:via	#	O	7.88440
+
+um_1:via/dallas	#	B-stoploc.city_name	4.65591
+
+u0:layover	#	O	6.47689
+
+um_1:a/layover	#	O	0.64458
+
+um_1:san-francisco/after	#	B-mod	4.27099
+
+um_1:after/2pm	#	B-depart_time.time	2.53529
+
+u0:more	#	O	4.30327
+u0:more	#	B-mod	4.30327
+
+um_1:has/more	#	B-mod	0.84236
+
+u0:than	#	O	8.79263
+
+u0:other	#	O	7.33541
+u0:other	#	B-mod	1.40664
+
+um_1:for/san-francisco	#	B-fromloc.city_name	-0.90890
+um_1:for/san-francisco	#	B-city_name	0.37506
+
+um_1:for/denver	#	B-fromloc.city_name	-0.03597
+um_1:for/denver	#	B-toloc.city_name	1.43296
+
+u0:late-afternoon	#	B-depart_time.period_of_day	5.84287
+u0:late-afternoon	#	B-arrive_time.period_of_day	2.30914
+
+um_1:the/late-afternoon	#	B-arrive_time.period_of_day	2.94399
+
+u0:3-o'clock	#	B-depart_time.time	2.15549
+u0:3-o'clock	#	B-depart_time.end_time	2.15549
+
+um_1:around/3-o'clock	#	B-depart_time.time	2.26378
+
+um_1:after/12-noon	#	B-depart_time.time	1.60730
+
+u0:delta's	#	B-airline_name	5.80721
+
+u0:rental-car	#	B-transport_type	7.21372
+
+u0:far	#	O	3.46432
+
+um_1:how/far	#	O	3.46432
+
+um_1:at/9-o'clock	#	B-depart_time.time	0.39896
+
+u0:saturday	#	B-depart_date.day_name	8.27353
+u0:saturday	#	B-arrive_date.day_name	4.55559
+
+um_1:baltimore/washington	#	O	5.89888
+um_1:baltimore/washington	#	B-fromloc.city_name	-0.40036
+um_1:baltimore/washington	#	B-toloc.state_name	1.63620
+
+u0:come	#	O	2.24280
+
+um_1:flights/come	#	O	2.24280
+
+u0:smallest	#	B-mod	5.54531
+
+um_1:the/smallest	#	B-mod	1.99520
+
+u0:seating	#	O	7.20593
+
+u0:capacity	#	O	6.29670
+
+um_1:seating/capacity	#	O	1.22135
+
+u0:most-expensive	#	B-cost_relative	3.75123
+
+um_1:the/most-expensive	#	B-cost_relative	3.75123
+
+u0:tickets	#	O	6.91618
+
+um_1:and/dallas	#	B-toloc.city_name	4.30968
+
+u0:atlanta's	#	B-fromloc.city_name	2.15549
+u0:atlanta's	#	B-toloc.city_name	2.15549
+
+um_1:of/atlanta's	#	B-fromloc.city_name	2.26378
+
+um_1:into/atlanta's	#	B-toloc.city_name	2.26378
+
+um_1:november/seventh	#	B-depart_date.day_number	0.79555
+
+u0:noon	#	B-depart_time.time	5.69312
+u0:noon	#	B-arrive_time.time	5.77911
+u0:noon	#	B-depart_time.start_time	2.80785
+
+um_1:at/noon	#	B-depart_time.time	2.26645
+
+u0:originating	#	O	2.97591
+
+um_1:flight/originating	#	O	2.97591
+
+u0:210pm	#	B-arrive_time.time	2.24280
+
+um_1:at/210pm	#	B-arrive_time.time	2.24280
+
+um_1:in/oakland	#	B-fromloc.city_name	-1.93319
+um_1:in/oakland	#	B-toloc.city_name	1.04897
+um_1:in/oakland	#	B-city_name	2.26727
+
+um_1:departing/san-francisco	#	B-fromloc.city_name	1.23293
+
+u0:eighth	#	B-depart_date.day_number	6.44935
+u0:eighth	#	B-arrive_date.day_number	1.94976
+
+um_1:november/eighth	#	B-depart_date.day_number	-0.12056
+um_1:november/eighth	#	B-arrive_date.day_number	4.68190
+
+u0:ninth	#	B-depart_date.day_number	5.54165
+u0:ninth	#	B-arrive_date.day_number	2.62087
+
+um_1:november/ninth	#	B-arrive_date.day_number	4.01543
+
+um_1:july/fourth	#	B-arrive_date.day_number	2.68303
+
+u0:offers	#	O	5.07648
+
+um_1:airline/offers	#	O	0.52966
+
+u0:heading	#	O	5.80721
+
+u0:279	#	B-flight_number	2.24280
+
+um_1:it/279	#	B-flight_number	2.24280
+
+u0:137338	#	B-flight_number	2.24280
+
+um_1:it/137338	#	B-flight_number	2.24280
+
+um_1:leave/before	#	B-depart_time.time_relative	1.53404
+um_1:leave/before	#	B-arrive_time.time_relative	-0.72390
+
+um_1:before/630am	#	B-depart_time.time	0.52966
+
+um_1:july/three	#	B-depart_date.day_number	2.51783
+
+u0:3	#	O	3.78362
+u0:3	#	B-depart_time.time	3.78362
+u0:3	#	B-arrive_time.start_time	1.53178
+
+um_1:about/3	#	B-depart_time.time	1.17729
+
+um_1:leave/after	#	B-depart_time.time_relative	0.74256
+
+u0:1-o'clock	#	B-depart_time.time	1.83673
+u0:1-o'clock	#	B-arrive_time.end_time	1.96676
+u0:1-o'clock	#	B-depart_time.start_time	1.83673
+
+um_1:after/1-o'clock	#	B-depart_time.time	2.51962
+
+u0:toward	#	O	2.24280
+
+um_1:heading/toward	#	O	2.24280
+
+um_1:toward/boston	#	B-fromloc.city_name	-0.62701
+um_1:toward/boston	#	B-toloc.city_name	1.01087
+
+u0:oakland-airport	#	B-fromloc.airport_name	4.59992
+u0:oakland-airport	#	B-toloc.airport_name	2.12988
+
+um_1:to/oakland-airport	#	B-toloc.airport_name	2.51783
+
+um_1:oakland/california	#	B-toloc.state_name	0.45511
+
+u0:each	#	O	7.02623
+
+u0:k	#	B-fare_basis_code	2.24280
+
+um_1:class/k	#	B-fare_basis_code	2.24280
+
+u0:lufthansa	#	B-airline_name	6.30193
+
+u0:twenty-sixth	#	B-depart_date.day_number	6.59210
+
+u0:name	#	O	6.32743
+
+um_1:the/name	#	O	0.17727
+
+u0:philadelphia-airport	#	B-fromloc.airport_name	1.51803
+u0:philadelphia-airport	#	B-airport_name	4.84378
+
+um_1:_x-1/philadelphia	#	B-fromloc.city_name	2.49610
+
+um_1:arriving/before	#	B-depart_time.time_relative	-0.93611
+um_1:arriving/before	#	B-arrive_time.time_relative	2.39360
+
+u0:1	#	B-arrive_time.time	2.65308
+
+um_1:before/1	#	B-arrive_time.time	2.65308
+
+um_1:_x-1/dallas	#	B-fromloc.city_name	0.34861
+um_1:_x-1/dallas	#	B-city_name	0.46756
+
+u0:4	#	B-depart_time.time	1.30919
+u0:4	#	B-arrive_time.start_time	2.28995
+u0:4	#	B-arrive_time.end_time	1.50991
+u0:4	#	B-depart_time.end_time	2.76530
+
+um_1:after/4	#	B-depart_time.time	3.19317
+
+um_1:_x-1/san-francisco	#	B-fromloc.city_name	1.93020
+
+u0:departure-time	#	B-flight_time	5.80721
+
+um_1:an/early-afternoon	#	B-depart_time.period_of_day	2.78590
+
+um_1:nonstop/afternoon	#	B-depart_time.period_of_day	-1.94411
+um_1:nonstop/afternoon	#	B-arrive_time.period_of_day	2.48679
+
+um_1:nonstop/early-afternoon	#	B-arrive_time.period_of_day	0.82785
+
+um_1:for/dallas	#	B-fromloc.city_name	-1.07318
+um_1:for/dallas	#	B-toloc.city_name	2.02825
+um_1:for/dallas	#	B-stoploc.city_name	-0.01256
+um_1:for/dallas	#	B-city_name	1.20685
+
+um_1:the/two	#	B-mod	4.29256
+
+u0:limousine	#	B-transport_type	7.72044
+
+u0:total	#	O	2.64523
+u0:total	#	B-mod	1.85174
+
+um_1:the/total	#	O	2.64523
+um_1:the/total	#	B-mod	1.85174
+
+u0:advertises	#	O	2.24280
+
+um_1:that/advertises	#	O	2.24280
+
+u0:having	#	O	2.24280
+
+um_1:advertises/having	#	O	2.24280
+
+um_1:having/more	#	B-mod	0.84236
+
+u0:f	#	B-fare_basis_code	3.67651
+
+um_1:code/f	#	B-fare_basis_code	3.67651
+
+u0:logan-airport	#	B-airport_name	2.01893
+u0:logan-airport	#	B-toloc.airport_name	2.12990
+
+um_1:to/logan-airport	#	B-toloc.airport_name	2.27803
+
+u0:pittsburgh-airport	#	B-fromloc.airport_name	5.00191
+u0:pittsburgh-airport	#	B-airport_name	5.06615
+
+um_1:the/pittsburgh-airport	#	B-fromloc.airport_name	2.64146
+
+u0:town	#	O	2.24280
+
+um_1:the/town	#	O	2.24280
+
+u0:kinds	#	O	2.97591
+
+um_1:what/kinds	#	O	2.97591
+
+um_1:in/dallas-fort-worth	#	B-fromloc.city_name	-0.48979
+um_1:in/dallas-fort-worth	#	B-toloc.city_name	0.28809
+um_1:in/dallas-fort-worth	#	B-stoploc.city_name	2.64746
+um_1:in/dallas-fort-worth	#	B-city_name	1.75349
+
+u0:dallas-fort-worth-international-airport	#	B-fromloc.airport_name	2.24280
+
+um_1:between/dallas-fort-worth-international-airport	#	B-fromloc.airport_name	2.24280
+
+u0:eight	#	B-depart_time.time	2.15549
+u0:eight	#	B-depart_date.day_number	2.15549
+
+um_1:july/eight	#	B-depart_date.day_number	2.26378
+
+u0:within	#	O	5.55875
+
+um_1:within/pittsburgh	#	B-city_name	3.05427
+
+u0:schedule-for-flights	#	B-flight_time	2.24280
+
+um_1:the/schedule-for-flights	#	B-flight_time	2.24280
+
+um_1:july/ninth	#	B-depart_date.day_number	0.26951
+
+u0:s-	#	B-meal_code	5.55875
+
+u0:designate	#	O	2.24280
+
+um_1:s-/designate	#	O	2.24280
+
+u0:takes	#	O	2.24280
+
+um_1:that/takes	#	O	2.24280
+
+u0:least	#	O	2.14123
+u0:least	#	B-mod	4.84427
+
+u0:amount	#	O	6.49843
+
+um_1:july/twenty-fifth	#	B-depart_date.day_number	0.46382
+
+u0:planes	#	O	6.87550
+
+um_1:july/first	#	B-depart_date.day_number	0.93380
+
+um_1:oakland/july	#	B-arrive_date.month_name	1.76631
+
+um_1:july/twenty-seventh	#	B-depart_date.day_number	-0.37150
+um_1:july/twenty-seventh	#	B-arrive_date.day_number	3.76343
+
+u0:usa-air	#	B-airline_name	2.24280
+
+um_1:on/usa-air	#	B-airline_name	2.24280
+
+um_1:leaving/oakland	#	B-fromloc.city_name	0.87106
+
+um_1:leaving/july	#	B-depart_date.month_name	0.56113
+
+um_1:dallas/dallas	#	O	2.86365
+
+um_1:the/different	#	O	0.52966
+
+u0:prices	#	O	7.84919
+
+um_1:arriving/july	#	B-arrive_date.month_name	1.76631
+
+u0:various	#	O	5.55875
+
+u0:airplanes	#	O	5.55875
+
+u0:uses	#	O	7.02623
+
+um_1:baltimore/july	#	B-arrive_date.month_name	1.76631
+
+u0:who	#	O	5.55875
+
+um_1:for/dallas-fort-worth	#	B-city_name	1.63509
+
+um_1:before/9am	#	B-depart_time.time	0.54835
+um_1:before/9am	#	B-arrive_time.time	2.75086
+
+um_1:boston/before	#	B-depart_time.time_relative	-0.61478
+um_1:boston/before	#	B-arrive_time.time_relative	1.15994
+
+um_1:before/noon	#	B-depart_time.time	3.29431
+um_1:before/noon	#	B-arrive_time.time	3.16529
+
+u0:time-of-arrival	#	B-flight_time	2.24280
+
+um_1:and/time-of-arrival	#	B-flight_time	2.24280
+
+u0:departure-times	#	B-flight_time	5.55875
+
+um_1:leaving/dallas-fort-worth	#	B-fromloc.city_name	1.57168
+
+um_1:for/boston	#	B-fromloc.city_name	-1.59752
+um_1:for/boston	#	B-toloc.city_name	0.52214
+
+um_1:after/6pm	#	B-depart_time.time	5.31538
+
+um_1:between/4	#	B-arrive_time.start_time	4.17113
+
+u0:8pm	#	B-depart_time.time	1.89845
+u0:8pm	#	B-arrive_time.time	5.82462
+u0:8pm	#	B-arrive_time.end_time	1.11031
+u0:8pm	#	B-depart_time.end_time	1.11031
+
+um_1:and/8pm	#	B-arrive_time.time	-1.07487
+um_1:and/8pm	#	B-arrive_time.end_time	3.44231
+um_1:and/8pm	#	B-depart_time.end_time	3.44231
+
+um_1:august/third	#	B-arrive_date.day_number	2.96534
+
+u0:baltimore-airport	#	B-airport_name	5.55875
+
+um_1:baltimore/before	#	B-depart_time.time_relative	-0.24684
+um_1:baltimore/before	#	B-arrive_time.time_relative	0.73246
+
+um_1:august/fourth	#	B-arrive_date.day_number	2.59853
+
+um_1:august/fifth	#	B-depart_date.day_number	-0.17817
+um_1:august/fifth	#	B-arrive_date.day_number	4.58028
+
+um_1:fly/boston	#	B-fromloc.city_name	0.40231
+
+um_1:departing/around	#	B-arrive_time.time_relative	0.01370
+
+u0:including	#	O	2.24280
+
+um_1:flights/including	#	O	2.24280
+
+um_1:at/5	#	B-depart_time.time	0.81106
+
+um_1:at/9am	#	B-depart_time.time	0.13642
+
+u0:offer	#	O	6.78790
+
+u0:eleven	#	B-depart_date.day_number	2.24280
+
+um_1:july/eleven	#	B-depart_date.day_number	2.24280
+
+um_1:at/one	#	O	-0.05533
+um_1:at/one	#	B-depart_time.time	6.21156
+
+u0:any-day	#	O	5.59804
+u0:any-day	#	B-depart_date.day_name	1.68233
+
+um_1:on/any-day	#	B-depart_date.day_name	2.35333
+
+um_1:between/san-francisco	#	B-fromloc.city_name	2.82381
+
+u0:352	#	B-flight_number	2.24280
+
+um_1:flight/352	#	B-flight_number	2.24280
+
+u0:price	#	O	7.83351
+
+u0:operating	#	O	2.24280
+
+um_1:philadelphia/operating	#	O	2.24280
+
+u0:sundays	#	B-depart_date.day_name	2.97591
+
+um_1:on/sundays	#	B-depart_date.day_name	2.97591
+
+u0:services	#	O	5.80721
+
+u0:reservations	#	O	5.55875
+
+um_1:arriving/by	#	O	-0.70641
+um_1:arriving/by	#	B-arrive_time.time_relative	2.19549
+
+um_1:by/noon	#	B-arrive_time.time	1.85220
+
+um_1:us-air/boston	#	B-fromloc.city_name	-0.01465
+um_1:us-air/boston	#	B-toloc.city_name	0.23334
+
+u0:1765	#	B-flight_number	5.55875
+
+um_1:many/stops	#	B-flight_stop	0.86326
+
+um_1:at/logan-airport	#	B-airport_name	3.45205
+
+u0:flight-schedule	#	B-flight_time	5.70639
+
+um_1:the/flight-schedule	#	B-flight_time	0.75029
+
+u0:f28	#	B-aircraft_code	5.07648
+
+um_1:the/f28	#	B-aircraft_code	0.52966
+
+u0:air-taxi-operation	#	B-transport_type	2.24280
+
+um_1:the/air-taxi-operation	#	B-transport_type	2.24280
+
+u0:philadelphia-international-airport	#	B-airport_name	2.24280
+
+um_1:at/philadelphia-international-airport	#	B-airport_name	2.24280
+
+u0:pm	#	B-depart_time.period_of_day	6.49843
+
+u0:serving	#	O	6.89357
+
+um_1:_x-1/oakland	#	B-fromloc.city_name	1.73955
+
+um_1:fort-worth/dallas	#	B-stoploc.city_name	3.68604
+
+u0:anything	#	O	2.24280
+
+um_1:_x-1/anything	#	O	2.24280
+
+um_1:baltimore/or	#	O	0.09683
+
+um_1:or/washington	#	B-toloc.city_name	0.95118
+
+um_1:_x-1/pittsburgh	#	B-fromloc.city_name	1.29304
+
+u0:say	#	O	5.55875
+
+um_1:say/about	#	B-arrive_time.time_relative	1.14021
+
+u0:mealtime	#	B-arrive_time.time	2.24280
+
+um_1:about/mealtime	#	B-arrive_time.time	2.24280
+
+u0:run	#	O	2.24280
+
+um_1:that/run	#	O	2.24280
+
+u0:seats	#	O	5.70639
+
+u0:earlier	#	B-depart_time.time_relative	5.55875
+
+u0:1017	#	B-depart_time.time	2.24280
+
+um_1:than/1017	#	B-depart_time.time	2.24280
+
+u0:630	#	B-arrive_time.time	2.24280
+
+um_1:at/630	#	B-arrive_time.time	2.24280
+
+um_1:arrive/after	#	B-depart_time.time_relative	-2.27138
+um_1:arrive/after	#	B-arrive_time.time_relative	4.20118
+
+u0:5-o'clock-pm	#	B-depart_time.time	5.83755
+u0:5-o'clock-pm	#	B-arrive_time.time	3.70547
+
+um_1:after/5-o'clock-pm	#	B-depart_time.time	0.02294
+um_1:after/5-o'clock-pm	#	B-arrive_time.time	1.45185
+
+u0:4-o'clock-pm	#	B-arrive_time.time	2.24280
+
+um_1:after/4-o'clock-pm	#	B-arrive_time.time	2.24280
+
+um_1:leave/san-francisco	#	B-fromloc.city_name	0.82831
+
+um_1:monday/night	#	B-arrive_time.period_of_day	3.29433
+
+um_1:at/atlanta	#	B-toloc.city_name	1.00582
+
+u0:later	#	B-depart_time.time_relative	5.37837
+u0:later	#	B-arrive_time.time_relative	1.96711
+
+um_1:atlanta/later	#	B-arrive_time.time_relative	3.52354
+
+um_1:atlanta/after	#	B-arrive_time.time_relative	0.32623
+
+u0:6-o'clock-pm	#	B-depart_time.time	3.13029
+u0:6-o'clock-pm	#	B-arrive_time.time	1.84900
+
+um_1:after/6-o'clock-pm	#	B-depart_time.time	3.13029
+um_1:after/6-o'clock-pm	#	B-arrive_time.time	1.84900
+
+um_1:leave/washington	#	B-fromloc.city_name	0.61077
+
+u0:serviced	#	O	2.65308
+
+um_1:are/serviced	#	O	2.65308
+
+um_1:serviced/by	#	O	0.34834
+
+u0:dfw	#	B-fromloc.airport_code	2.34216
+u0:dfw	#	B-toloc.airport_code	3.83668
+u0:dfw	#	B-airport_code	1.53231
+
+um_1:between/dfw	#	B-fromloc.airport_code	3.39783
+
+u0:1133am	#	B-arrive_time.start_time	2.24280
+
+um_1:between/1133am	#	B-arrive_time.start_time	2.24280
+
+u0:43pm	#	B-arrive_time.end_time	2.24280
+
+um_1:and/43pm	#	B-arrive_time.end_time	2.24280
+
+u0:provided	#	O	5.63997
+
+um_1:are/provided	#	O	0.87375
+
+um_1:provided/by	#	O	1.32513
+
+um_1:served/by	#	O	1.97118
+
+u0:provides	#	O	2.24280
+
+um_1:airline/provides	#	O	2.24280
+
+u0:both	#	O	6.89357
+
+um_1:and/dfw	#	B-toloc.airport_code	2.36235
+
+um_1:dfw/provided	#	O	0.73352
+
+u0:meals	#	B-meal	7.55598
+
+um_1:on/saturday	#	B-depart_date.day_name	0.91305
+um_1:on/saturday	#	B-arrive_date.day_name	2.43579
+
+u0:airplane	#	O	6.71894
+
+u0:6-o'clock	#	B-depart_time.time	5.13154
+u0:6-o'clock	#	B-arrive_time.time	3.91070
+
+u0:sunday	#	B-depart_date.day_name	8.39937
+u0:sunday	#	B-arrive_date.day_name	3.93574
+u0:sunday	#	B-return_date.day_name	1.56791
+
+um_1:does/dfw	#	B-airport_code	3.22701
+
+u0:mean	#	O	8.97326
+
+um_1:for/pittsburgh	#	B-fromloc.city_name	-1.43719
+um_1:for/pittsburgh	#	B-toloc.city_name	0.06333
+um_1:for/pittsburgh	#	B-city_name	1.21300
+
+um_1:arrives/earliest	#	B-flight_mod	-0.41978
+um_1:arrives/earliest	#	B-arrive_time.period_mod	3.53465
+
+um_1:arrive/before	#	B-depart_time.time_relative	-0.95855
+um_1:arrive/before	#	B-arrive_time.time_relative	3.03480
+
+um_1:from/pittsburgh-airport	#	B-fromloc.airport_name	0.50472
+
+um_1:downtown/pittsburgh	#	B-fromloc.city_name	-0.27600
+um_1:downtown/pittsburgh	#	B-toloc.city_name	1.87107
+
+um_1:after/noon	#	B-depart_time.time	1.66847
+
+um_1:to/dc	#	B-toloc.state_code	3.30468
+
+um_1:july/twenty-second	#	B-arrive_date.day_number	2.42429
+
+um_1:leaving/dc	#	B-fromloc.state_code	0.71140
+
+um_1:from/dc	#	B-fromloc.state_code	1.74343
+
+u0:american's	#	B-airline_name	2.65308
+
+um_1:is/american's	#	B-airline_name	2.65308
+
+u0:bwi	#	B-fromloc.airport_code	2.58939
+u0:bwi	#	B-toloc.airport_code	4.13412
+u0:bwi	#	B-airport_code	1.46341
+
+um_1:from/bwi	#	B-fromloc.airport_code	4.59336
+
+um_1:and/dc	#	B-toloc.state_code	0.79204
+
+u0:still	#	O	5.55875
+
+u0:cover	#	O	2.24280
+
+um_1:codes/cover	#	O	2.24280
+
+u0:less	#	B-cost_relative	8.74697
+
+u0:200-dollars	#	B-fare_amount	2.24280
+
+um_1:than/200-dollars	#	B-fare_amount	2.24280
+
+um_1:leave/baltimore	#	B-fromloc.city_name	1.57236
+um_1:leave/baltimore	#	B-toloc.city_name	-0.27127
+
+u0:oak	#	B-fromloc.airport_code	2.24280
+
+um_1:between/oak	#	B-fromloc.airport_code	2.24280
+
+u0:atl	#	B-toloc.airport_code	2.15549
+u0:atl	#	B-airport_code	2.15549
+
+um_1:and/atl	#	B-toloc.airport_code	2.26378
+
+u0:qx-fare	#	B-fare_basis_code	2.24280
+
+um_1:the/qx-fare	#	B-fare_basis_code	2.24280
+
+u0:lowest-price	#	B-cost_relative	2.65308
+
+um_1:the/lowest-price	#	B-cost_relative	2.65308
+
+u0:82	#	B-flight_number	2.24280
+
+um_1:delta/82	#	B-flight_number	2.24280
+
+u0:139	#	B-flight_number	2.24280
+
+um_1:delta/139	#	B-flight_number	2.24280
+
+u0:q-fares	#	B-fare_basis_code	2.24280
+
+um_1:with/q-fares	#	B-fare_basis_code	2.24280
+
+u0:124-dollars	#	B-fare_amount	2.24280
+
+um_1:a/124-dollars	#	B-fare_amount	2.24280
+
+u0:ls	#	B-meal_code	2.24280
+
+um_1:does/ls	#	B-meal_code	2.24280
+
+u0:stand	#	O	7.84295
+
+u0:level	#	O	2.24280
+
+um_1:economy/level	#	O	2.24280
+
+u0:carries	#	O	5.55875
+
+u0:passengers	#	O	6.09122
+
+um_1:of/passengers	#	O	0.05950
+
+u0:1505	#	B-depart_time.time	2.24280
+
+um_1:at/1505	#	B-depart_time.time	2.24280
+
+u0:serve	#	O	8.55622
+
+u0:lunch	#	B-meal_description	7.20856
+
+u0:itinerary	#	O	2.65308
+
+um_1:the/itinerary	#	O	2.65308
+
+u0:departs	#	O	3.11322
+
+um_1:that/departs	#	O	3.11322
+
+um_1:at/10am	#	B-depart_time.time	0.60744
+
+um_1:flights/direct	#	O	2.04404
+um_1:flights/direct	#	B-connect	-0.02817
+
+um_1:and/connecting	#	O	5.41536
+um_1:and/connecting	#	B-connect	-0.91428
+
+um_1:pittsburgh/before	#	B-depart_time.time_relative	-0.30741
+um_1:pittsburgh/before	#	B-arrive_time.time_relative	0.90231
+
+um_1:both/direct	#	O	4.32877
+um_1:both/direct	#	B-connect	-0.98928
+
+um_1:or/oakland	#	B-toloc.city_name	3.06971
+
+u0:local	#	O	2.24280
+
+um_1:10am/local	#	O	2.24280
+
+um_1:local/time	#	B-arrive_time.time	3.80838
+
+u0:either	#	O	7.34995
+
+um_1:either/san-francisco	#	B-fromloc.city_name	-0.47297
+um_1:either/san-francisco	#	B-toloc.city_name	2.09263
+
+um_1:before/2pm	#	B-arrive_time.time	1.71708
+
+um_1:between/dallas-fort-worth	#	B-fromloc.city_name	1.57168
+
+um_1:between/5	#	B-arrive_time.start_time	2.97148
+um_1:between/5	#	B-depart_time.start_time	2.97148
+
+um_1:and/7pm	#	B-arrive_time.time	-0.67650
+um_1:and/7pm	#	B-arrive_time.end_time	3.22146
+um_1:and/7pm	#	B-depart_time.end_time	3.90432
+
+u0:dallas-fort-worth-airport	#	B-fromloc.airport_name	5.07648
+
+um_1:departs/dallas-fort-worth	#	B-fromloc.city_name	1.57168
+
+u0:1940	#	B-depart_time.time	2.24280
+
+um_1:at/1940	#	B-depart_time.time	2.24280
+
+um_1:departing/before	#	B-depart_time.time_relative	1.17638
+um_1:departing/before	#	B-arrive_time.time_relative	-0.65758
+
+um_1:many/passengers	#	O	0.05950
+
+u0:boeing	#	O	6.54734
+
+um_1:a/boeing	#	O	0.58077
+
+u0:737	#	B-aircraft_code	2.97591
+
+um_1:boeing/737	#	B-aircraft_code	2.97591
+
+u0:hold	#	O	2.24280
+
+um_1:737/hold	#	O	2.24280
+
+um_1:denver/dallas	#	O	4.62382
+um_1:denver/dallas	#	B-fromloc.city_name	-0.05829
+
+u0:6	#	B-depart_time.time	1.78467
+u0:6	#	B-arrive_time.time	1.78467
+u0:6	#	B-arrive_time.start_time	1.78467
+
+um_1:between/6	#	B-arrive_time.start_time	2.50528
+
+u0:qualify	#	O	2.24280
+
+um_1:denver/qualify	#	O	2.24280
+
+u0:describe	#	O	2.97591
+
+um_1:_x-1/describe	#	O	2.97591
+
+um_1:the/dallas-fort-worth-airport	#	B-fromloc.airport_name	0.52966
+
+um_1:at/san-francisco	#	B-fromloc.city_name	-0.90890
+um_1:at/san-francisco	#	B-city_name	0.37506
+
+u0:j31	#	B-aircraft_code	2.24280
+
+um_1:a/j31	#	B-aircraft_code	2.24280
+
+u0:733	#	B-aircraft_code	2.24280
+
+um_1:a/733	#	B-aircraft_code	2.24280
+
+um_1:many/seats	#	O	0.75029
+
+u0:72s	#	B-aircraft_code	2.65308
+
+um_1:a/72s	#	B-aircraft_code	2.65308
+
+u0:734	#	B-aircraft_code	2.24280
+
+um_1:a/734	#	B-aircraft_code	2.24280
+
+u0:100	#	B-aircraft_code	2.15549
+u0:100	#	B-fare_amount	2.15549
+
+um_1:a/100	#	B-aircraft_code	2.26378
+
+u0:415-dollars	#	B-fare_amount	2.24280
+
+um_1:of/415-dollars	#	B-fare_amount	2.24280
+
+um_1:to/bwi	#	B-toloc.airport_code	3.09682
+
+um_1:flight/should	#	O	1.51730
+
+um_1:atlanta/before	#	B-depart_time.time_relative	0.93490
+um_1:atlanta/before	#	B-arrive_time.time_relative	-0.05284
+
+u0:705	#	B-arrive_time.time	2.24280
+
+um_1:at/705	#	B-arrive_time.time	2.24280
+
+um_1:of/dallas	#	B-stoploc.city_name	1.58612
+
+u0:71	#	B-flight_number	2.24280
+
+um_1:flight/71	#	B-flight_number	2.24280
+
+u0:directly	#	B-flight_stop	2.24280
+
+um_1:fly/directly	#	B-flight_stop	2.24280
+
+um_1:the/schedule	#	B-flight_time	1.40567
+
+um_1:a/schedule	#	B-flight_time	0.85156
+
+um_1:august/first	#	B-depart_date.day_number	0.83584
+
+u0:scheduled	#	O	2.24280
+
+um_1:baltimore/scheduled	#	O	2.24280
+
+u0:december	#	B-depart_date.month_name	8.46626
+
+u0:turboprop	#	O	5.07648
+
+um_1:to/dfw	#	B-toloc.airport_code	1.80097
+
+um_1:_x-1/where	#	O	0.59400
+
+u0:doesn't	#	B-mod	2.24280
+
+um_1:american/doesn't	#	B-mod	2.24280
+
+u0:catch	#	O	2.24280
+
+um_1:to/catch	#	O	2.24280
+
+um_1:monday/morning	#	B-period_of_day	1.62180
+
+u0:lufthansa-airlines	#	B-airline_name	2.24280
+
+um_1:on/lufthansa-airlines	#	B-airline_name	2.24280
+
+u0:logan	#	B-fromloc.airport_name	4.81397
+u0:logan	#	B-toloc.airport_name	1.87919
+
+um_1:between/logan	#	B-fromloc.airport_name	0.76285
+
+um_1:and/bwi	#	B-toloc.airport_code	1.59701
+
+u0:2-o'clock	#	B-depart_time.time	2.15549
+u0:2-o'clock	#	B-arrive_time.time	2.15549
+
+um_1:around/2-o'clock	#	B-depart_time.time	2.26378
+
+um_1:from/philadelphia-airport	#	B-fromloc.airport_name	4.84936
+
+u0:distance	#	O	6.54734
+
+um_1:the/distance	#	O	0.58077
+
+um_1:between/pittsburgh-airport	#	B-fromloc.airport_name	0.50472
+
+um_1:of/pittsburgh	#	B-stoploc.city_name	2.37530
+
+u0:tuesdays	#	B-depart_date.day_name	3.11322
+
+um_1:on/tuesdays	#	B-depart_date.day_name	3.11322
+
+u0:companies	#	O	2.24280
+
+um_1:which/companies	#	O	2.24280
+
+u0:people	#	O	6.93443
+
+u0:carried	#	O	2.24280
+
+um_1:be/carried	#	O	2.24280
+
+u0:shortest	#	B-flight_mod	6.49282
+
+um_1:planes/leave	#	O	-3.27798
+um_1:planes/leave	#	B-fromloc.city_name	4.73303
+
+u0:january	#	B-depart_date.month_name	3.59837
+
+um_1:on/january	#	B-depart_date.month_name	3.59837
+
+um_1:january/first	#	B-depart_date.day_number	0.93380
+
+u0:cheap	#	O	2.10316
+u0:cheap	#	B-flight_mod	1.72676
+
+um_1:a/cheap	#	B-flight_mod	4.29594
+
+um_1:january/one	#	O	-0.05178
+um_1:january/one	#	B-depart_date.day_number	3.24769
+
+um_1:a/turboprop	#	O	0.52966
+
+um_1:the/next	#	O	0.40872
+um_1:the/next	#	B-depart_date.date_relative	-1.38765
+um_1:the/next	#	B-flight_mod	2.53826
+um_1:the/next	#	B-arrive_date.date_relative	-0.91512
+um_1:the/next	#	B-return_date.date_relative	3.63776
+
+um_1:plane/after	#	O	4.87031
+um_1:plane/after	#	B-depart_time.time_relative	-2.26669
+
+u0:back	#	O	6.83793
+u0:back	#	B-return	5.21939
+
+um_1:and/back	#	B-return	2.84834
+
+u0:reverse	#	O	2.24280
+
+um_1:to/reverse	#	O	2.24280
+
+u0:airports	#	O	8.19928
+
+um_1:airports/by	#	O	0.34834
+
+u0:everywhere	#	O	2.24280
+
+um_1:to/everywhere	#	O	2.24280
+
+um_1:after/3	#	B-depart_time.time	1.17729
+
+um_1:between/noon	#	B-depart_time.start_time	4.88854
+
+um_1:and/5-o'clock	#	B-arrive_time.time	-0.04499
+um_1:and/5-o'clock	#	B-arrive_time.end_time	3.06850
+um_1:and/5-o'clock	#	B-depart_time.end_time	3.06850
+
+u0:day-time	#	B-flight_mod	2.24280
+
+um_1:all/day-time	#	B-flight_mod	2.24280
+
+um_1:august/sixth	#	B-depart_date.day_number	2.15157
+
+um_1:between/6pm	#	B-depart_time.start_time	4.77230
+
+u0:10pm	#	B-depart_time.time	1.86627
+u0:10pm	#	B-arrive_time.time	4.92364
+u0:10pm	#	B-depart_time.end_time	1.86627
+
+um_1:and/10pm	#	B-depart_time.end_time	3.57359
+
+u0:midway-airlines	#	B-airline_name	5.55875
+
+um_1:august/tenth	#	B-depart_date.day_number	0.03985
+
+um_1:between/baltimore	#	B-fromloc.city_name	2.70910
+um_1:between/baltimore	#	B-toloc.city_name	-0.55149
+
+um_1:returning/august	#	B-depart_date.month_name	-1.98778
+um_1:returning/august	#	B-return_date.month_name	3.88745
+
+u0:twelve	#	B-return_date.day_number	2.24280
+
+um_1:august/twelve	#	B-return_date.day_number	2.24280
+
+u0:capacities	#	O	2.24280
+
+um_1:seating/capacities	#	O	2.24280
+
+um_1:at/baltimore	#	B-toloc.city_name	-0.36549
+um_1:at/baltimore	#	B-city_name	0.52538
+
+um_1:at/boston	#	B-city_name	2.59458
+
+u0:largest	#	B-mod	2.24280
+
+um_1:the/largest	#	B-mod	2.24280
+
+u0:greatest	#	B-mod	2.24280
+
+um_1:the/greatest	#	B-mod	2.24280
+
+u0:767	#	B-aircraft_code	2.65308
+
+um_1:boeing/767	#	B-aircraft_code	2.65308
+
+u0:dinner	#	B-meal_description	7.91702
+
+u0:snack	#	B-meal_description	2.65308
+
+um_1:a/snack	#	B-meal_description	2.65308
+
+u0:3pm	#	B-depart_time.time	3.86522
+u0:3pm	#	B-arrive_time.time	1.55981
+u0:3pm	#	B-depart_time.end_time	1.55981
+
+um_1:after/3pm	#	B-depart_time.time	3.15997
+
+um_1:rental-car/rates	#	O	0.75029
+
+um_1:and/dallas-fort-worth	#	B-toloc.city_name	1.90442
+
+um_1:between/10am	#	B-depart_time.start_time	7.22137
+
+um_1:and/3pm	#	B-depart_time.end_time	3.19877
+
+um_1:and/fort-worth	#	B-toloc.city_name	1.11911
+
+u0:12	#	B-arrive_time.start_time	2.65228
+u0:12	#	B-depart_time.start_time	3.12929
+
+um_1:between/12	#	B-arrive_time.start_time	2.65228
+um_1:between/12	#	B-depart_time.start_time	3.12929
+
+u0:2	#	O	1.83673
+u0:2	#	B-depart_time.time	1.96676
+u0:2	#	B-depart_time.end_time	1.83673
+
+um_1:and/2	#	B-depart_time.end_time	2.51962
+
+u0:car-rental	#	B-transport_type	6.30193
+
+um_1:colorado/august	#	B-depart_date.month_name	-1.42879
+um_1:colorado/august	#	B-arrive_date.month_name	3.28022
+
+u0:limo	#	B-transport_type	5.55875
+
+u0:coming	#	O	6.02607
+u0:coming	#	B-depart_date.date_relative	1.91560
+
+um_1:and/4	#	B-arrive_time.end_time	2.30532
+um_1:and/4	#	B-depart_time.end_time	3.43626
+
+um_1:into/pittsburgh	#	B-fromloc.city_name	-0.28235
+um_1:into/pittsburgh	#	B-toloc.city_name	1.28104
+
+um_1:of/airplane	#	O	0.42655
+
+um_1:what/about	#	O	2.22082
+
+u0:fit	#	O	5.07648
+
+um_1:people/fit	#	O	0.52966
+
+um_1:leaving/or	#	O	2.13656
+um_1:leaving/or	#	B-or	-0.82443
+
+u0:d9s	#	B-aircraft_code	2.24280
+
+um_1:a/d9s	#	B-aircraft_code	2.24280
+
+u0:73s	#	B-aircraft_code	2.24280
+
+um_1:a/73s	#	B-aircraft_code	2.24280
+
+u0:once	#	O	2.24280
+
+um_1:there/once	#	O	2.24280
+
+u0:expensive	#	O	2.24280
+
+um_1:how/expensive	#	O	2.24280
+
+um_1:the/san-francisco	#	B-toloc.city_name	-0.14113
+um_1:the/san-francisco	#	B-city_name	0.81525
+
+um_1:used/by	#	O	1.32513
+
+um_1:on/eight	#	B-depart_time.time	2.26378
+
+um_1:eight/sixteen	#	O	3.18682
+
+um_1:thursday/morning	#	B-arrive_time.period_of_day	1.54440
+
+u0:sfo	#	B-fromloc.airport_code	4.58516
+u0:sfo	#	B-toloc.airport_code	2.20901
+
+um_1:to/sfo	#	B-toloc.airport_code	4.32878
+
+um_1:next/tuesday	#	B-arrive_date.day_name	1.27590
+
+um_1:after/6-o'clock	#	B-depart_time.time	1.80129
+
+um_1:6-o'clock/next	#	B-depart_date.date_relative	-0.40788
+um_1:6-o'clock/next	#	B-arrive_date.date_relative	2.30834
+
+um_1:baltimore/after	#	B-depart_time.time_relative	-0.00061
+um_1:baltimore/after	#	B-arrive_time.time_relative	0.49087
+
+um_1:after/8-o'clock	#	B-depart_time.time	0.52138
+
+um_1:after/5-o'clock	#	B-depart_time.time	2.86818
+
+um_1:after/5	#	B-depart_time.time	0.81106
+
+u0:charges	#	O	2.24280
+
+um_1:united/charges	#	O	2.24280
+
+u0:no	#	O	6.59210
+
+um_1:available/friday	#	B-depart_date.day_name	0.28903
+
+um_1:on/sunday	#	B-arrive_date.day_name	2.10580
+um_1:on/sunday	#	B-return_date.day_name	2.03308
+
+u0:4pm	#	B-depart_time.time	4.44062
+u0:4pm	#	B-arrive_time.time	5.28250
+
+um_1:boston/by	#	O	-0.18293
+um_1:boston/by	#	B-arrive_time.time_relative	0.98784
+
+um_1:by/one	#	O	-0.50773
+um_1:by/one	#	B-arrive_time.time	3.61633
+
+u0:so	#	O	6.49843
+
+u0:here	#	O	5.55875
+
+um_1:here/no-later-than	#	B-depart_time.time_relative	2.26378
+
+u0:11am	#	O	1.83079
+u0:11am	#	B-depart_time.time	1.83079
+u0:11am	#	B-arrive_time.time	4.32007
+
+um_1:no-later-than/11am	#	O	3.16598
+
+u0:abbreviation	#	O	3.46432
+
+um_1:the/abbreviation	#	O	3.46432
+
+u0:ua	#	B-airline_code	7.42008
+
+u0:co	#	B-airline_code	5.80721
+
+u0:weekday	#	O	1.36367
+u0:weekday	#	B-depart_date.day_name	1.84512
+u0:weekday	#	B-flight_mod	5.83262
+
+um_1:a/weekday	#	B-depart_date.day_name	2.42050
+
+u0:y	#	B-fare_basis_code	5.88490
+
+um_1:code/y	#	B-fare_basis_code	1.54214
+
+um_1:wednesday/after	#	B-arrive_time.time_relative	0.32623
+
+u0:1300-hours	#	B-depart_time.time	2.24280
+
+um_1:after/1300-hours	#	B-depart_time.time	2.24280
+
+u0:1600-hours	#	B-depart_time.time	2.24280
+
+um_1:after/1600-hours	#	B-depart_time.time	2.24280
+
+u0:7am	#	B-depart_time.time	4.77351
+u0:7am	#	B-arrive_time.time	1.94002
+
+um_1:after/7am	#	B-depart_time.time	0.74251
+
+u0:1700-hours	#	B-depart_time.time	2.24280
+
+um_1:after/1700-hours	#	B-depart_time.time	2.24280
+
+u0:under	#	O	1.96073
+u0:under	#	B-cost_relative	5.57446
+
+u0:500-dollars	#	B-fare_amount	2.24280
+
+um_1:under/500-dollars	#	B-fare_amount	2.24280
+
+u0:airfares	#	O	2.24280
+
+um_1:the/airfares	#	O	2.24280
+
+um_1:flights/dallas	#	B-fromloc.city_name	0.26721
+
+um_1:arriving/boston	#	B-fromloc.city_name	-0.97925
+um_1:arriving/boston	#	B-toloc.city_name	1.73945
+
+um_1:boston/afternoon	#	B-depart_time.period_of_day	-1.94411
+um_1:boston/afternoon	#	B-arrive_time.period_of_day	2.48679
+
+u0:options	#	O	5.80721
+
+um_1:me/evening	#	B-period_of_day	3.15297
+
+u0:philly	#	B-toloc.city_name	2.65308
+
+um_1:to/philly	#	B-toloc.city_name	2.65308
+
+u0:arrival	#	O	5.55875
+
+um_1:arrival/by	#	O	-0.18293
+um_1:arrival/by	#	B-arrive_time.time_relative	0.98784
+
+um_1:by/10am	#	B-arrive_time.time	0.37576
+
+um_1:between/1-o'clock	#	B-depart_time.start_time	2.51962
+
+um_1:and/3-o'clock	#	B-depart_time.end_time	2.26378
+
+um_1:all/am	#	O	2.26404
+
+u0:regarding	#	O	2.24280
+
+um_1:information/regarding	#	O	2.24280
+
+u0:san-francisco-airport	#	B-fromloc.airport_name	3.72887
+u0:san-francisco-airport	#	B-airport_name	1.57361
+u0:san-francisco-airport	#	B-toloc.airport_name	1.57361
+
+um_1:regarding/san-francisco-airport	#	B-airport_name	3.16777
+
+um_1:describe/pittsburgh-airport	#	B-airport_name	0.33957
+
+u0:display	#	O	3.86700
+
+um_1:_x-1/display	#	O	3.86700
+
+u0:second	#	B-depart_date.day_number	6.34557
+u0:second	#	B-arrive_date.day_number	4.38775
+
+um_1:august/second	#	B-depart_date.day_number	1.71551
+
+u0:seven	#	B-depart_date.day_number	2.24280
+
+um_1:august/seven	#	B-depart_date.day_number	2.24280
+
+um_1:for/tuesday	#	B-day_name	3.48760
+
+u0:12pm	#	B-depart_time.time	3.38009
+u0:12pm	#	B-arrive_time.time	1.84404
+
+um_1:after/12pm	#	B-depart_time.time	3.38009
+um_1:after/12pm	#	B-arrive_time.time	1.84404
+
+u0:economic	#	B-class_type	2.24280
+
+um_1:have/economic	#	B-class_type	2.24280
+
+u0:98	#	B-flight_number	2.24280
+
+um_1:dl/98	#	B-flight_number	2.24280
+
+um_1:a/thursday	#	B-arrive_date.day_name	0.52465
+
+um_1:before/9-o'clock	#	B-arrive_time.time	0.39896
+
+u0:us	#	B-airline_code	7.72044
+
+u0:345	#	B-flight_number	2.24280
+
+um_1:us/345	#	B-flight_number	2.24280
+
+u0:rent	#	O	6.32743
+
+u0:car	#	B-transport_type	3.38482
+
+um_1:a/car	#	B-transport_type	3.38482
+
+u0:stapleton-international-airport	#	B-fromloc.airport_name	2.24280
+
+um_1:at/stapleton-international-airport	#	B-fromloc.airport_name	2.24280
+
+u0:1083	#	B-flight_number	2.24280
+
+um_1:dl/1083	#	B-flight_number	2.24280
+
+u0:saturdays	#	B-depart_date.day_name	5.70639
+
+um_1:on/saturdays	#	B-depart_date.day_name	0.75029
+
+um_1:flight/ua	#	B-airline_code	0.58390
+
+u0:201	#	B-flight_number	5.55875
+
+u0:343	#	B-flight_number	2.65308
+
+um_1:ua/343	#	B-flight_number	2.65308
+
+um_1:stop/philadelphia	#	B-stoploc.city_name	4.61790
+
+u0:323	#	B-flight_number	2.24280
+
+um_1:dl/323	#	B-flight_number	2.24280
+
+u0:229	#	B-flight_number	2.24280
+
+um_1:dl/229	#	B-flight_number	2.24280
+
+um_1:_x-1/shortest	#	B-flight_mod	0.36434
+
+um_1:next/week	#	O	0.37051
+
+um_1:than/5pm	#	B-depart_time.time	1.68543
+um_1:than/5pm	#	B-arrive_time.time	-0.01265
+
+u0:meaning	#	O	2.97591
+
+um_1:the/meaning	#	O	2.97591
+
+u0:qw	#	B-fare_basis_code	6.64456
+
+um_1:early/weekday	#	O	4.47640
+
+um_1:dallas/tomorrow	#	B-depart_date.today_relative	-0.99150
+um_1:dallas/tomorrow	#	B-today_relative	3.64077
+
+u0:costs	#	O	6.32743
+
+um_1:the/costs	#	O	0.17727
+
+u0:the-day-after-tomorrow	#	B-depart_date.today_relative	5.38032
+u0:the-day-after-tomorrow	#	B-today_relative	1.70845
+
+um_1:for/the-day-after-tomorrow	#	B-today_relative	2.47658
+
+um_1:_x-1/denver	#	B-fromloc.city_name	1.18781
+
+um_1:transportation/philadelphia	#	B-city_name	2.69841
+
+um_1:ground/san-francisco	#	B-city_name	2.02288
+
+um_1:transportation/san-francisco	#	B-city_name	2.02288
+
+u0:transport	#	O	3.67651
+
+um_1:ground/transport	#	O	3.67651
+
+um_1:transport/denver	#	B-city_name	1.90930
+
+um_1:transportation/denver	#	B-fromloc.city_name	-0.00296
+um_1:transportation/denver	#	B-city_name	3.24067
+
+um_1:transportation/dallas	#	B-city_name	2.57805
+
+um_1:transportation/oakland	#	B-city_name	2.56804
+
+um_1:_x-1/baltimore	#	B-fromloc.city_name	1.82399
+um_1:_x-1/baltimore	#	B-toloc.city_name	-0.67696
+
+um_1:transportation/baltimore	#	B-city_name	2.60775
+
+um_1:philadelphia/wednesday	#	B-depart_date.day_name	-0.21210
+um_1:philadelphia/wednesday	#	B-arrive_date.day_name	1.59041
+
+um_1:_x-1/boston	#	B-fromloc.city_name	0.02915
+um_1:_x-1/boston	#	B-toloc.city_name	-0.35624
+um_1:_x-1/boston	#	B-city_name	0.35802
+
+um_1:_x-1/atlanta	#	B-toloc.city_name	-0.90198
+um_1:_x-1/atlanta	#	B-city_name	0.36684
+
+u0:210	#	B-flight_number	2.24280
+
+um_1:eastern/210	#	B-flight_number	2.24280
+
+um_1:monday/evening	#	B-arrive_time.period_of_day	2.07397
+
+um_1:thursday/evening	#	B-period_of_day	1.72024
+
+um_1:leave/oakland	#	B-fromloc.city_name	0.87106
+
+um_1:dallas/before	#	B-depart_time.time_relative	-0.00359
+um_1:dallas/before	#	B-arrive_time.time_relative	0.10697
+
+um_1:before/4pm	#	B-arrive_time.time	2.69785
+
+um_1:of/next	#	B-depart_date.date_relative	0.48843
+
+um_1:to/denver-airport	#	B-toloc.airport_name	4.83880
+
+u0:car-rentals	#	B-transport_type	5.07648
+
+um_1:from/denver-airport	#	B-fromloc.airport_name	0.98408
+
+um_1:philadelphia/two	#	B-depart_date.date_relative	2.38586
+
+u0:d-s	#	B-meal_code	2.24280
+
+um_1:does/d-s	#	B-meal_code	2.24280
+
+um_1:at/denver-airport	#	B-airport_name	2.02864
+
+u0:106	#	B-flight_number	2.24280
+
+um_1:dl/106	#	B-flight_number	2.24280
+
+um_1:next/saturday	#	B-depart_date.day_name	-0.35256
+um_1:next/saturday	#	B-arrive_date.day_name	2.38995
+
+u0:grounds	#	O	2.24280
+
+um_1:give/grounds	#	O	2.24280
+
+um_1:at/dallas-airport	#	B-airport_name	2.53362
+
+um_1:what/stops	#	B-flight_stop	1.89738
+
+u0:838	#	B-depart_time.time	2.01893
+u0:838	#	B-flight_number	2.12990
+
+um_1:dl/838	#	B-flight_number	2.27803
+
+u0:reservation	#	O	2.97591
+
+um_1:a/reservation	#	O	2.97591
+
+u0:requesting	#	O	6.09122
+
+um_1:_x-1/requesting	#	O	0.05950
+
+um_1:i'm/requesting	#	O	0.05950
+
+u0:starting	#	O	6.62706
+
+u0:afterwards	#	B-depart_time.time_relative	2.24280
+
+um_1:and/afterwards	#	B-depart_time.time_relative	2.24280
+
+um_1:at/pittsburgh-airport	#	B-airport_name	0.33957
+
+u0:402	#	B-flight_number	2.24280
+
+um_1:dl/402	#	B-flight_number	2.24280
+
+u0:270	#	B-flight_number	2.97591
+
+um_1:ua/270	#	B-flight_number	2.97591
+
+u0:297	#	B-flight_number	2.24280
+
+um_1:ua/297	#	B-flight_number	2.24280
+
+u0:281	#	B-flight_number	3.38482
+
+um_1:ua/281	#	B-flight_number	3.38482
+
+u0:wednesdays	#	B-depart_date.day_name	7.52407
+
+u0:thursdays	#	B-depart_date.day_name	2.01893
+u0:thursdays	#	B-arrive_date.day_name	2.12990
+
+um_1:on/thursdays	#	B-arrive_date.day_name	2.27803
+
+u0:fourteenth	#	B-depart_date.day_number	5.19610
+u0:fourteenth	#	B-arrive_date.day_number	2.32271
+
+u0:ap-80	#	B-restriction_code	2.97591
+
+um_1:restriction/ap-80	#	B-restriction_code	2.97591
+
+u0:ap-57	#	B-restriction_code	5.87839
+
+um_1:restriction/ap-57	#	B-restriction_code	1.61037
+
+um_1:8am/tuesday	#	B-depart_date.day_name	-0.99228
+um_1:8am/tuesday	#	B-arrive_date.day_name	1.98436
+
+um_1:after/8pm	#	B-depart_time.time	4.64140
+um_1:after/8pm	#	B-arrive_time.time	0.45855
+
+um_1:early/tuesday	#	B-depart_date.day_name	-0.01141
+um_1:early/tuesday	#	B-arrive_date.day_name	1.12126
+
+um_1:denver/by	#	O	-0.40069
+um_1:denver/by	#	B-arrive_time.time_relative	1.85349
+
+um_1:by/8-o'clock	#	B-arrive_time.time	1.88674
+
+um_1:8-o'clock/wednesday	#	B-depart_date.day_name	-1.07278
+um_1:8-o'clock/wednesday	#	B-arrive_date.day_name	1.84234
+
+um_1:on/9-o'clock	#	B-arrive_time.time	0.39896
+
+um_1:9-o'clock/wednesday	#	B-depart_date.day_name	-1.18938
+um_1:9-o'clock/wednesday	#	B-arrive_date.day_name	2.86139
+
+um_1:or/by	#	O	-0.18293
+um_1:or/by	#	B-arrive_time.time_relative	0.98784
+
+um_1:by/9-o'clock	#	B-arrive_time.time	0.39896
+
+um_1:dallas/by	#	O	-0.40069
+um_1:dallas/by	#	B-arrive_time.time_relative	1.85349
+
+um_1:by/6pm	#	B-arrive_time.time	2.06501
+
+u0:2-o'clock-pm	#	B-depart_time.time	2.24280
+
+um_1:after/2-o'clock-pm	#	B-depart_time.time	2.24280
+
+um_1:saturday/after	#	B-depart_date.date_relative	4.87031
+um_1:saturday/after	#	B-depart_time.time_relative	-2.26669
+
+u0:9-o'clock-am	#	B-arrive_time.time	2.24280
+
+um_1:before/9-o'clock-am	#	B-arrive_time.time	2.24280
+
+um_1:9-o'clock-am/tomorrow	#	B-depart_date.today_relative	-1.63901
+um_1:9-o'clock-am/tomorrow	#	B-arrive_date.today_relative	3.18585
+
+u0:3-o'clock-pm	#	B-depart_time.time	2.15549
+u0:3-o'clock-pm	#	B-arrive_time.time	2.15549
+
+um_1:before/3-o'clock-pm	#	B-arrive_time.time	2.26378
+
+u0:8-o'clock-pm	#	B-depart_time.time	2.65308
+
+um_1:after/8-o'clock-pm	#	B-depart_time.time	2.65308
+
+um_1:monday/after	#	B-depart_time.time_relative	-0.93786
+um_1:monday/after	#	B-arrive_time.time_relative	1.30068
+
+u0:8-o'clock-am	#	B-depart_time.time	2.15549
+u0:8-o'clock-am	#	B-arrive_time.time	2.15549
+
+um_1:after/8-o'clock-am	#	B-depart_time.time	2.26378
+
+um_1:before/8-o'clock-am	#	B-arrive_time.time	2.26378
+
+um_1:denver/wednesday	#	B-depart_date.day_name	-1.67414
+um_1:denver/wednesday	#	B-arrive_date.day_name	3.29887
+
+um_1:wednesday/before	#	B-depart_time.time_relative	-0.30741
+um_1:wednesday/before	#	B-arrive_time.time_relative	0.90231
+
+um_1:before/6	#	B-arrive_time.time	2.50528
+
+um_1:before/5-o'clock-pm	#	B-arrive_time.time	2.16403
+
+um_1:philadelphia/before	#	B-depart_time.time_relative	-0.00359
+um_1:philadelphia/before	#	B-arrive_time.time_relative	0.10697
+
+um_1:after/3-o'clock-pm	#	B-depart_time.time	2.26378
+
+u0:us-airlines	#	B-airline_name	2.65308
+
+um_1:on/us-airlines	#	B-airline_name	2.65308
+
+u0:11-o'clock-am	#	B-depart_time.time	2.24280
+
+um_1:after/11-o'clock-am	#	B-depart_time.time	2.24280
+
+um_1:oakland/stop	#	O	-1.43082
+um_1:oakland/stop	#	B-flight_stop	4.02097
+
+um_1:service/pittsburgh-airport	#	B-airport_name	0.33957
+
+um_1:with/stops	#	O	0.75791
+
+um_1:know/about	#	O	1.16597
+
+u0:m	#	B-fare_basis_code	2.65308
+
+um_1:code/m	#	B-fare_basis_code	2.65308
+
+u0:ap68	#	B-restriction_code	2.24280
+
+um_1:restriction/ap68	#	B-restriction_code	2.24280
+
+u0:continuing	#	O	2.24280
+
+um_1:then/continuing	#	O	2.24280
+
+um_1:and/before	#	B-depart_time.time_relative	0.48769
+
+u0:limousines	#	B-transport_type	2.24280
+
+um_1:any/limousines	#	B-transport_type	2.24280
+
+u0:taxi	#	B-transport_type	5.55875
+
+um_1:wednesday/about	#	B-depart_time.time_relative	2.20639
+
+u0:1209	#	B-flight_number	2.24280
+
+um_1:co/1209	#	B-flight_number	2.24280
+
+um_1:a/sunday	#	B-depart_date.day_name	-0.23245
+um_1:a/sunday	#	B-arrive_date.day_name	4.57356
+
+u0:names	#	O	5.55875
+
+um_1:pittsburgh/monday	#	B-depart_date.day_name	-1.28754
+um_1:pittsburgh/monday	#	B-arrive_date.day_name	2.20801
+
+um_1:transportation/schedule	#	O	2.80185
+
+um_1:flights/early	#	B-depart_time.period_mod	-0.54603
+um_1:flights/early	#	B-arrive_time.period_mod	3.30464
+
+um_1:transportation/time	#	B-time	3.80838
+
+u0:rental-cars	#	B-transport_type	5.07648
+
+um_1:flights/return	#	O	1.11148
+
+um_1:than/2pm	#	B-depart_time.time	0.53398
+
+um_1:me/morning	#	B-depart_time.period_of_day	-0.29325
+um_1:me/morning	#	B-period_of_day	3.07168
+
+u0:sd-d	#	B-meal_code	2.24280
+
+um_1:codes/sd-d	#	B-meal_code	2.24280
+
+um_1:information/about	#	O	0.02929
+
+u0:listed	#	O	2.24280
+
+um_1:is/listed	#	O	2.24280
+
+u0:1055	#	B-flight_number	2.24280
+
+um_1:dl/1055	#	B-flight_number	2.24280
+
+u0:405	#	B-flight_number	2.24280
+
+um_1:dl/405	#	B-flight_number	2.24280
+
+um_1:after/4pm	#	B-depart_time.time	2.87167
+
+um_1:after/2	#	B-depart_time.time	3.47939
+
+um_1:between/2pm	#	B-depart_time.start_time	3.63366
+
+um_1:and/6pm	#	B-arrive_time.end_time	3.15056
+um_1:and/6pm	#	B-depart_time.end_time	3.15056
+
+u0:ea	#	B-airline_code	6.47511
+
+u0:look	#	O	5.55875
+
+um_1:to/san-francisco-airport	#	B-toloc.airport_name	3.16777
+
+um_1:that/stop	#	B-flight_stop	1.61684
+
+u0:what're	#	O	3.27912
+
+um_1:_x-1/what're	#	O	3.27912
+
+um_1:before/11am	#	B-depart_time.time	3.16598
+
+u0:eighteenth	#	B-depart_date.day_number	5.39025
+
+um_1:leaving/before	#	B-depart_time.time_relative	1.77095
+um_1:leaving/before	#	B-arrive_time.time_relative	-0.82721
+
+u0:1045am	#	B-depart_time.time	2.24280
+
+um_1:before/1045am	#	B-depart_time.time	2.24280
+
+u0:430	#	B-depart_time.start_time	2.24280
+
+um_1:between/430	#	B-depart_time.start_time	2.24280
+
+u0:530pm	#	B-depart_time.time	1.78248
+u0:530pm	#	B-arrive_time.end_time	1.78211
+u0:530pm	#	B-depart_time.end_time	1.78211
+
+um_1:and/530pm	#	B-arrive_time.end_time	1.98222
+um_1:and/530pm	#	B-depart_time.end_time	1.98222
+
+um_1:philadelphia/philadelphia	#	O	4.87635
+
+u0:1145am	#	B-arrive_time.time	2.65308
+
+um_1:before/1145am	#	B-arrive_time.time	2.65308
+
+u0:838am	#	B-depart_time.time	2.65308
+
+um_1:at/838am	#	B-depart_time.time	2.65308
+
+um_1:via/dallas-fort-worth	#	B-stoploc.city_name	2.71794
+
+um_1:fly/philadelphia	#	B-fromloc.city_name	0.75260
+
+um_1:july/eighth	#	B-depart_date.day_number	0.45602
+
+um_1:monday/july	#	B-depart_date.month_name	0.10457
+
+u0:thanks	#	O	2.24280
+
+um_1:_x-1/thanks	#	O	2.24280
+
+um_1:flight/back	#	B-return	0.67982
+
+um_1:serve/denver	#	B-city_name	1.90930
+
+um_1:serve/pittsburgh	#	B-city_name	3.05427
+
+um_1:serve/atlanta	#	B-city_name	2.60322
+
+u0:near	#	O	1.87919
+u0:near	#	B-arrive_time.time_relative	4.81397
+
+u0:close	#	B-arrive_time.time_relative	5.80721
+
+um_1:to/5pm	#	B-arrive_time.time	0.41794
+
+um_1:arriving/near	#	B-arrive_time.time_relative	0.76285
+
+um_1:show/first	#	B-flight_mod	3.12148
+um_1:show/first	#	B-depart_date.day_number	-0.49108
+
+um_1:at/838	#	B-depart_time.time	3.45205
+
+u0:1110	#	B-arrive_time.time	2.65308
+
+um_1:at/1110	#	B-arrive_time.time	2.65308
+
+um_1:the/san-francisco-airport	#	B-fromloc.airport_name	1.93457
+
+um_1:before/5pm	#	B-arrive_time.time	0.27337
+
+um_1:before/1pm	#	B-depart_time.time	-0.00944
+um_1:before/1pm	#	B-arrive_time.time	4.43470
+
+u0:fifteen	#	B-depart_date.day_number	2.24280
+
+um_1:july/fifteen	#	B-depart_date.day_number	2.24280
+
+u0:while	#	O	2.24280
+
+um_1:_x-1/while	#	O	2.24280
+
+um_1:at/dallas-fort-worth	#	B-stoploc.city_name	0.56217
+
+u0:wanted	#	O	2.24280
+
+um_1:i/wanted	#	O	2.24280
+
+u0:afternoons	#	B-depart_time.period_of_day	2.24280
+
+um_1:the/afternoons	#	B-depart_time.period_of_day	2.24280
+
+u0:maximum	#	O	2.65308
+
+um_1:the/maximum	#	O	2.65308
+
+um_1:of/time	#	O	0.80345
+
+um_1:still/return	#	B-return	0.11077
+
+um_1:same/day	#	B-return_date.date_relative	4.85001
+
+u0:spend	#	O	2.24280
+
+um_1:to/spend	#	O	2.24280
+
+u0:lastest	#	B-flight_mod	2.65308
+
+um_1:the/lastest	#	B-flight_mod	2.65308
+
+um_1:atlanta/return	#	B-return	0.11077
+
+um_1:lastest/return	#	B-return	0.11077
+
+u0:longest	#	O	2.24280
+
+um_1:the/longest	#	O	2.24280
+
+u0:but	#	O	7.08618
+
+um_1:but/return	#	B-return	0.11077
+
+um_1:latest/return	#	B-round_trip	-0.03887
+um_1:latest/return	#	B-return	0.62706
+
+um_1:the/return	#	B-round_trip	0.79991
+um_1:the/return	#	B-return	-0.00381
+
+um_1:the/coming	#	B-depart_date.date_relative	4.42840
+
+um_1:via/atlanta	#	B-stoploc.city_name	4.20982
+
+u0:1059	#	B-flight_number	2.24280
+
+um_1:flight/1059	#	B-flight_number	2.24280
+
+u0:over	#	O	6.99252
+
+um_1:and/stops	#	O	0.14713
+
+u0:21	#	B-flight_number	2.97591
+
+um_1:flight/21	#	B-flight_number	2.97591
+
+um_1:downtown/san-francisco	#	B-fromloc.city_name	-0.42501
+um_1:downtown/san-francisco	#	B-toloc.city_name	1.67926
+
+um_1:from/san-francisco-airport	#	B-fromloc.airport_name	0.96267
+
+u0:852	#	B-flight_number	2.65308
+
+um_1:flight/852	#	B-flight_number	2.65308
+
+u0:928	#	B-flight_number	2.24280
+
+um_1:flight/928	#	B-flight_number	2.24280
+
+u0:start	#	O	2.24280
+
+um_1:will/start	#	O	2.24280
+
+u0:bay-area	#	B-toloc.city_name	2.24280
+
+um_1:the/bay-area	#	B-toloc.city_name	2.24280
+
+u0:order	#	O	2.24280
+
+um_1:either/order	#	O	2.24280
+
+um_1:then/atlanta	#	B-toloc.city_name	1.00582
+
+um_1:after/5pm	#	B-depart_time.time	3.03874
+
+u0:it's	#	O	2.24280
+
+um_1:airplane/it's	#	O	2.24280
+
+um_1:at/dallas	#	B-fromloc.city_name	-1.71448
+um_1:at/dallas	#	B-toloc.city_name	0.36754
+um_1:at/dallas	#	B-stoploc.city_name	0.61531
+
+um_1:arriving/after	#	B-depart_time.time_relative	-2.43589
+um_1:arriving/after	#	B-arrive_time.time_relative	3.76574
+
+um_1:before/7am	#	B-arrive_time.time	2.32240
+
+u0:445	#	B-arrive_time.start_time	2.24280
+
+um_1:between/445	#	B-arrive_time.start_time	2.24280
+
+u0:515pm	#	B-arrive_time.end_time	2.24280
+
+um_1:and/515pm	#	B-arrive_time.end_time	2.24280
+
+u0:washington-airport	#	B-fromloc.airport_name	5.55875
+
+u0:maximum-number-of-stops	#	B-flight_stop	2.24280
+
+um_1:the/maximum-number-of-stops	#	B-flight_stop	2.24280
+
+um_1:with/more	#	O	0.84236
+
+um_1:than/3	#	O	1.17729
+
+um_1:3/stops	#	B-flight_stop	2.91401
+
+um_1:at/least	#	O	2.86133
+
+um_1:least/3	#	O	1.17729
+
+u0:locate	#	O	2.24280
+
+um_1:_x-1/locate	#	O	2.24280
+
+u0:hartfield	#	B-stoploc.airport_name	2.24280
+
+um_1:in/hartfield	#	B-stoploc.airport_name	2.24280
+
+um_1:through/denver	#	B-stoploc.city_name	6.39166
+
+um_1:through/dallas	#	B-stoploc.city_name	2.49514
+
+um_1:through/atlanta	#	B-stoploc.city_name	4.57319
+
+um_1:and/2pm	#	B-depart_time.end_time	6.28952
+
+um_1:morning/first	#	B-flight_mod	1.94297
+
+u0:travels	#	O	2.24280
+
+um_1:that/travels	#	O	2.24280
+
+um_1:arrives/before	#	B-depart_time.time_relative	-0.61478
+um_1:arrives/before	#	B-arrive_time.time_relative	1.15994
+
+um_1:after/10pm	#	B-depart_time.time	3.57359
+
+u0:late	#	O	2.12225
+u0:late	#	B-flight_mod	3.21115
+u0:late	#	B-depart_time.period_mod	5.83833
+u0:late	#	B-return_time.period_mod	1.76033
+
+um_1:a/late	#	B-flight_mod	2.96630
+
+u0:zone	#	O	2.24280
+
+um_1:time/zone	#	O	2.24280
+
+um_1:is/denver	#	B-city_name	1.90930
+
+u0:inexpensive	#	B-flight_mod	2.24280
+
+um_1:an/inexpensive	#	B-flight_mod	2.24280
+
+u0:currently	#	O	2.24280
+
+um_1:are/currently	#	O	2.24280
+
+um_1:baltimore/denver	#	O	1.82818
+um_1:baltimore/denver	#	B-toloc.city_name	0.01594
+
+um_1:via/denver	#	B-fromloc.city_name	-0.05825
+um_1:via/denver	#	B-stoploc.city_name	4.30105
+
+um_1:pittsburgh/may	#	O	2.75447
+
+u0:530	#	B-depart_time.time	2.15549
+u0:530	#	B-depart_time.start_time	2.15549
+
+um_1:after/530	#	B-depart_time.time	2.26378
+
+u0:must	#	O	2.24280
+
+um_1:it/must	#	O	2.24280
+
+um_1:oakland/around	#	B-depart_time.time_relative	0.15730
+
+u0:midnight	#	B-depart_time.period_of_day	4.12669
+u0:midnight	#	B-arrive_time.period_of_day	4.20504
+
+um_1:around/midnight	#	B-depart_time.period_of_day	1.94914
+
+um_1:pittsburgh/around	#	B-depart_time.time_relative	0.15730
+
+um_1:for/oakland	#	B-toloc.city_name	0.86999
+
+um_1:after/midnight	#	B-depart_time.period_of_day	0.79299
+
+um_1:does/oakland	#	B-city_name	2.56804
+
+u0:land	#	O	6.30193
+
+u0:place	#	O	2.24280
+
+um_1:same/place	#	O	2.24280
+
+um_1:need/2	#	O	2.51962
+
+um_1:at/7pm	#	B-arrive_time.time	1.87925
+
+um_1:between/5pm	#	B-arrive_time.time	-0.34940
+um_1:between/5pm	#	B-arrive_time.start_time	4.12129
+
+u0:730pm	#	B-arrive_time.end_time	2.24280
+
+um_1:and/730pm	#	B-arrive_time.end_time	2.24280
+
+u0:transcontinental	#	O	5.55875
+
+u0:across	#	O	2.24280
+
+um_1:flies/across	#	O	2.24280
+
+u0:continent	#	O	2.24280
+
+um_1:this/continent	#	O	2.24280
+
+u0:430pm	#	B-depart_time.time	1.72676
+u0:430pm	#	B-arrive_time.start_time	2.10316
+
+um_1:between/430pm	#	B-arrive_time.start_time	2.28201
+
+u0:630pm	#	B-depart_time.time	2.15549
+u0:630pm	#	B-arrive_time.end_time	2.15549
+
+um_1:and/630pm	#	B-arrive_time.end_time	2.26378
+
+um_1:boston/logan	#	B-toloc.airport_name	3.18682
+
+um_1:atlanta/this	#	O	-0.91012
+um_1:atlanta/this	#	B-depart_date.today_relative	5.49364
+
+um_1:dallas/next	#	O	3.32483
+
+um_1:flight/tomorrow	#	B-depart_date.today_relative	0.24047
+
+u0:gets	#	O	2.24280
+
+um_1:that/gets	#	O	2.24280
+
+um_1:in/around	#	B-arrive_time.time_relative	0.01370
+
+um_1:around/7pm	#	B-depart_time.time	1.16244
+um_1:around/7pm	#	B-arrive_time.time	0.47860
+
+u0:month	#	O	2.65308
+
+um_1:the/month	#	O	2.65308
+
+u0:connects	#	B-connect	2.24280
+
+um_1:which/connects	#	B-connect	2.24280
+
+um_1:which/connect	#	B-connect	0.84597
+
+u0:7-o'clock-pm	#	B-arrive_time.time	2.24280
+
+um_1:at/7-o'clock-pm	#	B-arrive_time.time	2.24280
+
+u0:vicinity	#	B-arrive_time.time_relative	2.24280
+
+um_1:the/vicinity	#	B-arrive_time.time_relative	2.24280
+
+um_1:dallas/denver	#	B-toloc.city_name	1.38303
+
+um_1:denver/oakland	#	B-toloc.city_name	0.86999
+
+u0:begins	#	O	2.24280
+
+um_1:that/begins	#	O	2.24280
+
+u0:lands	#	O	2.24280
+
+um_1:and/lands	#	O	2.24280
+
+um_1:before/evening	#	B-depart_time.period_of_day	-1.39298
+um_1:before/evening	#	B-arrive_time.time	3.51375
+
+u0:don't	#	O	2.24280
+
+um_1:i/don't	#	O	2.24280
+
+u0:stopovers	#	O	4.52994
+u0:stopovers	#	B-flight_stop	1.92645
+
+um_1:any/stopovers	#	O	0.53687
+
+um_1:no/stopovers	#	B-flight_stop	3.18136
+
+u0:city-in-dallas	#	B-city_name	2.24280
+
+um_1:the/city-in-dallas	#	B-city_name	2.24280
+
+u0:757	#	B-aircraft_code	2.65308
+
+um_1:boeing/757	#	B-aircraft_code	2.65308
+
+um_1:baltimore/around	#	B-arrive_time.time_relative	1.03548
+
+u0:1992	#	B-depart_date.year	6.49843
+
+um_1:tuesday/october	#	B-depart_date.month_name	0.67363
+
+um_1:october/first	#	B-class_type	1.87512
+
+um_1:travel/arrangements	#	O	2.21843
+
+u0:10-o'clock-pm	#	B-depart_time.time	2.24280
+
+um_1:before/10-o'clock-pm	#	B-depart_time.time	2.24280
+
+um_1:8pm/before	#	B-depart_time.time_relative	-0.01401
+um_1:8pm/before	#	B-arrive_time.time_relative	0.08825
+
+um_1:before/10pm	#	B-arrive_time.time	1.03717
+
+u0:define	#	O	2.97591
+
+um_1:_x-1/define	#	O	2.97591
+
+u0:fn	#	O	2.12988
+u0:fn	#	B-fare_basis_code	4.59992
+
+u0:ap-55	#	B-restriction_code	2.24280
+
+um_1:restriction/ap-55	#	B-restriction_code	2.24280
+
+u0:sixteenth	#	B-depart_date.day_number	6.88482
+
+um_1:august/one	#	O	-0.05178
+um_1:august/one	#	B-depart_date.day_number	3.24769
+
+um_1:transportation/atl	#	B-airport_code	2.26378
+
+um_1:transportation/atlanta	#	B-city_name	2.60322
+
+um_1:transportation/washington	#	B-city_name	1.43884
+
+um_1:the/car-rentals	#	B-transport_type	0.52966
+
+u0:listing	#	O	6.14881
+
+um_1:a/listing	#	O	1.61071
+
+u0:2100	#	B-depart_time.time	1.85174
+u0:2100	#	B-arrive_time.time	2.64523
+
+um_1:after/2100	#	B-depart_time.time	1.85174
+um_1:after/2100	#	B-arrive_time.time	2.64523
+
+u0:4-o'clock	#	B-depart_time.time	5.37837
+u0:4-o'clock	#	B-arrive_time.time	1.96711
+
+u0:twenty-fourth	#	B-depart_date.day_number	6.82586
+
+u0:746	#	B-flight_number	2.24280
+
+um_1:dl/746	#	B-flight_number	2.24280
+
+u0:hi	#	O	3.59837
+
+um_1:_x-1/hi	#	O	3.59837
+
+u0:q	#	B-fare_basis_code	3.27912
+
+um_1:code/q	#	B-fare_basis_code	3.27912
+
+u0:overnight	#	B-flight_mod	2.24280
+
+um_1:all/overnight	#	B-flight_mod	2.24280
+
+um_1:flights/denver	#	B-toloc.city_name	0.39120
+um_1:flights/denver	#	B-city_name	-0.37065
+
+um_1:airports/near	#	O	3.18682
+
+um_1:near/washington	#	B-city_name	1.43884
+
+um_1:atlanta/denver	#	O	3.76512
+
+u0:without	#	O	2.24280
+
+um_1:flights/without	#	O	2.24280
+
+um_1:after/10am	#	B-depart_time.time	0.98179
+
+um_1:and/1-o'clock	#	B-arrive_time.end_time	3.47939
+
+um_1:at/boston-airport	#	B-airport_name	2.25412
+
+um_1:september/first	#	B-depart_date.day_number	0.00618
+
+um_1:into/san-francisco	#	B-fromloc.city_name	-0.55045
+um_1:into/san-francisco	#	B-toloc.city_name	2.45450
+
+u0:1291	#	B-flight_number	2.97591
+
+um_1:continental/1291	#	B-flight_number	2.97591
+
+u0:271	#	B-flight_number	2.24280
+
+um_1:continental/271	#	B-flight_number	2.24280
+
+u0:sort	#	O	2.24280
+
+um_1:what/sort	#	O	2.24280
+
+u0:7-o'clock-am	#	B-depart_time.time	2.65308
+
+um_1:before/7-o'clock-am	#	B-depart_time.time	2.65308
+
+u0:5-o'clock-am	#	B-depart_time.time	2.65308
+
+um_1:before/5-o'clock-am	#	B-depart_time.time	2.65308
+
+u0:1500-dollars	#	B-fare_amount	2.24280
+
+um_1:than/1500-dollars	#	B-fare_amount	2.24280
+
+u0:1100-dollars	#	B-fare_amount	3.38482
+
+um_1:than/1100-dollars	#	B-fare_amount	3.38482
+
+um_1:than/100	#	B-fare_amount	2.26378
+
+u0:up	#	O	5.55875
+
+um_1:a/tuesday	#	B-arrive_date.day_name	1.49850
+
+um_1:between/3	#	B-arrive_time.start_time	3.51357
+
+um_1:after/2-o'clock	#	B-arrive_time.time	2.26378
+
+um_1:before/5-o'clock	#	B-arrive_time.time	0.16889
+
+um_1:at/6-o'clock	#	B-arrive_time.time	2.47244
+
+um_1:near/6-o'clock	#	B-arrive_time.time	1.55133
+
+u0:mondays	#	B-depart_date.day_name	2.24280
+
+um_1:on/mondays	#	B-depart_date.day_name	2.24280
+
+um_1:me/dallas	#	B-city_name	1.51938
+
+um_1:me/boston	#	B-city_name	1.71272
+
+u0:only-weekdays	#	B-flight_mod	2.24280
+
+um_1:fares/only-weekdays	#	B-flight_mod	2.24280
+
+u0:ap	#	B-restriction_code	2.24280
+
+um_1:restriction/ap	#	B-restriction_code	2.24280
+
+u0:area	#	O	5.07648
+
+u0:proper	#	O	2.24280
+
+um_1:city/proper	#	O	2.24280
+
+um_1:me/return	#	B-round_trip	2.48589
+
+um_1:and/fn	#	O	2.51783
+
+um_1:_x-1/rental-cars	#	B-transport_type	0.52966
+
+u0:priced	#	O	2.24280
+
+um_1:lowest/priced	#	O	2.24280
+
+u0:212	#	B-flight_number	2.24280
+
+um_1:ea/212	#	B-flight_number	2.24280
+
+um_1:denver/or	#	B-or	0.05714
+
+um_1:philadelphia/or	#	O	2.83409
+um_1:philadelphia/or	#	B-or	-0.15702
+
+um_1:or/pittsburgh	#	B-fromloc.city_name	1.42827
+
+u0:anywhere	#	O	5.63997
+
+um_1:from/anywhere	#	O	0.73352
+
+u0:1850	#	B-arrive_time.start_time	2.24280
+
+um_1:between/1850	#	B-arrive_time.start_time	2.24280
+
+um_1:and/midnight	#	B-arrive_time.period_of_day	1.02977
+
+um_1:or/denver	#	B-fromloc.city_name	1.79796
+
+u0:1700	#	B-arrive_time.time	2.24280
+
+um_1:after/1700	#	B-arrive_time.time	2.24280
+
+u0:217	#	B-flight_number	5.55875
+
+u0:300-dollars	#	B-fare_amount	2.24280
+
+um_1:than/300-dollars	#	B-fare_amount	2.24280
+
+u0:400-dollars	#	B-fare_amount	2.24280
+
+um_1:than/400-dollars	#	B-fare_amount	2.24280
+
+um_1:about/4-o'clock	#	B-arrive_time.time	3.52354
+
+um_1:and/5pm	#	B-arrive_time.time	-0.43443
+um_1:and/5pm	#	B-arrive_time.end_time	5.74238
+
+u0:3357	#	B-flight_number	2.24280
+
+um_1:flight/3357	#	B-flight_number	2.24280
+
+um_1:from/sfo	#	B-fromloc.airport_code	1.27448
+
+um_1:_x-1/sfo	#	B-fromloc.airport_code	0.04500
+
+um_1:into/boston	#	B-city_name	2.59458
+
+um_1:into/washington	#	B-city_name	1.43884
+
+um_1:and/thursdays	#	B-depart_date.day_name	3.45205
+
+um_1:me/cheap	#	O	2.28201
+
+u0:summer	#	O	2.24280
+
+um_1:next/summer	#	O	2.24280
+
+u0:non	#	O	2.24280
+
+um_1:me/non	#	O	2.24280
+
+um_1:fn/under	#	O	3.60421
+
+u0:mornings	#	B-depart_time.period_of_day	3.27912
+
+um_1:thursday/mornings	#	B-depart_time.period_of_day	3.27912
+
+um_1:is/bwi	#	B-airport_code	3.51470
+
+um_1:bwi/washington	#	B-city_name	1.43884
+
+u0:1000-dollars	#	B-fare_amount	7.57882
+
+um_1:than/1000-dollars	#	B-fare_amount	0.94965
+
+um_1:thursday/before	#	B-depart_time.time_relative	1.53404
+um_1:thursday/before	#	B-arrive_time.time_relative	-0.72390
+
+u0:0900	#	B-depart_time.time	2.24280
+
+um_1:before/0900	#	B-depart_time.time	2.24280
+
+u0:3724	#	B-flight_number	2.65308
+
+um_1:us/3724	#	B-flight_number	2.65308
+
+um_1:3724/baltimore	#	B-fromloc.city_name	1.57236
+um_1:3724/baltimore	#	B-toloc.city_name	-0.27127
+
+u0:771	#	B-flight_number	2.24280
+
+um_1:us/771	#	B-flight_number	2.24280
+
+um_1:one/more	#	O	0.84236
+
+u0:flight-schedules	#	B-flight_time	2.65308
+
+um_1:me/flight-schedules	#	B-flight_time	2.65308
+
+u0:include	#	O	5.07648
+
+um_1:philadelphia/under	#	B-cost_relative	1.68432
+
+um_1:and/include	#	O	0.52966
+
+u0:whether	#	O	2.24280
+
+um_1:include/whether	#	O	2.24280
+
+u0:offered	#	O	2.24280
+
+um_1:are/offered	#	O	2.24280
+
+u0:round-trips	#	B-round_trip	5.80721
+
+u0:toronto	#	B-fromloc.city_name	5.18353
+u0:toronto	#	B-toloc.city_name	5.20914
+u0:toronto	#	B-city_name	3.49636
+
+um_1:between/toronto	#	B-fromloc.city_name	2.13587
+
+u0:ac	#	B-airline_code	5.55875
+
+um_1:and/as	#	O	-0.18561
+um_1:and/as	#	B-airline_code	2.67111
+
+um_1:is/as	#	O	-0.19150
+um_1:is/as	#	B-airline_code	3.75331
+
+um_1:and/toronto	#	B-toloc.city_name	0.44689
+
+um_1:from/toronto	#	B-fromloc.city_name	5.05050
+
+um_1:to/toronto	#	B-toloc.city_name	4.51765
+
+u0:new-york	#	B-fromloc.city_name	5.60840
+u0:new-york	#	B-toloc.city_name	3.23984
+u0:new-york	#	B-stoploc.city_name	2.38549
+u0:new-york	#	B-city_name	3.33261
+
+um_1:to/new-york	#	B-fromloc.city_name	-0.17354
+um_1:to/new-york	#	B-toloc.city_name	6.51278
+
+um_1:to/rent	#	O	0.17727
+
+um_1:at/new-york	#	B-city_name	2.93125
+
+um_1:in/new-york	#	B-fromloc.city_name	-0.32495
+um_1:in/new-york	#	B-stoploc.city_name	3.48525
+um_1:in/new-york	#	B-city_name	2.45650
+
+um_1:from/new-york	#	B-fromloc.city_name	4.17665
+
+u0:new-york-city	#	B-fromloc.city_name	5.45131
+u0:new-york-city	#	B-toloc.city_name	3.99351
+
+um_1:to/new-york-city	#	B-toloc.city_name	3.52963
+
+u0:milwaukee	#	B-fromloc.city_name	4.45570
+u0:milwaukee	#	B-toloc.city_name	4.89901
+u0:milwaukee	#	B-stoploc.city_name	5.69078
+
+um_1:from/milwaukee	#	B-fromloc.city_name	6.19360
+
+u0:orlando	#	B-fromloc.city_name	1.28782
+u0:orlando	#	B-toloc.city_name	5.75395
+u0:orlando	#	B-city_name	1.40536
+
+um_1:to/orlando	#	B-toloc.city_name	3.40365
+
+u0:ontario	#	B-fromloc.city_name	2.89297
+u0:ontario	#	B-toloc.city_name	3.99842
+
+um_1:from/ontario	#	B-fromloc.city_name	5.31964
+
+u0:tacoma	#	B-fromloc.city_name	2.17045
+u0:tacoma	#	B-toloc.city_name	4.92072
+u0:tacoma	#	B-city_name	1.90466
+
+um_1:to/tacoma	#	B-toloc.city_name	3.61208
+
+u0:minneapolis	#	B-fromloc.city_name	4.16854
+u0:minneapolis	#	B-toloc.city_name	3.37975
+u0:minneapolis	#	B-stoploc.city_name	3.41176
+u0:minneapolis	#	B-city_name	3.53629
+
+um_1:from/minneapolis	#	B-fromloc.city_name	4.51264
+
+u0:san-diego	#	B-fromloc.city_name	3.91422
+u0:san-diego	#	B-toloc.city_name	4.62968
+u0:san-diego	#	B-city_name	2.25150
+
+um_1:to/san-diego	#	B-toloc.city_name	4.94299
+
+u0:salt-lake-city	#	B-fromloc.city_name	2.39054
+u0:salt-lake-city	#	B-toloc.city_name	5.54258
+u0:salt-lake-city	#	B-city_name	1.18167
+
+um_1:from/salt-lake-city	#	B-fromloc.city_name	6.75684
+um_1:from/salt-lake-city	#	B-toloc.city_name	-0.01095
+
+u0:cincinnati	#	B-fromloc.city_name	4.06526
+u0:cincinnati	#	B-toloc.city_name	2.42680
+u0:cincinnati	#	B-stoploc.city_name	3.94170
+
+um_1:to/cincinnati	#	B-toloc.city_name	5.51884
+
+um_1:from/cincinnati	#	B-fromloc.city_name	4.86359
+
+um_1:to/salt-lake-city	#	B-toloc.city_name	3.30228
+
+u0:miami	#	B-fromloc.city_name	5.73967
+u0:miami	#	B-toloc.city_name	5.20017
+
+um_1:to/miami	#	B-toloc.city_name	5.55816
+
+um_1:see/return	#	B-round_trip	1.34806
+
+um_1:from/miami	#	B-fromloc.city_name	4.22746
+
+u0:southwest-airlines	#	B-airline_name	5.07648
+
+um_1:on/southwest-airlines	#	B-airline_name	0.52966
+
+um_1:from/san-diego	#	B-fromloc.city_name	5.39992
+
+um_1:in/san-diego	#	B-toloc.city_name	0.48779
+um_1:in/san-diego	#	B-city_name	2.85483
+
+um_1:from/orlando	#	B-fromloc.city_name	8.36254
+um_1:from/orlando	#	B-toloc.city_name	-0.16972
+
+u0:phoenix	#	B-fromloc.city_name	6.49628
+u0:phoenix	#	B-toloc.city_name	5.19249
+u0:phoenix	#	B-stoploc.city_name	2.27725
+u0:phoenix	#	B-city_name	3.94050
+
+um_1:to/phoenix	#	B-toloc.city_name	5.72281
+
+u0:la-guardia	#	B-fromloc.airport_name	5.73814
+u0:la-guardia	#	B-toloc.airport_name	2.80823
+
+um_1:to/la-guardia	#	B-fromloc.airport_name	-0.23165
+um_1:to/la-guardia	#	B-toloc.airport_name	4.05145
+
+u0:dulles	#	B-fromloc.airport_name	2.15549
+u0:dulles	#	B-toloc.airport_name	2.15549
+
+um_1:to/dulles	#	B-toloc.airport_name	2.26378
+
+u0:los-angeles	#	B-fromloc.city_name	3.38497
+u0:los-angeles	#	B-toloc.city_name	5.72127
+u0:los-angeles	#	B-stoploc.city_name	2.16464
+u0:los-angeles	#	B-city_name	1.48916
+
+um_1:to/los-angeles	#	B-toloc.city_name	3.20079
+
+um_1:from/dulles	#	B-fromloc.airport_name	2.26378
+
+u0:las-vegas	#	B-fromloc.city_name	3.93359
+u0:las-vegas	#	B-toloc.city_name	4.54042
+u0:las-vegas	#	B-city_name	3.84075
+
+um_1:to/las-vegas	#	B-toloc.city_name	4.64073
+um_1:to/las-vegas	#	B-city_name	0.49704
+
+um_1:boston/philadelphia	#	B-fromloc.city_name	-0.44218
+um_1:boston/philadelphia	#	B-toloc.city_name	3.04512
+
+um_1:or/baltimore	#	B-toloc.city_name	1.47528
+
+um_1:either/boston	#	B-fromloc.city_name	-0.62701
+um_1:either/boston	#	B-toloc.city_name	1.01087
+
+um_1:than/or	#	O	2.13656
+um_1:than/or	#	B-or	-0.82443
+
+u0:equal	#	O	2.24280
+
+um_1:or/equal	#	O	2.24280
+
+u0:466-dollars	#	B-fare_amount	6.54734
+
+um_1:than/466-dollars	#	B-fare_amount	0.58077
+
+u0:932-dollars	#	B-fare_amount	5.55875
+
+u0:along	#	O	5.55875
+
+u0:indianapolis	#	B-fromloc.city_name	3.40158
+u0:indianapolis	#	B-toloc.city_name	3.33283
+u0:indianapolis	#	B-stoploc.city_name	4.18761
+u0:indianapolis	#	B-city_name	1.99279
+
+um_1:from/indianapolis	#	B-fromloc.city_name	6.24392
+
+u0:memphis	#	B-fromloc.city_name	5.18423
+u0:memphis	#	B-toloc.city_name	5.02232
+
+um_1:to/memphis	#	B-toloc.city_name	4.15243
+
+u0:burbank	#	B-fromloc.city_name	5.40293
+u0:burbank	#	B-toloc.city_name	2.55546
+
+um_1:from/burbank	#	B-fromloc.city_name	2.11400
+
+u0:st.-petersburg	#	B-fromloc.city_name	5.24347
+u0:st.-petersburg	#	B-toloc.city_name	1.59110
+
+um_1:from/st.-petersburg	#	B-fromloc.city_name	3.22359
+
+um_1:to/st.-petersburg	#	B-toloc.city_name	7.45344
+
+u0:abbreviations	#	O	2.65308
+
+um_1:airline/abbreviations	#	O	2.65308
+
+u0:san-jose	#	B-fromloc.city_name	3.69738
+u0:san-jose	#	B-toloc.city_name	5.84662
+u0:san-jose	#	B-city_name	2.48548
+
+um_1:from/san-jose	#	B-fromloc.city_name	5.55440
+um_1:from/san-jose	#	B-toloc.city_name	-0.01646
+
+u0:salt-lake-city-airport	#	B-fromloc.airport_name	2.12990
+u0:salt-lake-city-airport	#	B-airport_name	2.01893
+
+um_1:from/salt-lake-city-airport	#	B-fromloc.airport_name	2.27803
+
+u0:tampa	#	B-fromloc.city_name	4.57881
+u0:tampa	#	B-toloc.city_name	4.57278
+u0:tampa	#	B-city_name	2.29552
+
+um_1:from/tampa	#	B-fromloc.city_name	4.62473
+
+u0:st.-louis	#	B-fromloc.city_name	1.30397
+u0:st.-louis	#	B-toloc.city_name	4.89067
+u0:st.-louis	#	B-stoploc.city_name	2.76389
+u0:st.-louis	#	B-city_name	1.51605
+
+um_1:to/st.-louis	#	B-toloc.city_name	3.47232
+
+u0:houston	#	B-fromloc.city_name	3.95405
+u0:houston	#	B-toloc.city_name	4.66073
+u0:houston	#	B-stoploc.city_name	3.58701
+u0:houston	#	B-city_name	3.34847
+
+um_1:between/houston	#	B-fromloc.city_name	2.71303
+
+um_1:and/las-vegas	#	B-toloc.city_name	3.09947
+
+u0:symbols	#	O	2.24280
+
+um_1:codes/symbols	#	O	2.24280
+
+u0:hp	#	B-airline_code	6.99252
+
+u0:orlando-airport	#	B-fromloc.airport_name	2.65308
+
+um_1:from/orlando-airport	#	B-fromloc.airport_name	2.65308
+
+u0:orlando-international	#	B-fromloc.airport_name	2.65308
+
+um_1:between/orlando-international	#	B-fromloc.airport_name	2.65308
+
+um_1:and/orlando	#	B-toloc.city_name	1.66704
+
+um_1:between/milwaukee	#	B-fromloc.city_name	3.97982
+
+u0:417	#	B-flight_number	2.24280
+
+um_1:flight/417	#	B-flight_number	2.24280
+
+u0:718am	#	B-depart_time.time	5.70639
+
+um_1:after/718am	#	B-depart_time.time	0.75029
+
+um_1:to/houston	#	B-toloc.city_name	5.07808
+
+um_1:_x-1/houston	#	B-city_name	3.37049
+
+u0:minimum-connection-time	#	O	2.24280
+
+um_1:the/minimum-connection-time	#	O	2.24280
+
+u0:houston-intercontinental	#	B-airport_name	2.24280
+
+um_1:for/houston-intercontinental	#	B-airport_name	2.24280
+
+u0:4400	#	B-flight_number	2.24280
+
+um_1:flight/4400	#	B-flight_number	2.24280
+
+um_1:from/houston	#	B-fromloc.city_name	5.47931
+
+u0:1026	#	B-depart_time.time	2.24280
+
+um_1:after/1026	#	B-depart_time.time	2.24280
+
+u0:o'hare	#	B-toloc.airport_name	2.24280
+
+um_1:to/o'hare	#	B-toloc.airport_name	2.24280
+
+u0:chicago	#	B-fromloc.city_name	4.70962
+u0:chicago	#	B-toloc.city_name	5.88007
+u0:chicago	#	B-stoploc.city_name	3.37901
+u0:chicago	#	B-city_name	1.04497
+
+um_1:from/chicago	#	B-fromloc.city_name	5.85679
+um_1:from/chicago	#	B-toloc.city_name	-0.04176
+
+u0:montreal	#	B-fromloc.city_name	4.05399
+u0:montreal	#	B-toloc.city_name	4.71892
+u0:montreal	#	B-city_name	1.51703
+
+um_1:from/montreal	#	B-fromloc.city_name	5.02716
+
+u0:150-dollars	#	B-fare_amount	2.24280
+
+um_1:than/150-dollars	#	B-fare_amount	2.24280
+
+u0:columbus	#	B-fromloc.city_name	2.01248
+u0:columbus	#	B-toloc.city_name	2.50434
+
+um_1:from/columbus	#	B-fromloc.city_name	6.09509
+
+um_1:to/milwaukee	#	B-toloc.city_name	4.14319
+um_1:to/milwaukee	#	B-stoploc.city_name	0.17443
+
+u0:st.-paul	#	B-fromloc.city_name	1.02651
+u0:st.-paul	#	B-toloc.city_name	2.49433
+u0:st.-paul	#	B-city_name	1.75079
+
+um_1:to/st.-paul	#	B-toloc.city_name	5.36714
+
+u0:newark	#	B-fromloc.city_name	5.98208
+u0:newark	#	B-toloc.city_name	4.29203
+u0:newark	#	B-city_name	4.09728
+
+um_1:from/newark	#	B-fromloc.city_name	3.79314
+
+u0:cleveland	#	B-fromloc.city_name	2.40948
+u0:cleveland	#	B-toloc.city_name	4.19994
+u0:cleveland	#	B-city_name	1.54119
+
+um_1:to/cleveland	#	B-toloc.city_name	4.68488
+
+um_1:_x-1/newark	#	B-fromloc.city_name	1.62922
+
+u0:new-jersey	#	B-fromloc.state_name	3.08818
+u0:new-jersey	#	B-toloc.state_name	2.86672
+
+um_1:newark/new-jersey	#	B-fromloc.state_name	3.08818
+um_1:newark/new-jersey	#	B-toloc.state_name	2.86672
+
+u0:jfk	#	B-fromloc.airport_code	4.38374
+u0:jfk	#	B-toloc.airport_code	2.22614
+
+um_1:from/jfk	#	B-fromloc.airport_code	1.25007
+
+um_1:from/la-guardia	#	B-fromloc.airport_name	0.58710
+
+um_1:to/jfk	#	B-toloc.airport_code	3.93519
+
+um_1:or/jfk	#	B-fromloc.airport_code	0.17711
+
+u0:nashville	#	O	1.20839
+u0:nashville	#	B-fromloc.city_name	3.46951
+u0:nashville	#	B-toloc.city_name	1.09723
+u0:nashville	#	B-stoploc.city_name	1.20839
+u0:nashville	#	B-city_name	1.20839
+
+um_1:from/nashville	#	B-fromloc.city_name	5.08081
+
+u0:weekdays	#	O	2.12988
+u0:weekdays	#	B-flight_mod	4.59992
+
+um_1:during/weekdays	#	O	2.51783
+
+u0:westchester-county	#	B-fromloc.city_name	2.27876
+u0:westchester-county	#	B-toloc.city_name	2.66262
+u0:westchester-county	#	B-city_name	4.00437
+
+um_1:to/westchester-county	#	B-toloc.city_name	3.96111
+um_1:to/westchester-county	#	B-city_name	0.00389
+
+um_1:westchester-county/new-york	#	B-toloc.city_name	2.67304
+
+um_1:in/westchester-county	#	B-city_name	1.77086
+
+um_1:from/westchester-county	#	B-fromloc.city_name	4.50121
+
+um_1:to/san-jose	#	B-toloc.city_name	2.76862
+
+um_1:in/san-jose	#	B-city_name	3.05983
+
+um_1:san-jose/before	#	B-depart_time.time_relative	-0.01401
+um_1:san-jose/before	#	B-arrive_time.time_relative	0.08825
+
+um_1:from/las-vegas	#	B-fromloc.city_name	5.55809
+
+um_1:between/tampa	#	B-fromloc.city_name	1.75380
+
+um_1:and/st.-louis	#	B-toloc.city_name	0.91989
+
+um_1:between/new-york	#	B-fromloc.city_name	1.95630
+
+um_1:in/las-vegas	#	B-city_name	2.80105
+
+um_1:and/miami	#	B-fromloc.city_name	-0.02093
+um_1:and/miami	#	B-toloc.city_name	2.83182
+
+u0:ff	#	B-airline_code	6.59210
+
+um_1:_x-1/return	#	O	1.11148
+
+u0:tower-air	#	B-airline_name	5.55875
+
+u0:long-beach	#	B-fromloc.city_name	4.88783
+u0:long-beach	#	B-toloc.city_name	3.01469
+
+um_1:to/long-beach	#	B-toloc.city_name	5.37258
+
+um_1:code/as	#	O	-0.18561
+um_1:code/as	#	B-airline_code	2.67111
+
+um_1:from/long-beach	#	B-fromloc.city_name	3.57580
+
+um_1:in/phoenix	#	B-fromloc.city_name	-2.50091
+um_1:in/phoenix	#	B-stoploc.city_name	3.22700
+
+um_1:to/nashville	#	B-toloc.city_name	7.47269
+
+u0:ohio	#	B-fromloc.state_name	1.75711
+u0:ohio	#	B-toloc.state_name	4.51440
+
+um_1:cleveland/ohio	#	B-toloc.state_name	1.58045
+
+um_1:from/cleveland	#	B-fromloc.city_name	6.49627
+
+um_1:to/newark	#	B-fromloc.city_name	-1.43372
+um_1:to/newark	#	B-toloc.city_name	4.64424
+um_1:to/newark	#	B-city_name	1.36922
+
+um_1:to/minneapolis	#	B-toloc.city_name	5.68462
+
+u0:sa	#	B-days_code	2.97591
+
+um_1:is/sa	#	B-days_code	2.97591
+
+um_1:in/minneapolis	#	B-fromloc.city_name	-0.29776
+um_1:in/minneapolis	#	B-toloc.city_name	0.44122
+um_1:in/minneapolis	#	B-stoploc.city_name	1.97215
+um_1:in/minneapolis	#	B-city_name	0.40645
+
+u0:seattle	#	O	1.86855
+u0:seattle	#	B-fromloc.city_name	4.89259
+u0:seattle	#	B-toloc.city_name	5.40724
+u0:seattle	#	B-city_name	2.36768
+
+um_1:to/seattle	#	O	2.51925
+um_1:to/seattle	#	B-fromloc.city_name	-0.47082
+um_1:to/seattle	#	B-toloc.city_name	3.65877
+
+u0:1993	#	B-depart_date.year	2.24280
+
+um_1:first/1993	#	B-depart_date.year	2.24280
+
+um_1:in/seattle	#	B-fromloc.city_name	-0.54277
+um_1:in/seattle	#	B-toloc.city_name	0.02452
+um_1:in/seattle	#	B-city_name	3.56222
+
+um_1:from/seattle	#	B-fromloc.city_name	4.23559
+
+u0:nw	#	B-airline_code	5.07648
+
+um_1:airline/nw	#	B-airline_code	0.52966
+
+u0:bring	#	O	2.24280
+
+um_1:_x-1/bring	#	O	2.24280
+
+u0:mco	#	B-fromloc.airport_code	1.73057
+u0:mco	#	B-airport_code	4.83889
+
+um_1:is/mco	#	B-airport_code	1.64689
+
+u0:calling	#	O	2.24280
+
+um_1:i'm/calling	#	O	2.24280
+
+u0:la	#	B-fromloc.city_name	4.41026
+u0:la	#	B-toloc.city_name	4.32805
+
+um_1:to/la	#	B-toloc.city_name	1.95343
+
+um_1:does/mco	#	B-airport_code	1.67881
+
+um_1:airport/mco	#	B-fromloc.airport_code	3.55175
+
+um_1:at/orlando	#	B-city_name	4.51587
+
+um_1:at/tampa	#	B-city_name	3.39377
+
+um_1:tuesday/july	#	B-month_name	2.00076
+
+um_1:july/sixth	#	B-day_number	3.27840
+
+um_1:to/wednesday	#	B-depart_date.day_name	-1.33751
+um_1:to/wednesday	#	B-day_name	3.72877
+
+um_1:wednesday/july	#	B-month_name	3.19860
+
+um_1:from/memphis	#	B-fromloc.city_name	4.33540
+
+u0:i've	#	O	2.24280
+
+um_1:okay/i've	#	O	2.24280
+
+u0:got	#	O	2.24280
+
+um_1:i've/got	#	O	2.24280
+
+u0:somebody	#	O	2.24280
+
+um_1:got/somebody	#	O	2.24280
+
+u0:else	#	O	2.24280
+
+um_1:somebody/else	#	O	2.24280
+
+u0:wants	#	O	2.24280
+
+um_1:who/wants	#	O	2.24280
+
+u0:charlotte	#	B-fromloc.city_name	4.52773
+u0:charlotte	#	B-toloc.city_name	5.35408
+u0:charlotte	#	B-stoploc.city_name	2.26575
+u0:charlotte	#	B-city_name	3.51126
+
+um_1:from/charlotte	#	B-fromloc.city_name	5.81902
+
+um_1:to/montreal	#	B-toloc.city_name	4.41565
+
+u0:kansas-city	#	B-fromloc.city_name	3.94049
+u0:kansas-city	#	B-toloc.city_name	4.49933
+u0:kansas-city	#	B-stoploc.city_name	1.65051
+
+um_1:to/kansas-city	#	B-toloc.city_name	4.55814
+
+u0:difference	#	O	2.65308
+
+um_1:the/difference	#	O	2.65308
+
+u0:tennessee	#	B-fromloc.state_name	2.38195
+u0:tennessee	#	B-toloc.state_name	1.84309
+
+um_1:memphis/tennessee	#	B-fromloc.state_name	2.38195
+um_1:memphis/tennessee	#	B-toloc.state_name	1.84309
+
+um_1:to/charlotte	#	B-toloc.city_name	4.38629
+
+u0:north-carolina	#	B-fromloc.state_name	2.69986
+u0:north-carolina	#	B-toloc.state_name	3.30382
+
+um_1:charlotte/north-carolina	#	B-fromloc.state_name	2.69986
+um_1:charlotte/north-carolina	#	B-toloc.state_name	3.30382
+
+um_1:in/charlotte	#	B-fromloc.city_name	-0.06001
+um_1:in/charlotte	#	B-toloc.city_name	1.23770
+um_1:in/charlotte	#	B-city_name	1.94090
+
+u0:qo	#	B-fare_basis_code	3.38482
+
+um_1:code/qo	#	B-fare_basis_code	3.38482
+
+u0:ewr	#	B-airport_code	6.49282
+
+um_1:is/ewr	#	B-airport_code	0.36434
+
+u0:bur	#	B-airport_code	2.24280
+
+um_1:is/bur	#	B-airport_code	2.24280
+
+um_1:flights/seattle	#	B-toloc.city_name	1.19627
+
+u0:train	#	B-transport_type	2.65308
+
+um_1:_x-1/train	#	B-transport_type	2.65308
+
+um_1:transportation/minneapolis	#	B-city_name	1.62670
+
+um_1:_x-1/minneapolis	#	B-fromloc.city_name	1.02123
+
+um_1:transport/phoenix	#	B-city_name	2.95275
+
+um_1:_x-1/phoenix	#	B-fromloc.city_name	0.71152
+
+um_1:from/phoenix	#	B-fromloc.city_name	3.60843
+
+um_1:fares/new-york	#	B-fromloc.city_name	0.97936
+
+um_1:one-way/tampa	#	B-fromloc.city_name	0.71550
+
+um_1:round-trip/houston	#	B-fromloc.city_name	1.57530
+
+um_1:from/los-angeles	#	B-fromloc.city_name	6.04282
+um_1:from/los-angeles	#	B-toloc.city_name	-0.02893
+
+um_1:a/friday	#	B-arrive_date.day_name	1.52506
+
+um_1:need/late	#	B-flight_mod	2.96630
+
+u0:laying	#	O	2.24280
+
+um_1:us-air/laying	#	O	2.24280
+
+um_1:in/dc	#	B-stoploc.state_code	3.84658
+
+u0:air-canada	#	B-airline_name	2.97591
+
+um_1:on/air-canada	#	B-airline_name	2.97591
+
+um_1:and/charlotte	#	B-toloc.city_name	2.02212
+
+um_1:indianapolis/nashville	#	O	3.28517
+
+um_1:nashville/memphis	#	B-toloc.city_name	0.56055
+
+um_1:seattle/washington	#	B-toloc.state_name	2.80268
+
+um_1:to/chicago	#	B-toloc.city_name	3.80400
+
+um_1:leaving/chicago	#	B-fromloc.city_name	3.65180
+
+um_1:_x-1/chicago	#	B-fromloc.city_name	2.61419
+
+u0:minnesota	#	B-toloc.state_name	5.80721
+
+u0:stands	#	O	5.80721
+
+um_1:in/toronto	#	B-toloc.city_name	0.60170
+um_1:in/toronto	#	B-city_name	0.62511
+
+um_1:between/st.-petersburg	#	B-fromloc.city_name	0.30900
+
+um_1:dallas/texas	#	B-toloc.state_name	2.50402
+
+um_1:from/kansas-city	#	B-fromloc.city_name	5.66260
+
+um_1:to/tampa	#	B-toloc.city_name	4.03872
+
+u0:florida	#	B-fromloc.state_name	5.43006
+u0:florida	#	B-toloc.state_name	5.07623
+
+um_1:tampa/florida	#	B-fromloc.state_name	0.17079
+
+um_1:miami/florida	#	B-fromloc.state_name	1.26345
+
+um_1:from/st.-louis	#	B-fromloc.city_name	7.02053
+
+um_1:in/milwaukee	#	B-toloc.city_name	1.25783
+um_1:in/milwaukee	#	B-stoploc.city_name	0.88646
+
+um_1:between/phoenix	#	B-fromloc.city_name	0.71152
+
+u0:landing	#	O	2.65308
+
+um_1:and/landing	#	O	2.65308
+
+u0:soon	#	O	2.24280
+
+um_1:arrive/soon	#	O	2.24280
+
+um_1:soon/after	#	B-depart_time.time_relative	-1.16270
+um_1:soon/after	#	B-arrive_time.time_relative	2.18689
+
+u0:ten	#	O	2.97591
+
+um_1:take/ten	#	O	2.97591
+
+u0:during-the-week	#	B-flight_mod	2.24280
+
+um_1:flights/during-the-week	#	B-flight_mod	2.24280
+
+um_1:downtown/phoenix	#	B-toloc.city_name	1.56042
+
+u0:during-week-days	#	B-flight_mod	2.24280
+
+um_1:flights/during-week-days	#	B-flight_mod	2.24280
+
+u0:san-diego-airport	#	B-fromloc.airport_name	2.24280
+
+um_1:from/san-diego-airport	#	B-fromloc.airport_name	2.24280
+
+um_1:downtown/area	#	O	0.52966
+
+u0:instead	#	B-mod	2.24280
+
+um_1:_x-1/instead	#	B-mod	2.24280
+
+um_1:in/st.-louis	#	B-stoploc.city_name	3.45584
+um_1:in/st.-louis	#	B-city_name	1.97445
+
+um_1:in/kansas-city	#	B-toloc.city_name	0.70179
+um_1:in/kansas-city	#	B-stoploc.city_name	2.39233
+
+um_1:into/charlotte	#	B-toloc.city_name	0.12808
+
+um_1:charlotte/by	#	O	-0.18293
+um_1:charlotte/by	#	B-arrive_time.time_relative	0.98784
+
+u0:as-soon-thereafter-as-possible	#	O	2.24280
+
+um_1:or/as-soon-thereafter-as-possible	#	O	2.24280
+
+u0:phoenix-airport	#	B-airport_name	2.24280
+
+um_1:the/phoenix-airport	#	B-airport_name	2.24280
+
+u0:meal-code-s	#	B-meal_code	2.24280
+
+um_1:of/meal-code-s	#	B-meal_code	2.24280
+
+u0:lax	#	B-airport_code	2.24280
+
+um_1:does/lax	#	B-airport_code	2.24280
+
+um_1:columbus/ohio	#	B-fromloc.state_name	2.05483
+um_1:columbus/ohio	#	B-toloc.state_name	0.40483
+
+um_1:to/columbus	#	B-toloc.city_name	4.89530
+
+um_1:from/new-york-city	#	B-fromloc.city_name	3.20973
+
+u0:canada	#	B-toloc.country_name	2.97591
+
+um_1:montreal/canada	#	B-toloc.country_name	2.97591
+
+u0:listings	#	O	2.24280
+
+um_1:have/listings	#	O	2.24280
+
+u0:missouri	#	B-fromloc.state_name	2.65308
+
+um_1:kansas-city/missouri	#	B-fromloc.state_name	2.65308
+
+u0:utah	#	B-toloc.state_name	2.65308
+
+um_1:salt-lake-city/utah	#	B-toloc.state_name	2.65308
+
+u0:1222	#	B-flight_number	2.65308
+
+um_1:flight/1222	#	B-flight_number	2.65308
+
+um_1:st.-petersburg/florida	#	B-fromloc.state_name	1.26345
+
+um_1:tacoma/washington	#	B-toloc.state_name	4.92963
+
+u0:preferably	#	O	2.24280
+
+um_1:leaving/preferably	#	O	2.24280
+
+u0:497766	#	B-flight_number	2.24280
+
+um_1:flight/497766	#	B-flight_number	2.24280
+
+u0:810pm	#	B-depart_time.time	2.24280
+
+um_1:than/810pm	#	B-depart_time.time	2.24280
+
+u0:runs	#	O	2.24280
+
+um_1:that/runs	#	O	2.24280
+
+u0:505	#	B-flight_number	2.65308
+
+um_1:flight/505	#	B-flight_number	2.65308
+
+u0:that's	#	O	2.24280
+
+um_1:dinner/that's	#	O	2.24280
+
+u0:163	#	B-flight_number	2.24280
+
+um_1:or/163	#	B-flight_number	2.24280
+
+um_1:that/return	#	O	1.11148
+
+um_1:return/around	#	B-depart_time.time_relative	0.15730
+
+u0:thirteenth	#	B-depart_date.day_number	5.55875
+
+u0:includes	#	O	2.24280
+
+um_1:that/includes	#	O	2.24280
+
+u0:alaska-airlines	#	B-airline_name	2.65308
+
+um_1:on/alaska-airlines	#	B-airline_name	2.65308
+
+um_1:leaving/around	#	B-depart_time.time_relative	1.16770
+um_1:leaving/around	#	B-arrive_time.time_relative	-0.11354
+
+u0:nevada	#	B-toloc.state_name	2.24280
+
+um_1:las-vegas/nevada	#	B-toloc.state_name	2.24280
+
+u0:detroit	#	B-fromloc.city_name	3.68057
+u0:detroit	#	B-toloc.city_name	4.58553
+u0:detroit	#	B-city_name	1.59110
+
+um_1:to/detroit	#	B-toloc.city_name	3.43218
+
+u0:michigan	#	B-toloc.state_name	2.65308
+
+um_1:detroit/michigan	#	B-toloc.state_name	2.65308
+
+um_1:from/detroit	#	B-fromloc.city_name	4.88953
+
+um_1:san-jose/california	#	B-toloc.state_name	0.99289
+
+um_1:after/6	#	B-depart_time.time	2.50528
+
+u0:actually	#	O	5.55875
+
+u0:westchester	#	B-toloc.city_name	2.65308
+
+um_1:to/westchester	#	B-toloc.city_name	2.65308
+
+um_1:via/chicago	#	B-stoploc.city_name	3.16301
+
+um_1:tacoma/first	#	B-flight_mod	1.94297
+
+u0:thing	#	O	2.24280
+
+um_1:first/thing	#	O	2.24280
+
+um_1:to/indianapolis	#	B-toloc.city_name	5.36507
+
+u0:130	#	B-depart_time.time	2.24280
+
+um_1:after/130	#	B-depart_time.time	2.24280
+
+um_1:the/late	#	B-return_time.period_mod	4.34090
+
+um_1:late/evening	#	B-depart_time.period_of_day	-0.06419
+um_1:late/evening	#	B-return_time.period_of_day	4.57580
+
+um_1:in/los-angeles	#	B-stoploc.city_name	2.87776
+um_1:in/los-angeles	#	B-city_name	2.45451
+
+um_1:in/cincinnati	#	B-stoploc.city_name	2.20871
+
+u0:milwaukee-airport	#	B-airport_name	2.24280
+
+um_1:the/milwaukee-airport	#	B-airport_name	2.24280
+
+um_1:to/burbank	#	B-toloc.city_name	6.08891
+
+um_1:arrive/next	#	B-depart_date.date_relative	-0.79879
+um_1:arrive/next	#	B-arrive_date.date_relative	1.96486
+
+um_1:at/new-york-city	#	B-toloc.city_name	1.75778
+
+um_1:new-york-city/before	#	B-depart_time.time_relative	-0.01401
+um_1:new-york-city/before	#	B-arrive_time.time_relative	0.08825
+
+um_1:wednesday/returning	#	B-return	1.28364
+
+u0:the-following-day	#	B-return_date.date_relative	1.85036
+u0:the-following-day	#	B-return_date.today_relative	1.85036
+
+um_1:returning/the-following-day	#	B-return_date.date_relative	1.85036
+um_1:returning/the-following-day	#	B-return_date.today_relative	1.85036
+
+um_1:at/chicago	#	B-toloc.city_name	1.58097
+
+um_1:about/7pm	#	B-arrive_time.time	1.46101
+
+u0:twenty-six	#	B-depart_date.day_number	2.24280
+
+um_1:june/twenty-six	#	B-depart_date.day_number	2.24280
+
+um_1:arrive/around	#	B-depart_time.time_relative	-0.12343
+um_1:arrive/around	#	B-arrive_time.time_relative	1.71772
+
+um_1:8pm/tomorrow	#	B-depart_date.today_relative	-1.63901
+um_1:8pm/tomorrow	#	B-arrive_date.today_relative	3.18585
+
+um_1:in/nashville	#	B-stoploc.city_name	3.28517
+
+u0:prefer	#	O	2.24280
+
+um_1:would/prefer	#	O	2.24280
+
+um_1:at/phoenix	#	B-city_name	2.95275
+
+um_1:in/detroit	#	B-toloc.city_name	1.08665
+um_1:in/detroit	#	B-city_name	2.48869
+
+u0:quebec	#	B-fromloc.state_name	2.65308
+
+um_1:montreal/quebec	#	B-fromloc.state_name	2.65308
+
+um_1:leaving/this	#	B-depart_date.date_relative	2.12830
+
+u0:indiana	#	B-toloc.state_name	2.24280
+
+um_1:indianapolis/indiana	#	B-toloc.state_name	2.24280
+
+u0:reaching	#	O	5.55875
+
+um_1:reaching/toronto	#	B-toloc.city_name	0.44689
+
+um_1:reaching/montreal	#	B-toloc.city_name	0.24203
+
+um_1:montreal/early	#	B-depart_time.period_mod	-0.54603
+um_1:montreal/early	#	B-arrive_time.period_mod	3.30464
+
+u0:reaches	#	O	2.24280
+
+um_1:that/reaches	#	O	2.24280
+
+um_1:chicago/around	#	B-arrive_time.time_relative	0.00469
+
+u0:7	#	B-depart_time.time	2.38195
+u0:7	#	B-arrive_time.time	1.84309
+
+um_1:around/7	#	B-depart_time.time	2.38195
+um_1:around/7	#	B-arrive_time.time	1.84309
+
+u0:following	#	B-depart_date.date_relative	5.55875
+
+um_1:following/next	#	O	3.85574
+um_1:following/next	#	B-depart_date.date_relative	-0.45065
+
+um_1:at/around	#	B-depart_time.time_relative	-0.12343
+um_1:at/around	#	B-arrive_time.time_relative	1.71772
+
+um_1:wednesday/june	#	B-depart_date.month_name	-0.21787
+um_1:wednesday/june	#	B-arrive_date.month_name	2.51620
+
+um_1:in/chicago	#	B-fromloc.city_name	-0.75184
+um_1:in/chicago	#	B-toloc.city_name	0.52170
+um_1:in/chicago	#	B-stoploc.city_name	0.50923
+um_1:in/chicago	#	B-city_name	2.94180
+
+u0:route	#	O	2.24280
+
+um_1:that/route	#	O	2.24280
+
+um_1:arriving/around	#	B-arrive_time.time_relative	2.85704
+
+um_1:june/fourteenth	#	B-depart_date.day_number	0.53192
+um_1:june/fourteenth	#	B-arrive_date.day_number	3.16214
+
+um_1:june/fifteenth	#	B-depart_date.day_number	-0.03402
+um_1:june/fifteenth	#	B-arrive_date.day_number	3.47147
+
+u0:date	#	O	2.24280
+
+um_1:same/date	#	O	2.24280
+
+um_1:toronto/before	#	B-depart_time.time_relative	-0.46541
+um_1:toronto/before	#	B-arrive_time.time_relative	0.75689
+
+u0:hopefully	#	O	2.24280
+
+um_1:st.-louis/hopefully	#	O	2.24280
+
+um_1:or/around	#	B-arrive_time.time_relative	0.01370
+
+um_1:around/noon	#	B-arrive_time.time	2.44250
+
+um_1:in/montreal	#	B-fromloc.city_name	0.17399
+
+um_1:then/indianapolis	#	B-toloc.city_name	1.89234
+
+um_1:then/return	#	B-return	0.11077
+
+u0:home	#	O	2.24280
+
+um_1:return/home	#	O	2.24280
+
+um_1:detroit/around	#	B-depart_time.time_relative	-0.03141
+um_1:detroit/around	#	B-arrive_time.time_relative	1.46776
+
+um_1:around/6pm	#	B-arrive_time.time	2.75725
+
+um_1:leave/chicago	#	B-fromloc.city_name	2.61419
+
+u0:northwest-airlines	#	B-airline_name	7.61010
+
+um_1:to/ontario	#	B-toloc.city_name	0.98216
+
+um_1:ontario/california	#	B-fromloc.state_name	1.01925
+
+um_1:long-beach/two	#	B-depart_date.date_relative	2.38586
+
+u0:days	#	O	3.11322
+
+um_1:two/days	#	O	3.11322
+
+um_1:airline/other	#	O	-0.85252
+um_1:airline/other	#	B-mod	5.33262
+
+um_1:depart/los-angeles	#	B-fromloc.city_name	2.66556
+
+um_1:destination/charlotte	#	B-toloc.city_name	0.12808
+
+um_1:leaves/thursday	#	B-depart_date.day_name	-0.67253
+um_1:leaves/thursday	#	B-arrive_date.day_name	1.85263
+
+um_1:thursday/around	#	B-depart_time.time_relative	0.15730
+
+u0:415	#	B-flight_number	2.15549
+u0:415	#	B-arrive_time.start_time	2.15549
+
+um_1:flight/415	#	B-flight_number	2.26378
+
+um_1:leaving/las-vegas	#	B-fromloc.city_name	1.33843
+
+um_1:for/ontario	#	B-toloc.city_name	0.98216
+
+um_1:arrive/10pm	#	B-arrive_time.time	0.16475
+
+um_1:around/10pm	#	B-arrive_time.time	1.93017
+
+um_1:leave/charlotte	#	B-fromloc.city_name	1.30654
+
+u0:arizona	#	B-toloc.state_name	2.65308
+
+um_1:phoenix/arizona	#	B-toloc.state_name	2.65308
+
+um_1:monday/before	#	B-depart_time.time_relative	-0.00359
+um_1:monday/before	#	B-arrive_time.time_relative	0.10697
+
+um_1:leave/phoenix	#	B-fromloc.city_name	1.10780
+
+um_1:from/st.-paul	#	B-fromloc.city_name	7.18210
+
+um_1:monday/may	#	B-depart_date.month_name	0.47325
+
+um_1:june/second	#	B-arrive_date.day_number	1.41317
+
+um_1:june/first	#	B-flight_mod	-0.15500
+um_1:june/first	#	B-depart_date.day_number	0.93740
+um_1:june/first	#	B-arrive_date.day_number	1.56104
+
+um_1:at/11am	#	B-arrive_time.time	0.20454
+
+um_1:6pm/next	#	B-depart_date.date_relative	-0.79879
+um_1:6pm/next	#	B-arrive_date.date_relative	1.96486
+
+um_1:leave/detroit	#	B-fromloc.city_name	1.56836
+
+u0:northwest	#	B-airline_name	7.77848
+
+u0:ontario-international	#	B-toloc.airport_name	2.24280
+
+um_1:to/ontario-international	#	B-toloc.airport_name	2.24280
+
+um_1:next/two	#	O	1.34095
+
+um_1:from/tacoma	#	B-fromloc.city_name	6.11303
+
+um_1:in/tacoma	#	B-city_name	2.28218
+
+um_1:in/indianapolis	#	B-stoploc.city_name	0.72216
+
+um_1:arrives/around	#	B-arrive_time.time_relative	1.03548
+
+um_1:around/10-o'clock	#	B-arrive_time.time	3.57381
+
+u0:friends	#	O	2.65308
+
+um_1:two/friends	#	O	2.65308
+
+um_1:los-angeles/next	#	B-depart_date.date_relative	-0.79879
+um_1:los-angeles/next	#	B-arrive_date.date_relative	1.96486
+
+um_1:saturday/evening	#	B-depart_time.period_of_day	-0.76656
+um_1:saturday/evening	#	B-arrive_time.period_of_day	3.32986
+
+um_1:arrive/early	#	B-depart_time.period_mod	-0.54603
+um_1:arrive/early	#	B-arrive_time.period_mod	3.30464
+
+um_1:leave/toronto	#	B-fromloc.city_name	0.46260
+
+u0:toronto-airport	#	B-fromloc.airport_name	2.24280
+
+um_1:the/toronto-airport	#	B-fromloc.airport_name	2.24280
+
+um_1:the/salt-lake-city-airport	#	B-airport_name	3.45205
+
+um_1:5pm/next	#	B-depart_date.date_relative	-0.79879
+um_1:5pm/next	#	B-arrive_date.date_relative	1.96486
+
+um_1:leaving/charlotte	#	B-fromloc.city_name	1.30654
+
+um_1:around/11am	#	B-arrive_time.time	0.20454
+
+u0:la-guardia-airport	#	B-fromloc.airport_name	2.24280
+
+um_1:from/la-guardia-airport	#	B-fromloc.airport_name	2.24280
+
+um_1:san-jose/around	#	B-arrive_time.time_relative	0.01370
+
+um_1:phoenix/before	#	B-depart_time.time_relative	-0.01401
+um_1:phoenix/before	#	B-arrive_time.time_relative	0.08825
+
+um_1:from/la	#	B-fromloc.city_name	3.04465
+
+u0:single	#	O	2.24280
+
+um_1:a/single	#	O	2.24280
+
+um_1:newark/back	#	O	-0.02460
+um_1:newark/back	#	B-return	1.71554
+
+um_1:newark/by	#	O	0.75926
+
+um_1:of/charlotte	#	B-stoploc.city_name	3.62918
+
+um_1:and/la	#	B-toloc.city_name	0.74641
+
+um_1:in/newark	#	B-city_name	2.14827
+
+um_1:between/charlotte	#	B-fromloc.city_name	2.49448
+
+um_1:and/newark	#	B-fromloc.city_name	-0.16242
+um_1:and/newark	#	B-toloc.city_name	3.31783
+
+um_1:tuesday/san-diego	#	B-fromloc.city_name	1.37785
+
+um_1:toronto/friday	#	B-depart_date.day_name	-0.46290
+um_1:toronto/friday	#	B-arrive_date.day_name	2.13573
+
+um_1:the/eighteenth	#	B-depart_date.day_number	1.08729
+
+um_1:of/may	#	B-depart_date.month_name	1.48167
+
+u0:red-eye	#	B-flight_mod	2.24280
+
+um_1:a/red-eye	#	B-flight_mod	2.24280
+
+um_1:wednesday/may	#	B-arrive_date.month_name	0.00396
+
+um_1:may/twelfth	#	B-depart_date.day_number	-0.03583
+um_1:may/twelfth	#	B-arrive_date.day_number	2.60469
+
+um_1:saturday/may	#	B-depart_date.month_name	0.13251
+um_1:saturday/may	#	B-arrive_date.month_name	1.23443
+
+u0:twenty-two	#	B-depart_date.day_number	2.78338
+u0:twenty-two	#	B-arrive_date.day_number	2.67592
+
+um_1:may/twenty-two	#	B-depart_date.day_number	2.78338
+um_1:may/twenty-two	#	B-arrive_date.day_number	2.67592
+
+u0:america-west	#	B-airline_name	2.97591
+
+um_1:on/america-west	#	B-airline_name	2.97591
+
+u0:southwest	#	B-airline_name	5.55875
+
+um_1:through/cincinnati	#	B-stoploc.city_name	1.06489
+
+um_1:thursday/may	#	B-depart_date.month_name	0.97405
+
+u0:six	#	B-depart_date.day_number	2.97591
+
+um_1:may/six	#	B-depart_date.day_number	2.97591
+
+um_1:delta-airlines/kansas-city	#	B-fromloc.city_name	1.25349
+
+u0:salt-lake	#	B-toloc.city_name	2.24280
+
+um_1:to/salt-lake	#	B-toloc.city_name	2.24280
+
+u0:tonight	#	B-depart_date.today_relative	2.24280
+
+um_1:flight/tonight	#	B-depart_date.today_relative	2.24280
+
+u0:visit	#	O	2.24280
+
+um_1:to/visit	#	O	2.24280
+
+u0:them	#	O	2.24280
+
+um_1:of/them	#	O	2.24280
+
+u0:lives	#	O	5.55875
+
+um_1:tuesday/june	#	B-depart_date.month_name	-0.06905
+um_1:tuesday/june	#	B-arrive_date.month_name	1.30063
+
+um_1:in/memphis	#	B-toloc.city_name	0.56055
+
+um_1:around/630pm	#	B-depart_time.time	2.26378
+
+um_1:leaving/toronto	#	B-fromloc.city_name	0.46260
+
+um_1:between/530	#	B-depart_time.start_time	2.26378
+
+um_1:after/530pm	#	B-depart_time.time	2.50402
+
+u0:st.-petersburg-airport	#	B-airport_name	2.24280
+
+um_1:in/st.-petersburg-airport	#	B-airport_name	2.24280
+
+um_1:at/toronto	#	B-city_name	3.12216
+
+um_1:at/salt-lake-city	#	B-city_name	4.73652
+
+u0:539	#	B-flight_number	2.24280
+
+um_1:flight/539	#	B-flight_number	2.24280
+
+um_1:between/415	#	B-arrive_time.start_time	2.26378
+
+u0:trans-world-airline	#	B-airline_name	2.24280
+
+um_1:all/trans-world-airline	#	B-airline_name	2.24280
+
+um_1:in/houston	#	B-stoploc.city_name	0.44070
+um_1:in/houston	#	B-city_name	0.77624
+
+u0:1030am	#	B-arrive_time.start_time	2.24280
+
+um_1:between/1030am	#	B-arrive_time.start_time	2.24280
+
+u0:1130am	#	B-arrive_time.end_time	2.24280
+
+um_1:and/1130am	#	B-arrive_time.end_time	2.24280
+
+u0:1115am	#	B-arrive_time.start_time	3.11322
+
+um_1:between/1115am	#	B-arrive_time.start_time	3.11322
+
+u0:1245pm	#	B-arrive_time.end_time	3.11322
+
+um_1:and/1245pm	#	B-arrive_time.end_time	3.11322
+
+um_1:to/anywhere	#	O	0.87375
+
+um_1:us-air/around	#	B-depart_time.time_relative	0.15730
+
+um_1:orlando/florida	#	B-toloc.state_name	2.49990
+
+um_1:to/florida	#	B-toloc.state_name	0.37554
+
+u0:9	#	B-depart_time.time	2.24280
+
+um_1:departs/9	#	B-depart_time.time	2.24280
+
+um_1:and/phoenix	#	B-toloc.city_name	0.70952
+
+u0:at-the-same-time	#	O	6.09122
+
+um_1:arriving/at-the-same-time	#	O	0.05950
+
+u0:new-york's	#	B-fromloc.city_name	1.85036
+u0:new-york's	#	B-toloc.city_name	1.85036
+
+um_1:to/new-york's	#	B-fromloc.city_name	1.85036
+um_1:to/new-york's	#	B-toloc.city_name	1.85036
+
+u0:toronto-international-airport	#	B-fromloc.airport_name	2.24280
+
+um_1:from/toronto-international-airport	#	B-fromloc.airport_name	2.24280
+
+u0:los-angeles-international-airport	#	B-fromloc.airport_name	2.24280
+
+um_1:from/los-angeles-international-airport	#	B-fromloc.airport_name	2.24280
+
+u0:san-francisco-international-airport	#	B-fromloc.airport_name	2.24280
+
+um_1:from/san-francisco-international-airport	#	B-fromloc.airport_name	2.24280
+
+u0:closest	#	B-mod	2.24280
+
+um_1:is/closest	#	B-mod	2.24280
+
+um_1:los-angeles/after	#	B-depart_time.time_relative	-0.93786
+um_1:los-angeles/after	#	B-arrive_time.time_relative	1.30068
+
+u0:19	#	B-flight_number	2.24280
+
+um_1:flight/19	#	B-flight_number	2.24280
+
+u0:845	#	B-depart_time.time	2.65308
+
+um_1:after/845	#	B-depart_time.time	2.65308
+
+u0:230pm	#	B-arrive_time.time	2.97591
+
+um_1:around/230pm	#	B-arrive_time.time	2.97591
+
+u0:supper	#	B-meal_description	2.24280
+
+um_1:with/supper	#	B-meal_description	2.24280
+
+u0:823	#	B-depart_time.time	2.24280
+
+um_1:after/823	#	B-depart_time.time	2.24280
+
+u0:1024	#	B-depart_time.time	2.24280
+
+um_1:after/1024	#	B-depart_time.time	2.24280
+
+u0:1205	#	B-depart_time.time	2.24280
+
+um_1:after/1205	#	B-depart_time.time	2.24280
+
+u0:305	#	B-depart_time.time	2.24280
+
+um_1:after/305	#	B-depart_time.time	2.24280
+
+u0:723pm	#	B-depart_time.time	2.24280
+
+um_1:after/723pm	#	B-depart_time.time	2.24280
+
+u0:1020pm	#	B-depart_time.time	2.24280
+
+um_1:after/1020pm	#	B-depart_time.time	2.24280
+
+u0:nights	#	B-depart_time.period_of_day	2.24280
+
+um_1:friday/nights	#	B-depart_time.period_of_day	2.24280
+
+u0:fridays	#	B-depart_date.day_name	2.24280
+
+um_1:on/fridays	#	B-depart_date.day_name	2.24280
+
+um_1:between/cincinnati	#	B-fromloc.city_name	0.86310
+
+um_1:and/tampa	#	B-toloc.city_name	1.78312
+
+um_1:leaving/phoenix	#	B-fromloc.city_name	0.32802
+
+u0:1230pm	#	B-depart_time.time	2.24280
+
+um_1:after/1230pm	#	B-depart_time.time	2.24280
+
+um_1:leave/seattle	#	B-fromloc.city_name	2.45649
+
+um_1:after/430pm	#	B-depart_time.time	4.29594
+
+um_1:leaving/seattle	#	B-fromloc.city_name	0.85519
+
+u0:934pm	#	B-depart_time.time	2.97591
+
+um_1:after/934pm	#	B-depart_time.time	2.97591
+
+u0:2134	#	B-depart_time.time	2.65308
+
+um_1:after/2134	#	B-depart_time.time	2.65308
+
+um_1:at/milwaukee	#	B-stoploc.city_name	0.16829
+
+um_1:before/midnight	#	B-arrive_time.period_of_day	1.02977
+
+um_1:tuesday/before	#	B-depart_time.time_relative	-0.01401
+um_1:tuesday/before	#	B-arrive_time.time_relative	0.08825
+
+um_1:newark/before	#	B-depart_time.time_relative	-0.01401
+um_1:newark/before	#	B-arrive_time.time_relative	0.08825
+
+u0:taking	#	O	5.55875
+
+u0:311	#	B-flight_number	2.24280
+
+um_1:us-air/311	#	B-flight_number	2.24280
+
+um_1:and/memphis	#	B-fromloc.city_name	0.22887
+
+um_1:arrive/at-the-same-time	#	O	0.05950
+
+u0:9-o'clock-pm	#	B-arrive_time.time	2.24280
+
+um_1:by/9-o'clock-pm	#	B-arrive_time.time	2.24280
+
+um_1:for/tampa	#	B-toloc.city_name	0.64760
+
+u0:nonstops	#	B-flight_stop	2.65308
+
+um_1:all/nonstops	#	B-flight_stop	2.65308
+
+u0:vegas	#	B-toloc.city_name	2.24280
+
+um_1:to/vegas	#	B-toloc.city_name	2.24280
+
+um_1:depart/milwaukee	#	B-fromloc.city_name	1.59008
+
+um_1:for/phoenix	#	B-toloc.city_name	1.56042
+
+u0:h	#	B-fare_basis_code	5.87839
+
+um_1:code/h	#	B-fare_basis_code	1.61037
+
+um_1:before/3pm	#	B-arrive_time.time	3.19877
+
+um_1:depart/baltimore	#	B-fromloc.city_name	1.57236
+um_1:depart/baltimore	#	B-toloc.city_name	-0.27127
+
+um_1:arrive/by	#	O	-0.40069
+um_1:arrive/by	#	B-arrive_time.time_relative	1.85349
+
+um_1:8pm/friday	#	B-depart_date.day_name	-0.46290
+um_1:8pm/friday	#	B-arrive_date.day_name	2.13573
+
+u0:1200-hours	#	B-depart_time.time	2.24280
+
+um_1:after/1200-hours	#	B-depart_time.time	2.24280
+
+u0:sunday's	#	B-depart_date.day_name	5.55875
+
+u0:wednesday's	#	B-depart_date.day_name	2.24280
+
+um_1:next/wednesday's	#	B-depart_date.day_name	2.24280
+
+um_1:and/milwaukee	#	B-toloc.city_name	1.01288
+
+u0:friday's	#	B-depart_date.day_name	2.24280
+
+um_1:_x-1/friday's	#	B-depart_date.day_name	2.24280
+
+um_1:between/new-york-city	#	B-fromloc.city_name	0.67611
+
+um_1:between/memphis	#	B-fromloc.city_name	1.32769
+
+um_1:between/indianapolis	#	B-fromloc.city_name	3.68436
+
+um_1:depart/seattle	#	B-fromloc.city_name	0.85519
+
+um_1:leaving/miami	#	B-fromloc.city_name	0.97119
+
+um_1:after/12-o'clock-noon	#	B-depart_time.time	0.62383
+
+um_1:arriving/cleveland	#	B-toloc.city_name	0.38322
+
+um_1:miami/before	#	B-depart_time.time_relative	-0.01401
+um_1:miami/before	#	B-arrive_time.time_relative	0.08825
+
+u0:mia	#	B-airport_code	2.24280
+
+um_1:is/mia	#	B-airport_code	2.24280
+
+u0:bna	#	B-airport_code	2.24280
+
+um_1:is/bna	#	B-airport_code	2.24280
+
+u0:ord	#	B-airport_code	5.55875
+
+um_1:continental/after	#	B-depart_time.time_relative	-0.93786
+um_1:continental/after	#	B-arrive_time.time_relative	1.30068
+
+u0:11pm	#	B-depart_time.time	1.85036
+u0:11pm	#	B-arrive_time.time	1.85036
+
+um_1:after/11pm	#	B-depart_time.time	1.85036
+um_1:after/11pm	#	B-arrive_time.time	1.85036
+
+um_1:chicago/after	#	B-depart_time.time_relative	-1.16270
+um_1:chicago/after	#	B-arrive_time.time_relative	2.18689
+
+u0:february	#	B-depart_date.month_name	2.75198
+u0:february	#	B-arrive_date.month_name	1.70709
+u0:february	#	B-return_date.month_name	1.81569
+
+um_1:on/february	#	B-depart_date.month_name	2.82941
+um_1:on/february	#	B-arrive_date.month_name	1.96166
+
+um_1:february/twenty-second	#	B-return_date.day_number	2.86719
+
+um_1:into/seattle	#	B-toloc.city_name	2.21087
+
+u0:continental-airline	#	B-airline_name	2.24280
+
+um_1:on/continental-airline	#	B-airline_name	2.24280
+
+um_1:april/sixth	#	B-depart_date.day_number	2.52876
+
+um_1:february/twenty-eighth	#	B-depart_date.day_number	-0.33832
+um_1:february/twenty-eighth	#	B-arrive_date.day_number	3.68017
+
+u0:march	#	B-depart_date.month_name	2.64191
+u0:march	#	B-arrive_date.month_name	2.90403
+
+um_1:on/march	#	B-depart_date.month_name	2.64191
+um_1:on/march	#	B-arrive_date.month_name	2.90403
+
+um_1:march/second	#	B-arrive_date.day_number	3.98783
+
+um_1:into/houston	#	B-toloc.city_name	2.89180
+
+um_1:returning/late	#	O	3.98806
+um_1:returning/late	#	B-depart_time.period_mod	-0.04514
+
+um_1:of/february	#	B-return_date.month_name	2.53249
+
+um_1:march/first	#	B-arrive_date.day_number	1.87684
+
+u0:love-field	#	B-fromloc.airport_name	3.75074
+u0:love-field	#	B-airport_name	2.24497
+u0:love-field	#	B-toloc.airport_name	4.82078
+
+um_1:use/love-field	#	B-airport_name	3.38609
+
+um_1:from/love-field	#	B-fromloc.airport_name	4.84281
+
+um_1:to/love-field	#	B-toloc.airport_name	2.67408
+
+um_1:to/or	#	O	2.87113
+um_1:to/or	#	B-or	-1.18319
+
+um_1:of/houston	#	B-stoploc.city_name	3.50763
+
+um_1:into/denver	#	B-fromloc.city_name	-0.30083
+um_1:into/denver	#	B-toloc.city_name	2.69723
+
+u0:northwest-airline	#	B-airline_name	2.97591
+
+um_1:what/northwest-airline	#	B-airline_name	2.97591
+
+u0:iah	#	B-airport_code	2.24280
+
+um_1:does/iah	#	B-airport_code	2.24280
+
+u0:hou	#	B-airport_code	2.24280
+
+um_1:does/hou	#	B-airport_code	2.24280
+
+um_1:st.-louis/around	#	B-arrive_time.time_relative	0.01370
+
+um_1:between/nashville	#	B-fromloc.city_name	1.25414
+
+um_1:into/love-field	#	B-toloc.airport_name	1.24129
+
+um_1:of/love-field	#	B-fromloc.airport_name	2.67999
+
+um_1:at/love-field	#	B-toloc.airport_name	2.30712
+
+um_1:with/stopovers	#	O	1.50991
+
+um_1:between/san-jose	#	B-fromloc.city_name	2.38219
+
+um_1:and/houston	#	B-toloc.city_name	0.77346
+
+um_1:for/st.-paul	#	B-city_name	2.61722
+
+um_1:washington/by	#	O	0.34834
+
+um_1:of/indianapolis	#	B-stoploc.city_name	1.88953
+
+um_1:via/indianapolis	#	B-stoploc.city_name	2.82651
+
+um_1:by/9pm	#	B-arrive_time.time	1.08839
+
+u0:canadian-airlines-international	#	B-airline_name	6.45495
+
+u0:cp	#	B-airline_code	2.65308
+
+um_1:that/cp	#	B-airline_code	2.65308
+
+u0:canadian-airlines	#	B-airline_name	5.70639
+
+um_1:that/canadian-airlines	#	B-airline_name	0.75029
+
+um_1:arriving/may	#	B-arrive_date.month_name	3.59959
+
+um_1:may/tenth	#	B-depart_date.day_number	-0.51224
+um_1:may/tenth	#	B-arrive_date.day_number	4.72354
+
+u0:choices	#	O	2.97591
+
+um_1:my/choices	#	O	2.97591
+
+um_1:minneapolis/around	#	B-depart_time.time_relative	0.15730
+
+um_1:around/2pm	#	B-depart_time.time	0.53398
+
+um_1:flight/around	#	B-depart_time.time_relative	1.16770
+um_1:flight/around	#	B-arrive_time.time_relative	-0.11354
+
+um_1:around/3pm	#	B-depart_time.time	0.84353
+
+um_1:arriving/about	#	B-arrive_time.time_relative	1.14021
+
+um_1:a/minneapolis	#	B-fromloc.city_name	1.02123
+
+um_1:leaving/early-afternoon	#	B-depart_time.period_of_day	0.87255
+
+um_1:there/by	#	O	-0.34216
+um_1:there/by	#	B-depart_time.time_relative	4.18937
+
+u0:dinnertime	#	B-depart_time.period_of_day	2.15549
+u0:dinnertime	#	B-arrive_time.period_of_day	2.15549
+
+um_1:by/dinnertime	#	B-depart_time.period_of_day	2.26378
+
+um_1:around/dinnertime	#	B-arrive_time.period_of_day	2.26378
+
+um_1:dinnertime/6pm	#	O	3.92648
+
+um_1:at/4pm	#	B-depart_time.time	1.16315
+
+u0:1288	#	B-fare_amount	2.24280
+
+um_1:than/1288	#	B-fare_amount	2.24280
+
+u0:d10	#	B-aircraft_code	2.24280
+
+um_1:abbreviation/d10	#	B-aircraft_code	2.24280
+
+um_1:via/minneapolis	#	B-stoploc.city_name	1.82667
+
+u0:takeoffs	#	O	5.83949
+
+um_1:the/takeoffs	#	O	0.87688
+
+u0:landings	#	O	5.87788
+
+um_1:and/landings	#	O	1.18815
+
+u0:general-mitchell-international	#	B-fromloc.airport_name	4.91955
+u0:general-mitchell-international	#	B-airport_name	4.55076
+u0:general-mitchell-international	#	B-toloc.airport_name	3.70296
+
+um_1:for/general-mitchell-international	#	B-airport_name	0.82701
+
+um_1:the/arriving	#	O	-2.66535
+um_1:the/arriving	#	B-flight_mod	4.20546
+
+um_1:from/general-mitchell-international	#	B-fromloc.airport_name	2.08538
+
+u0:general-mitchell-international-airport	#	B-fromloc.airport_name	4.59992
+u0:general-mitchell-international-airport	#	B-toloc.airport_name	2.12988
+
+u0:off	#	O	2.24280
+
+um_1:taking/off	#	O	2.24280
+
+u0:takeoff	#	O	5.55875
+
+um_1:at/general-mitchell-international	#	B-fromloc.airport_name	0.43818
+um_1:at/general-mitchell-international	#	B-airport_name	0.84638
+um_1:at/general-mitchell-international	#	B-toloc.airport_name	2.51518
+
+u0:general-mitchell-airport	#	B-airport_name	2.24280
+
+um_1:at/general-mitchell-airport	#	B-airport_name	2.24280
+
+um_1:into/general-mitchell-international	#	B-toloc.airport_name	0.82245
+
+um_1:at/general-mitchell-international-airport	#	B-toloc.airport_name	2.51783
+
+um_1:is/general-mitchell-international	#	B-airport_name	1.98125
+
+u0:located	#	O	2.65308
+
+um_1:general-mitchell-international/located	#	O	2.65308
+
+u0:general-mitchell	#	B-fromloc.airport_name	2.24280
+
+um_1:from/general-mitchell	#	B-fromloc.airport_name	2.24280
+
+um_1:seventh/before	#	B-depart_time.time_relative	-0.01401
+um_1:seventh/before	#	B-arrive_time.time_relative	0.08825
+
+u0:lunch-time	#	B-arrive_time.period_of_day	2.24280
+
+um_1:after/lunch-time	#	B-arrive_time.period_of_day	2.24280
+
+u0:nationair	#	B-airline_name	6.47511
+
+u0:yyz	#	B-airport_code	2.24280
+
+um_1:is/yyz	#	B-airport_code	2.24280
+
+u0:lester-pearson-airport	#	B-airport_name	2.24280
+
+um_1:is/lester-pearson-airport	#	B-airport_name	2.24280
+
+u0:midwest	#	B-airline_name	6.68799
+
+um_1:does/midwest	#	B-airline_name	1.18608
+
+u0:express	#	O	3.83917
+
+um_1:midwest/express	#	O	3.83917
+
+um_1:serve/nashville	#	B-city_name	3.28517
+
+um_1:serve/montreal	#	B-city_name	3.92761
+
+um_1:serve/philadelphia	#	B-city_name	2.69841
+
+um_1:serve/charlotte	#	B-city_name	2.51286
+
+um_1:serve/cleveland	#	B-city_name	3.30013
+
+um_1:serve/baltimore	#	B-city_name	3.57203
+
+um_1:serve/indianapolis	#	B-city_name	4.31574
+
+um_1:of/milwaukee	#	B-stoploc.city_name	0.16829
+
+u0:720am	#	B-depart_time.time	2.65308
+
+um_1:at/720am	#	B-depart_time.time	2.65308
+
+u0:highest	#	B-cost_relative	2.65308
+
+um_1:the/highest	#	B-cost_relative	2.65308
+
