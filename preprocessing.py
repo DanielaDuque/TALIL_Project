@@ -5,7 +5,7 @@ from random import randint
 def readDictDecoupage():
 	sentences = {}
 	number_sentence = 0
-	sentences[number_sentence] = ""
+	sentences[number_sentence] = []
 	filepath = './atis.train'
 	with open(filepath, "r") as fp:
 		line = fp.readline()
@@ -13,14 +13,14 @@ def readDictDecoupage():
 		while line:
 			if line == '\t\n':
 				number_sentence+=1
-				sentences[number_sentence] = ""
+				sentences[number_sentence] = []
 				line = fp.readline()
-        			continue
-			sentences[number_sentence]+=line
-			print("Line {}: {}".format(cnt, line.strip()))
+				continue
+			sentences[number_sentence].append(line)
+			# print("Line {}: {}".format(cnt, line.strip()))
 			line = fp.readline()
 			cnt += 1
-	print(number_sentence)
+	# print(number_sentence)
 	return sentences
 
 def decoupage(sentences):
@@ -38,15 +38,43 @@ def decoupage(sentences):
 def createFile(filename, sentenceList):
 	with open(filename, 'w') as f:
 		for sentence in sentenceList:
-			f.write(sentence)
+			f.write('\n'.join(sentence))
+			f.write("\n\t\n")
+
+def readFile(path):
+	file = []
+	with open(path, "r") as fp:
+		line = fp.readline()
+		while line:
+			file.append(line.strip())
+			line = fp.readline()
+	return file
+
+def replaceMots(arr, list, replaceMot ):
+	for sentence in arr.values():
+		for idx in range (len(sentence)):
+			mot = sentence[idx]
+			sentence[idx] = "\t".join(replaceMot if i in list else i for i in mot.split())
+
+def replaceTotal(arr):
+	airports = readFile("./list_airports")
+	replaceMots(arr, airports, "airportCity")
+
+	months = readFile("./list_months")
+	replaceMots(arr, months, "monthsName")
+
+	days = readFile("./list_days")
+	replaceMots(arr, days, "daysName")
+
+	return arr
 
 def main():
 	sentences = readDictDecoupage()
-	for i in range(1):
+	sentences = replaceTotal(sentences)
+	for i in range(3):
 		train, test = decoupage(sentences)
-		print()
-		createFile('./decoupage.train', train)
-		createFile('./decoupage.test', test)
+		createFile(f"./data/decoupage{i+1}.train", train)
+		createFile(f"./data/decoupage{i+1}.test", test)
 		
 
 

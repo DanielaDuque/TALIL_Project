@@ -1,0 +1,66 @@
+processed 8227 tokens with 2652 phrases; found: 2602 phrases; correct: 1744.
+accuracy:  88.79%; precision:  67.03%; recall:  65.76%; FB1:  66.39
+    aircraft_code: precision: 100.00%; recall:  80.00%; FB1:  88.89  4
+     airline_code: precision: 100.00%; recall: 100.00%; FB1: 100.00  18
+     airline_name: precision: 100.00%; recall:  94.78%; FB1:  97.32  109
+     airport_code: precision: 100.00%; recall:  42.86%; FB1:  60.00  3
+     airport_name: precision: 100.00%; recall:  12.50%; FB1:  22.22  1
+arrive_date.date_relative: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+arrive_date.day_name: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+arrive_date.day_number: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+arrive_date.month_name: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+arrive_time.end_time: precision: 100.00%; recall:  33.33%; FB1:  50.00  1
+arrive_time.period_of_day: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+arrive_time.start_time: precision:  33.33%; recall:  33.33%; FB1:  33.33  3
+ arrive_time.time: precision:  56.00%; recall:  34.15%; FB1:  42.42  25
+arrive_time.time_relative: precision:  61.54%; recall:  21.62%; FB1:  32.00  13
+        city_name: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+       class_type: precision: 100.00%; recall:  97.22%; FB1:  98.59  35
+          connect: precision:  75.00%; recall: 100.00%; FB1:  85.71  8
+    cost_relative: precision: 100.00%; recall: 100.00%; FB1: 100.00  54
+        days_code: precision: 100.00%; recall: 100.00%; FB1: 100.00  1
+depart_date.date_relative: precision:  82.35%; recall:  93.33%; FB1:  87.50  17
+depart_date.day_name: precision:  89.17%; recall:  97.90%; FB1:  93.33  157
+depart_date.day_number: precision:  85.48%; recall:  82.81%; FB1:  84.13  62
+depart_date.month_name: precision:  86.49%; recall: 100.00%; FB1:  92.75  74
+depart_date.today_relative: precision: 100.00%; recall:  93.33%; FB1:  96.55  14
+depart_time.end_time: precision:  50.00%; recall:  50.00%; FB1:  50.00  2
+depart_time.period_mod: precision:  66.67%; recall: 100.00%; FB1:  80.00  9
+depart_time.period_of_day: precision:  90.91%; recall: 100.00%; FB1:  95.24  99
+depart_time.start_time: precision:  50.00%; recall:  50.00%; FB1:  50.00  2
+ depart_time.time: precision:  61.29%; recall:  65.52%; FB1:  63.33  62
+depart_time.time_relative: precision:  62.50%; recall:  90.00%; FB1:  73.77  72
+          economy: precision: 100.00%; recall: 100.00%; FB1: 100.00  4
+      fare_amount: precision: 100.00%; recall:  60.00%; FB1:  75.00  3
+  fare_basis_code: precision: 100.00%; recall: 100.00%; FB1: 100.00  15
+      flight_days: precision: 100.00%; recall: 100.00%; FB1: 100.00  4
+       flight_mod: precision:  86.67%; recall:  94.55%; FB1:  90.43  60
+    flight_number: precision: 100.00%; recall:  33.33%; FB1:  50.00  2
+      flight_stop: precision: 100.00%; recall:  96.30%; FB1:  98.11  26
+      flight_time: precision:  85.00%; recall: 100.00%; FB1:  91.89  20
+fromloc.airport_code: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+fromloc.airport_name: precision:  45.45%; recall:  41.67%; FB1:  43.48  11
+fromloc.city_name: precision:  66.67%; recall:  22.45%; FB1:  33.59  231
+fromloc.state_code: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+fromloc.state_name: precision:  50.00%; recall:  66.67%; FB1:  57.14  4
+             meal: precision: 100.00%; recall: 100.00%; FB1: 100.00  5
+ meal_description: precision: 100.00%; recall:  85.71%; FB1:  92.31  6
+              mod: precision: 100.00%; recall:  33.33%; FB1:  50.00  2
+               or: precision:  81.82%; recall: 100.00%; FB1:  90.00  11
+ restriction_code: precision: 100.00%; recall:  66.67%; FB1:  80.00  2
+           return: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+return_date.date_relative: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+return_date.day_number: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+return_date.month_name: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+       round_trip: precision: 100.00%; recall: 100.00%; FB1: 100.00  59
+       state_code: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+stoploc.airport_name: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+stoploc.city_name: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+stoploc.state_code: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+toloc.airport_code: precision:  40.00%; recall:  66.67%; FB1:  50.00  5
+toloc.airport_name: precision:  20.00%; recall:  50.00%; FB1:  28.57  10
+  toloc.city_name: precision:  50.32%; recall:  89.75%; FB1:  64.49  1236
+toloc.country_name: precision: 100.00%; recall: 100.00%; FB1: 100.00  2
+ toloc.state_code: precision:  60.00%; recall: 100.00%; FB1:  75.00  20
+ toloc.state_name: precision:  90.00%; recall:  75.00%; FB1:  81.82  10
+   transport_type: precision: 100.00%; recall:  77.78%; FB1:  87.50  7
